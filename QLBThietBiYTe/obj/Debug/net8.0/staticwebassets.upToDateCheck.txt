@@ -22,6 +22,6 @@ wwwroot\dist\libs\nouislider\dist\nouislider.min.js
 wwwroot\dist\libs\tom-select\dist\js\tom-select.base.min.js
 wwwroot\favicon.ico
 wwwroot\static\avatars\admin.png
-wwwroot\static\Logo.png
+wwwroot\static\LOGO.png
 wwwroot\static\sponsor-banner-homepage.svg
 wwwroot\stats\js\script.js

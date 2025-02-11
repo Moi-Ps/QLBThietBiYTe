@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "LpTtLvPVC0qrQqc6CFU40R4qrUrS+2YP6eBQYetzYTY=",
+  "Hash": "MEBKWSrjHSqaMeqE14qssub0DLhmp0b6If5nn++8FYg=",
   "Source": "QLBThietBiYTe",
   "BasePath": "_content/QLBThietBiYTe",
   "Mode": "Default",
@@ -563,12 +563,12 @@
       "OriginalItemSpec": "wwwroot\\static\\avatars\\admin.png"
     },
     {
-      "Identity": "D:\\2024\\Nam4HK2\\ThucTapTotNghiep\\CodeTTTN_11-02-25\\QLBThietBiYTe\\QLBThietBiYTe\\wwwroot\\static\\Logo.png",
+      "Identity": "D:\\2024\\Nam4HK2\\ThucTapTotNghiep\\CodeTTTN_11-02-25\\QLBThietBiYTe\\QLBThietBiYTe\\wwwroot\\static\\LOGO.png",
       "SourceId": "QLBThietBiYTe",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\2024\\Nam4HK2\\ThucTapTotNghiep\\CodeTTTN_11-02-25\\QLBThietBiYTe\\QLBThietBiYTe\\wwwroot\\",
       "BasePath": "_content/QLBThietBiYTe",
-      "RelativePath": "static/Logo#[.{fingerprint}]?.png",
+      "RelativePath": "static/LOGO#[.{fingerprint}]?.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -577,11 +577,11 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "3oxdedcakr",
-      "Integrity": "s02eYAVD9YBiuagYw842Vo3oY+Pu7EWoADDM4i5MEqM=",
+      "Fingerprint": "75hdrit2y0",
+      "Integrity": "C2uQxUvCgV43z+3TJJASJLKoNaSBkPVGH729IA6cuMk=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\static\\Logo.png"
+      "OriginalItemSpec": "wwwroot\\static\\LOGO.png"
     },
     {
       "Identity": "D:\\2024\\Nam4HK2\\ThucTapTotNghiep\\CodeTTTN_11-02-25\\QLBThietBiYTe\\QLBThietBiYTe\\wwwroot\\static\\sponsor-banner-homepage.svg",
@@ -2760,8 +2760,8 @@
       ]
     },
     {
-      "Route": "static/Logo.3oxdedcakr.png",
-      "AssetFile": "D:\\2024\\Nam4HK2\\ThucTapTotNghiep\\CodeTTTN_11-02-25\\QLBThietBiYTe\\QLBThietBiYTe\\wwwroot\\static\\Logo.png",
+      "Route": "static/LOGO.75hdrit2y0.png",
+      "AssetFile": "D:\\2024\\Nam4HK2\\ThucTapTotNghiep\\CodeTTTN_11-02-25\\QLBThietBiYTe\\QLBThietBiYTe\\wwwroot\\static\\LOGO.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2770,7 +2770,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "696304"
+          "Value": "2998"
         },
         {
           "Name": "Content-Type",
@@ -2778,11 +2778,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"s02eYAVD9YBiuagYw842Vo3oY+Pu7EWoADDM4i5MEqM=\""
+          "Value": "\"C2uQxUvCgV43z+3TJJASJLKoNaSBkPVGH729IA6cuMk=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 11 Feb 2025 13:01:08 GMT"
+          "Value": "Tue, 11 Feb 2025 14:40:32 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2792,21 +2792,21 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "3oxdedcakr"
+          "Value": "75hdrit2y0"
         },
         {
           "Name": "label",
-          "Value": "static/Logo.png"
+          "Value": "static/LOGO.png"
         },
         {
           "Name": "integrity",
-          "Value": "sha256-s02eYAVD9YBiuagYw842Vo3oY+Pu7EWoADDM4i5MEqM="
+          "Value": "sha256-C2uQxUvCgV43z+3TJJASJLKoNaSBkPVGH729IA6cuMk="
         }
       ]
     },
     {
-      "Route": "static/Logo.png",
-      "AssetFile": "D:\\2024\\Nam4HK2\\ThucTapTotNghiep\\CodeTTTN_11-02-25\\QLBThietBiYTe\\QLBThietBiYTe\\wwwroot\\static\\Logo.png",
+      "Route": "static/LOGO.png",
+      "AssetFile": "D:\\2024\\Nam4HK2\\ThucTapTotNghiep\\CodeTTTN_11-02-25\\QLBThietBiYTe\\QLBThietBiYTe\\wwwroot\\static\\LOGO.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2815,7 +2815,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "696304"
+          "Value": "2998"
         },
         {
           "Name": "Content-Type",
@@ -2823,11 +2823,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"s02eYAVD9YBiuagYw842Vo3oY+Pu7EWoADDM4i5MEqM=\""
+          "Value": "\"C2uQxUvCgV43z+3TJJASJLKoNaSBkPVGH729IA6cuMk=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 11 Feb 2025 13:01:08 GMT"
+          "Value": "Tue, 11 Feb 2025 14:40:32 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2837,7 +2837,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-s02eYAVD9YBiuagYw842Vo3oY+Pu7EWoADDM4i5MEqM="
+          "Value": "sha256-C2uQxUvCgV43z+3TJJASJLKoNaSBkPVGH729IA6cuMk="
         }
       ]
     },
