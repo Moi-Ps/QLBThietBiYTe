@@ -1,5 +1,6 @@
 using Microsoft.EntityFrameworkCore;
 using QLBThietBiYTe.Models.Entities;
+using QLBThietBiYTe.Models.Mapping;
 using WkHtmlToPdfDotNet;
 using WkHtmlToPdfDotNet.Contracts;
 
@@ -9,9 +10,9 @@ builder.Services.AddDbContext<ThietBiYTeContext>(c =>
         c.UseSqlServer(builder.Configuration.GetConnectionString("Connection")));
 
 builder.Services.AddSingleton(typeof(IConverter), new SynchronizedConverter(new PdfTools()));
-/*builder.Services.AddAutoMapper(typeof(AutoMapperProfile));
+builder.Services.AddAutoMapper(typeof(AutoMapperProfile));
 
-builder.Services.AddScoped<INhaCungCapServices, NhaCungCapServices>();
+/*builder.Services.AddScoped<INhaCungCapServices, NhaCungCapServices>();
 builder.Services.AddScoped<IHoaDonCTServices, ChiTietHoaDonServices>();
 builder.Services.AddScoped<IKhoServices, KhoServices>();
 builder.Services.AddScoped<ILoaiThietBiServices, LoaiThietBiServices>();

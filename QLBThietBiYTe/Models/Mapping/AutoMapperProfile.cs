@@ -1,15 +1,15 @@
 ﻿using AutoMapper;
-using QuanLyBanThietBiYTe.Models.Entities;
-using QuanLyBanThietBiYTe.Models.Mapping;
+using QLBThietBiYTe.Models.Entities;
+using QLBThietBiYTe.Models.Mapping;
 using System.Globalization;
 
-namespace QuanLyBanThietBiYTe.Models.Mapping
+namespace QLBThietBiYTe.Models.Mapping
 {
     public class AutoMapperProfile : Profile
     {
         public AutoMapperProfile()
         {
-            CreateMap<NhaCungCapMap, Nhacungcap>().ReverseMap();
+            /*CreateMap<NhaCungCapMap, Nhacungcap>().ReverseMap();
             CreateMap<LoaiThietBiMap, Loaithietbi>().ReverseMap();
             CreateMap<ChiTietHoaDonMap, Chitiethoadon>().ReverseMap();
 
@@ -25,7 +25,7 @@ namespace QuanLyBanThietBiYTe.Models.Mapping
             .ForMember(dest => dest.Namsanxuat, opt => opt.MapFrom(src => src.Namsanxuat != "" ? DateTime.ParseExact(src.Namsanxuat, "dd-MM-yyyy", CultureInfo.InvariantCulture) : (DateTime?)null))
             .ForMember(dest => dest.Giaban, opt => opt.MapFrom(src => src.Giaban != null ? int.Parse(src.Giaban) : (int?)null))
             .ForMember(dest => dest.Giamua, opt => opt.MapFrom(src => src.Giamua != null ? int.Parse(src.Giamua) : (int?)null))
-            .ReverseMap();
+            .ReverseMap();*/
         }
     }
 }
