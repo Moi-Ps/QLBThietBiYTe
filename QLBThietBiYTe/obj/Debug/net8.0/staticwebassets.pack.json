@@ -1,0 +1,137 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\2024\\Nam4HK2\\ThucTapTotNghiep\\CodeTTTN_11-02-25\\QLBThietBiYTe\\QLBThietBiYTe\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\QLBThietBiYTe.bundle.scp.css",
+      "PackagePath": "staticwebassets\\QLBThietBiYTe.8smj31zqb1.bundle.scp.css"
+    },
+    {
+      "Id": "D:\\2024\\Nam4HK2\\ThucTapTotNghiep\\CodeTTTN_11-02-25\\QLBThietBiYTe\\QLBThietBiYTe\\wwwroot\\dist\\css\\demo.min.css",
+      "PackagePath": "staticwebassets\\dist\\css\\demo.min.css"
+    },
+    {
+      "Id": "D:\\2024\\Nam4HK2\\ThucTapTotNghiep\\CodeTTTN_11-02-25\\QLBThietBiYTe\\QLBThietBiYTe\\wwwroot\\dist\\css\\tabler-flags.min.css",
+      "PackagePath": "staticwebassets\\dist\\css\\tabler-flags.min.css"
+    },
+    {
+      "Id": "D:\\2024\\Nam4HK2\\ThucTapTotNghiep\\CodeTTTN_11-02-25\\QLBThietBiYTe\\QLBThietBiYTe\\wwwroot\\dist\\css\\tabler-marketing.min.css",
+      "PackagePath": "staticwebassets\\dist\\css\\tabler-marketing.min.css"
+    },
+    {
+      "Id": "D:\\2024\\Nam4HK2\\ThucTapTotNghiep\\CodeTTTN_11-02-25\\QLBThietBiYTe\\QLBThietBiYTe\\wwwroot\\dist\\css\\tabler-payment.min.css",
+      "PackagePath": "staticwebassets\\dist\\css\\tabler-payment.min.css"
+    },
+    {
+      "Id": "D:\\2024\\Nam4HK2\\ThucTapTotNghiep\\CodeTTTN_11-02-25\\QLBThietBiYTe\\QLBThietBiYTe\\wwwroot\\dist\\css\\tabler-socials.min.css",
+      "PackagePath": "staticwebassets\\dist\\css\\tabler-socials.min.css"
+    },
+    {
+      "Id": "D:\\2024\\Nam4HK2\\ThucTapTotNghiep\\CodeTTTN_11-02-25\\QLBThietBiYTe\\QLBThietBiYTe\\wwwroot\\dist\\css\\tabler-vendors.min.css",
+      "PackagePath": "staticwebassets\\dist\\css\\tabler-vendors.min.css"
+    },
+    {
+      "Id": "D:\\2024\\Nam4HK2\\ThucTapTotNghiep\\CodeTTTN_11-02-25\\QLBThietBiYTe\\QLBThietBiYTe\\wwwroot\\dist\\css\\tabler.min.css",
+      "PackagePath": "staticwebassets\\dist\\css\\tabler.min.css"
+    },
+    {
+      "Id": "D:\\2024\\Nam4HK2\\ThucTapTotNghiep\\CodeTTTN_11-02-25\\QLBThietBiYTe\\QLBThietBiYTe\\wwwroot\\dist\\img\\flags\\br.svg",
+      "PackagePath": "staticwebassets\\dist\\img\\flags\\br.svg"
+    },
+    {
+      "Id": "D:\\2024\\Nam4HK2\\ThucTapTotNghiep\\CodeTTTN_11-02-25\\QLBThietBiYTe\\QLBThietBiYTe\\wwwroot\\dist\\img\\flags\\de.svg",
+      "PackagePath": "staticwebassets\\dist\\img\\flags\\de.svg"
+    },
+    {
+      "Id": "D:\\2024\\Nam4HK2\\ThucTapTotNghiep\\CodeTTTN_11-02-25\\QLBThietBiYTe\\QLBThietBiYTe\\wwwroot\\dist\\img\\flags\\gb.svg",
+      "PackagePath": "staticwebassets\\dist\\img\\flags\\gb.svg"
+    },
+    {
+      "Id": "D:\\2024\\Nam4HK2\\ThucTapTotNghiep\\CodeTTTN_11-02-25\\QLBThietBiYTe\\QLBThietBiYTe\\wwwroot\\dist\\img\\flags\\pl.svg",
+      "PackagePath": "staticwebassets\\dist\\img\\flags\\pl.svg"
+    },
+    {
+      "Id": "D:\\2024\\Nam4HK2\\ThucTapTotNghiep\\CodeTTTN_11-02-25\\QLBThietBiYTe\\QLBThietBiYTe\\wwwroot\\dist\\img\\flags\\us.svg",
+      "PackagePath": "staticwebassets\\dist\\img\\flags\\us.svg"
+    },
+    {
+      "Id": "D:\\2024\\Nam4HK2\\ThucTapTotNghiep\\CodeTTTN_11-02-25\\QLBThietBiYTe\\QLBThietBiYTe\\wwwroot\\dist\\js\\demo-theme.min.js",
+      "PackagePath": "staticwebassets\\dist\\js\\demo-theme.min.js"
+    },
+    {
+      "Id": "D:\\2024\\Nam4HK2\\ThucTapTotNghiep\\CodeTTTN_11-02-25\\QLBThietBiYTe\\QLBThietBiYTe\\wwwroot\\dist\\js\\demo.min.js",
+      "PackagePath": "staticwebassets\\dist\\js\\demo.min.js"
+    },
+    {
+      "Id": "D:\\2024\\Nam4HK2\\ThucTapTotNghiep\\CodeTTTN_11-02-25\\QLBThietBiYTe\\QLBThietBiYTe\\wwwroot\\dist\\js\\tabler.min.js",
+      "PackagePath": "staticwebassets\\dist\\js\\tabler.min.js"
+    },
+    {
+      "Id": "D:\\2024\\Nam4HK2\\ThucTapTotNghiep\\CodeTTTN_11-02-25\\QLBThietBiYTe\\QLBThietBiYTe\\wwwroot\\dist\\libs\\apexcharts\\dist\\apexcharts.min.js",
+      "PackagePath": "staticwebassets\\dist\\libs\\apexcharts\\dist\\apexcharts.min.js"
+    },
+    {
+      "Id": "D:\\2024\\Nam4HK2\\ThucTapTotNghiep\\CodeTTTN_11-02-25\\QLBThietBiYTe\\QLBThietBiYTe\\wwwroot\\dist\\libs\\jsvectormap\\dist\\jsvectormap.min.js",
+      "PackagePath": "staticwebassets\\dist\\libs\\jsvectormap\\dist\\jsvectormap.min.js"
+    },
+    {
+      "Id": "D:\\2024\\Nam4HK2\\ThucTapTotNghiep\\CodeTTTN_11-02-25\\QLBThietBiYTe\\QLBThietBiYTe\\wwwroot\\dist\\libs\\jsvectormap\\dist\\maps\\world-merc.js",
+      "PackagePath": "staticwebassets\\dist\\libs\\jsvectormap\\dist\\maps\\world-merc.js"
+    },
+    {
+      "Id": "D:\\2024\\Nam4HK2\\ThucTapTotNghiep\\CodeTTTN_11-02-25\\QLBThietBiYTe\\QLBThietBiYTe\\wwwroot\\dist\\libs\\jsvectormap\\dist\\maps\\world.js",
+      "PackagePath": "staticwebassets\\dist\\libs\\jsvectormap\\dist\\maps\\world.js"
+    },
+    {
+      "Id": "D:\\2024\\Nam4HK2\\ThucTapTotNghiep\\CodeTTTN_11-02-25\\QLBThietBiYTe\\QLBThietBiYTe\\wwwroot\\dist\\libs\\litepicker\\dist\\litepicker.js",
+      "PackagePath": "staticwebassets\\dist\\libs\\litepicker\\dist\\litepicker.js"
+    },
+    {
+      "Id": "D:\\2024\\Nam4HK2\\ThucTapTotNghiep\\CodeTTTN_11-02-25\\QLBThietBiYTe\\QLBThietBiYTe\\wwwroot\\dist\\libs\\nouislider\\dist\\nouislider.min.js",
+      "PackagePath": "staticwebassets\\dist\\libs\\nouislider\\dist\\nouislider.min.js"
+    },
+    {
+      "Id": "D:\\2024\\Nam4HK2\\ThucTapTotNghiep\\CodeTTTN_11-02-25\\QLBThietBiYTe\\QLBThietBiYTe\\wwwroot\\dist\\libs\\tom-select\\dist\\js\\tom-select.base.min.js",
+      "PackagePath": "staticwebassets\\dist\\libs\\tom-select\\dist\\js\\tom-select.base.min.js"
+    },
+    {
+      "Id": "D:\\2024\\Nam4HK2\\ThucTapTotNghiep\\CodeTTTN_11-02-25\\QLBThietBiYTe\\QLBThietBiYTe\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "D:\\2024\\Nam4HK2\\ThucTapTotNghiep\\CodeTTTN_11-02-25\\QLBThietBiYTe\\QLBThietBiYTe\\wwwroot\\static\\Logo.png",
+      "PackagePath": "staticwebassets\\static\\Logo.png"
+    },
+    {
+      "Id": "D:\\2024\\Nam4HK2\\ThucTapTotNghiep\\CodeTTTN_11-02-25\\QLBThietBiYTe\\QLBThietBiYTe\\wwwroot\\static\\avatars\\admin.png",
+      "PackagePath": "staticwebassets\\static\\avatars\\admin.png"
+    },
+    {
+      "Id": "D:\\2024\\Nam4HK2\\ThucTapTotNghiep\\CodeTTTN_11-02-25\\QLBThietBiYTe\\QLBThietBiYTe\\wwwroot\\static\\sponsor-banner-homepage.svg",
+      "PackagePath": "staticwebassets\\static\\sponsor-banner-homepage.svg"
+    },
+    {
+      "Id": "D:\\2024\\Nam4HK2\\ThucTapTotNghiep\\CodeTTTN_11-02-25\\QLBThietBiYTe\\QLBThietBiYTe\\wwwroot\\stats\\js\\script.js",
+      "PackagePath": "staticwebassets\\stats\\js\\script.js"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.QLBThietBiYTe.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.QLBThietBiYTe.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.QLBThietBiYTe.props",
+      "PackagePath": "build\\QLBThietBiYTe.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.QLBThietBiYTe.props",
+      "PackagePath": "buildMultiTargeting\\QLBThietBiYTe.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.QLBThietBiYTe.props",
+      "PackagePath": "buildTransitive\\QLBThietBiYTe.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
