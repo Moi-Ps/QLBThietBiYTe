@@ -1,0 +1,196 @@
+﻿@{
+	Layout = "~/Views/Shared/_Layout.cshtml";
+	ViewData["Title"] = "Quản lý kho";
+}
+<div class="row row-cards">
+	<div class="card">
+		<div class="card-header">
+			<ul class="nav nav-tabs card-header-tabs nav-fill" data-bs-toggle="tabs"
+				style="gap: 5px;">
+				<li class="nav-item">
+					<a href="#tabs-dskho-5" class="nav-link tabs bg-primary active text-white"
+					   data-bs-toggle="tab">Danh sách kho</a>
+				</li>
+				<li class="nav-item">
+					<a href="#tabs-bckho-5" class="nav-link tabs bg-secondary text-white"
+					   data-bs-toggle="tab">Báo cáo kho</a>
+				</li>
+			</ul>
+		</div>
+		<div class="card-body">
+			<div class="tab-content">
+				<div class="tab-pane active show" id="tabs-dskho-5">
+					<div class="btn-list mb-3">
+						<a href="#" class="btn btn-2 btn-success" data-bs-toggle="modal" data-bs-target="#modal-report">
+							Thêm mới
+						</a>
+						<div class="modal modal-blur fade" id="modal-report" tabindex="-1" style="display: none;" aria-hidden="true">
+							<div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+								<div class="modal-content">
+									<div class="modal-header">
+										<h5 class="modal-title">Thêm mới</h5>
+										<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+									</div>
+									<div class="modal-body">
+										<div class="mb-3">
+											<label class="form-label">Name</label>
+											<input type="text" class="form-control" name="example-text-input" placeholder="Your report name">
+										</div>
+										<label class="form-label">Report type</label>
+										<div class="form-selectgroup-boxes row mb-3">
+											<div class="col-lg-6">
+												<label class="form-selectgroup-item">
+													<input type="radio" name="report-type" value="1" class="form-selectgroup-input" checked="">
+													<span class="form-selectgroup-label d-flex align-items-center p-3">
+														<span class="me-3">
+															<span class="form-selectgroup-check"></span>
+														</span>
+														<span class="form-selectgroup-label-content">
+															<span class="form-selectgroup-title strong mb-1">Simple</span>
+															<span class="d-block text-secondary">Provide only basic data needed for the report</span>
+														</span>
+													</span>
+												</label>
+											</div>
+											<div class="col-lg-6">
+												<label class="form-selectgroup-item">
+													<input type="radio" name="report-type" value="1" class="form-selectgroup-input">
+													<span class="form-selectgroup-label d-flex align-items-center p-3">
+														<span class="me-3">
+															<span class="form-selectgroup-check"></span>
+														</span>
+														<span class="form-selectgroup-label-content">
+															<span class="form-selectgroup-title strong mb-1">Advanced</span>
+															<span class="d-block text-secondary">Insert charts and additional advanced analyses to be inserted in the report</span>
+														</span>
+													</span>
+												</label>
+											</div>
+										</div>
+										<div class="row">
+											<div class="col-lg-8">
+												<div class="mb-3">
+													<label class="form-label">Report url</label>
+													<div class="input-group input-group-flat">
+														<span class="input-group-text">
+															https://tabler.io/reports/
+														</span>
+														<input type="text" class="form-control ps-0" value="report-01" autocomplete="off">
+													</div>
+												</div>
+											</div>
+											<div class="col-lg-4">
+												<div class="mb-3">
+													<label class="form-label">Visibility</label>
+													<select class="form-select">
+														<option value="1" selected="">Private</option>
+														<option value="2">Public</option>
+														<option value="3">Hidden</option>
+													</select>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="modal-body">
+										<div class="row">
+											<div class="col-lg-6">
+												<div class="mb-3">
+													<label class="form-label">Client name</label>
+													<input type="text" class="form-control">
+												</div>
+											</div>
+											<div class="col-lg-6">
+												<div class="mb-3">
+													<label class="form-label">Reporting period</label>
+													<input type="date" class="form-control">
+												</div>
+											</div>
+											<div class="col-lg-12">
+												<div>
+													<label class="form-label">Additional information</label>
+													<textarea class="form-control" rows="3"></textarea>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="modal-footer">
+										<a href="#" class="btn btn-link link-secondary btn-3" data-bs-dismiss="modal">
+											Cancel
+										</a>
+										<a href="#" class="btn btn-primary btn-5 ms-auto" data-bs-dismiss="modal">
+											<!-- Download SVG icon from http://tabler.io/icons/icon/plus -->
+											<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-2"><path d="M12 5l0 14"></path><path d="M5 12l14 0"></path></svg>
+											Lưu
+										</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="row row-cards">
+						<div class="col-12">
+							<div class="card">
+								<div class="table-responsive">
+									<table class="table table-vcenter card-table table-striped">
+										<thead>
+											<tr>
+												<th>Tên thiết bị</th>
+												<th>Số lượng</th>
+												<th class="w-20"></th>
+											</tr>
+										</thead>
+										<tbody id="khoTable">
+											
+										</tbody>
+									</table>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="tab-pane" id="tabs-bckho-5">
+					<div class="card shadow mb-4">
+						<div class="card-header">
+							<button class="btn btn-outline-danger" id="btnDownloadPDF">
+								<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-file-pdf"
+									 viewBox="0 0 16 16">
+									<path d="M4 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2zm0 1h8a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1"></path>
+									<path d="M4.603 12.087a.8.8 0 0 1-.438-.42c-.195-.388-.13-.776.08-1.102.198-.307.526-.568.897-.787a7.7 7.7 0 0 1 1.482-.645 20 20 0 0 0 1.062-2.227 7.3 7.3 0 0 1-.43-1.295c-.086-.4-.119-.796-.046-1.136.075-.354.274-.672.65-.823.192-.077.4-.12.602-.077a.7.7 0 0 1 .477.365c.088.164.12.356.127.538.007.187-.012.395-.047.614-.084.51-.27 1.134-.52 1.794a11 11 0 0 0 .98 1.686 5.8 5.8 0 0 1 1.334.05c.364.065.734.195.96.465.12.144.193.32.2.518.007.192-.047.382-.138.563a1.04 1.04 0 0 1-.354.416.86.86 0 0 1-.51.138c-.331-.014-.654-.196-.933-.417a5.7 5.7 0 0 1-.911-.95 11.6 11.6 0 0 0-1.997.406 11.3 11.3 0 0 1-1.021 1.51c-.29.35-.608.655-.926.787a.8.8 0 0 1-.58.029m1.379-1.901q-.25.115-.459.238c-.328.194-.541.383-.647.547-.094.145-.096.25-.04.361q.016.032.026.044l.035-.012c.137-.056.355-.235.635-.572a8 8 0 0 0 .45-.606m1.64-1.33a13 13 0 0 1 1.01-.193 12 12 0 0 1-.51-.858 21 21 0 0 1-.5 1.05zm2.446.45q.226.244.435.41c.24.19.407.253.498.256a.1.1 0 0 0 .07-.015.3.3 0 0 0 .094-.125.44.44 0 0 0 .059-.2.1.1 0 0 0-.026-.063c-.052-.062-.2-.152-.518-.209a4 4 0 0 0-.612-.053zM8.078 5.8a7 7 0 0 0 .2-.828q.046-.282.038-.465a.6.6 0 0 0-.032-.198.5.5 0 0 0-.145.04c-.087.035-.158.106-.196.283-.04.192-.03.469.046.822q.036.167.09.346z"></path>
+								</svg>
+								PDF
+							</button>
+						</div>
+						<div class="card-body">
+							<iframe id="pdfViewer" src="" width="100%" height="600px" style="border: none;"></iframe>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<ul class="pagination justify-content-end">
+			<li class="page-item disabled">
+				<a class="page-link" href="#" tabindex="-1" aria-disabled="true">
+					<!-- Download SVG icon from http://tabler.io/icons/icon/chevron-left -->
+					<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-1"><path d="M15 6l-6 6l6 6"></path></svg>
+					prev
+				</a>
+			</li>
+			<li class="page-item active"><a class="page-link" href="#">1</a></li>
+			<li class="page-item"><a class="page-link" href="#">2</a></li>
+			<li class="page-item"><a class="page-link" href="#">3</a></li>
+			<li class="page-item"><a class="page-link" href="#">4</a></li>
+			<li class="page-item"><a class="page-link" href="#">5</a></li>
+			<li class="page-item">
+				<a class="page-link" href="#">
+					next
+					<!-- Download SVG icon from http://tabler.io/icons/icon/chevron-right -->
+					<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-1"><path d="M9 6l6 6l-6 6"></path></svg>
+				</a>
+			</li>
+		</ul>
+	</div>
+</div>
+
+
+
+<script src="~/dist/js/quanlyjs/ql_kho.js"></script>

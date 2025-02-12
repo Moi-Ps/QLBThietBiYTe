@@ -9,11 +9,13 @@
     <link href="~/dist/css/tabler.min.css" rel="stylesheet" asp-append-version="true" />
     <link href="~/dist/css/tabler-flags.min.css" rel="stylesheet" asp-append-version="true" />
     <link href="~/dist/css/tabler-socials.min.css" rel="stylesheet" asp-append-version="true" />
-    <link href="~/dist/css/tabler-payments.min.css" rel="stylesheet" asp-append-version="true" />
+    @* <link href="~/dist/css/tabler-payments.min.css" rel="stylesheet" asp-append-version="true" /> *@
     <link href="~/dist/css/tabler-vendors.min.css" rel="stylesheet" asp-append-version="true" />
     <link href="~/dist/css/tabler-marketing.min.css" rel="stylesheet" asp-append-version="true" />
     <link href="~/dist/css/demo.min.css" rel="stylesheet" asp-append-version="true" />
+    <script src="~/dist/libs/Jquery/jquery.min.js"></script>
     <link rel="stylesheet" href="https://rsms.me/inter/inter.css">
+    <link href="~/dist/css/tabler-payment.min.css" rel="stylesheet" />
 </head>
 
 <body class=" layout-fluid">
@@ -456,7 +458,7 @@
                                             </a>
                                         </div>
                                         <div class="dropdown-menu-column">
-                                            <a class="dropdown-item" href="">
+                                            <a class="dropdown-item" href="~/QuanLy/QL_Kho">
                                                 Quản lý kho
                                             </a>
                                             <a class="dropdown-item" href="">
@@ -796,6 +798,25 @@
             integrity="sha512-ZpsOmlRQV6y907TI0dKBHq9Md29nnaEIPlkf84rnaERnq6zvWvPUqr2ft8M1aS28oN72PdrCzSjY4U6VaAw1EQ=="
             data-cf-beacon='{"rayId":"90a1f387b85b819e","serverTiming":{"name":{"cfExtPri":true,"cfL4":true,"cfSpeedBrain":true,"cfCacheStatus":true}},"version":"2025.1.0","token":"84cae67e72b342399609db8f32d1c3ff"}'
             crossorigin="anonymous"></script>
+   
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            let tabs = document.querySelectorAll(".tabs");
+
+            tabs.forEach(link => {
+                link.addEventListener("click", function () {
+
+                    tabs.forEach(tab => {
+                        tab.classList.remove("bg-primary", "active");
+                        tab.classList.add("bg-secondary");
+                    });
+
+                    this.classList.remove("bg-secondary");
+                    this.classList.add("bg-primary", "active");
+                });
+            });
+        });
+    </script>
 </body>
 
 </html>

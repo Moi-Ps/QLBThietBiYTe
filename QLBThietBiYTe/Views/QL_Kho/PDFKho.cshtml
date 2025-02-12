@@ -1,0 +1,81 @@
+﻿@model IEnumerable<dynamic>
+@{
+    Layout = "~/Views/Shared/_LayoutPDF.cshtml";
+}
+
+<div class="w-100 row-infor flex">
+    <div class="w-25">
+        <em>Cơ quan chủ quản:&nbsp;</em> <br />
+        <em>Cơ sở KB, CB:&nbsp;</em>
+    </div>
+    <div class="w-50">
+        <h2 class="text-uppercase text-center mb-15 mt-15" style="font-weight: 700;">
+            BÁO CÁO KHO
+        </h2>
+    </div>
+    <div class="text-end w-25 fs-22">
+        <div>
+            <em>MBC: BC-18&nbsp;</em>
+        </div>
+    </div>
+</div>
+<div class="row-infor">
+    <div class="table">
+        <table class="w-100">
+            <thead>
+                <tr class="text-center">
+                    <th colspan="2">STT</th>
+                    <th colspan="3">Tên thiết bị</th>
+                    <th colspan="2">Tổng số lượng</th>
+                </tr>
+            </thead>
+            <tbody>
+                @{
+                    int stt = 1;
+                }
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td colspan="2" class="text-center">@stt</td>
+                        <td colspan="3" class="text-start">@item.TenThietBi</td>
+                        <td colspan="2" class="text-center">@item.TongSoLuong</td>
+                    </tr>
+                    stt++;
+                }
+            </tbody>
+        </table>
+    </div>
+</div>
+
+<div class="page-avoid mt-2">
+    <div class="row-infor flex w-100 text-center mt-25">
+        <div class="w-50">
+            <div class="justify-content-center flex">
+                &nbsp;
+            </div>
+            <div class="text-bold justify-content-center">
+                Ban lãnh đạo
+            </div>
+            <div class="fs-19 justify-content-center mb-kyTen mt-5">
+                <em>(Ký, ghi rõ họ tên)</em>
+            </div>
+            <div class="flex justify-content-center ">
+            </div>
+        </div>
+        <div class="w-50">
+            <div class="justify-content-center flex">
+                <em>
+                    Ngày&nbsp;@DateTime.Now.Day&nbsp;tháng&nbsp;@DateTime.Now.Month&nbsp;năm&nbsp;@DateTime.Now.Year
+                </em>
+            </div>
+            <div class="text-bold justify-content-center">
+                Người đại diện
+            </div>
+            <div class="fs-19 justify-content-center mb-kyTen mt-5">
+                <em>(Ký, đóng dấu)</em>
+            </div>
+            <div class="flex justify-content-center ">
+            </div>
+        </div>
+    </div>
+</div>

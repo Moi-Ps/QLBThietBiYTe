@@ -1,6 +1,7 @@
 using Microsoft.EntityFrameworkCore;
 using QLBThietBiYTe.Models.Entities;
 using QLBThietBiYTe.Models.Mapping;
+using QLBThietBiYTe.Services.QuanLyServices;
 using WkHtmlToPdfDotNet;
 using WkHtmlToPdfDotNet.Contracts;
 
@@ -12,13 +13,14 @@ builder.Services.AddDbContext<ThietBiYTeContext>(c =>
 builder.Services.AddSingleton(typeof(IConverter), new SynchronizedConverter(new PdfTools()));
 builder.Services.AddAutoMapper(typeof(AutoMapperProfile));
 
-/*builder.Services.AddScoped<INhaCungCapServices, NhaCungCapServices>();
-builder.Services.AddScoped<IHoaDonCTServices, ChiTietHoaDonServices>();
-builder.Services.AddScoped<IKhoServices, KhoServices>();
-builder.Services.AddScoped<ILoaiThietBiServices, LoaiThietBiServices>();
-builder.Services.AddScoped<ITaiKhoanServices, TaiKhoanServices>();
-builder.Services.AddScoped<IThietBiServices, ThietBiServices>();
-builder.Services.AddScoped<IHoaDonServices, HoaDonServices>();*/
+//builder.Services.AddScoped<INhaCungCapServices, NhaCungCapServices>();
+//builder.Services.AddScoped<IHoaDonCTServices, ChiTietHoaDonServices>();
+builder.Services.AddScoped<IQlKhoServices, QLKhoServices>();
+//builder.Services.AddScoped<ILoaiThietBiServices, LoaiThietBiServices>();
+//builder.Services.AddScoped<ITaiKhoanServices, TaiKhoanServices>();
+//builder.Services.AddScoped<IThietBiServices, ThietBiServices>();
+//builder.Services.AddScoped<IHoaDonServices, HoaDonServices>();
+
 // Add services to the container.
 builder.Services.AddControllersWithViews();
 

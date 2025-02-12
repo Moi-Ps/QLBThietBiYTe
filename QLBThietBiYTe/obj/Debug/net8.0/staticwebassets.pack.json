@@ -53,6 +53,30 @@
       "PackagePath": "staticwebassets\\dist\\img\\flags\\us.svg"
     },
     {
+      "Id": "D:\\2024\\Nam4HK2\\ThucTapTotNghiep\\CodeTTTN_11-02-25\\QLBThietBiYTe\\QLBThietBiYTe\\wwwroot\\dist\\js\\QuanLyJS\\QL_HoaDon.js",
+      "PackagePath": "staticwebassets\\dist\\js\\QuanLyJS\\QL_HoaDon.js"
+    },
+    {
+      "Id": "D:\\2024\\Nam4HK2\\ThucTapTotNghiep\\CodeTTTN_11-02-25\\QLBThietBiYTe\\QLBThietBiYTe\\wwwroot\\dist\\js\\QuanLyJS\\QL_Kho.js",
+      "PackagePath": "staticwebassets\\dist\\js\\QuanLyJS\\QL_Kho.js"
+    },
+    {
+      "Id": "D:\\2024\\Nam4HK2\\ThucTapTotNghiep\\CodeTTTN_11-02-25\\QLBThietBiYTe\\QLBThietBiYTe\\wwwroot\\dist\\js\\QuanLyJS\\QL_LoaiThietBi.js",
+      "PackagePath": "staticwebassets\\dist\\js\\QuanLyJS\\QL_LoaiThietBi.js"
+    },
+    {
+      "Id": "D:\\2024\\Nam4HK2\\ThucTapTotNghiep\\CodeTTTN_11-02-25\\QLBThietBiYTe\\QLBThietBiYTe\\wwwroot\\dist\\js\\QuanLyJS\\QL_NhaCungCap.js",
+      "PackagePath": "staticwebassets\\dist\\js\\QuanLyJS\\QL_NhaCungCap.js"
+    },
+    {
+      "Id": "D:\\2024\\Nam4HK2\\ThucTapTotNghiep\\CodeTTTN_11-02-25\\QLBThietBiYTe\\QLBThietBiYTe\\wwwroot\\dist\\js\\QuanLyJS\\QL_TaiKhoan.js",
+      "PackagePath": "staticwebassets\\dist\\js\\QuanLyJS\\QL_TaiKhoan.js"
+    },
+    {
+      "Id": "D:\\2024\\Nam4HK2\\ThucTapTotNghiep\\CodeTTTN_11-02-25\\QLBThietBiYTe\\QLBThietBiYTe\\wwwroot\\dist\\js\\QuanLyJS\\QL_ThietBi.js",
+      "PackagePath": "staticwebassets\\dist\\js\\QuanLyJS\\QL_ThietBi.js"
+    },
+    {
       "Id": "D:\\2024\\Nam4HK2\\ThucTapTotNghiep\\CodeTTTN_11-02-25\\QLBThietBiYTe\\QLBThietBiYTe\\wwwroot\\dist\\js\\demo-theme.min.js",
       "PackagePath": "staticwebassets\\dist\\js\\demo-theme.min.js"
     },
@@ -63,6 +87,10 @@
     {
       "Id": "D:\\2024\\Nam4HK2\\ThucTapTotNghiep\\CodeTTTN_11-02-25\\QLBThietBiYTe\\QLBThietBiYTe\\wwwroot\\dist\\js\\tabler.min.js",
       "PackagePath": "staticwebassets\\dist\\js\\tabler.min.js"
+    },
+    {
+      "Id": "D:\\2024\\Nam4HK2\\ThucTapTotNghiep\\CodeTTTN_11-02-25\\QLBThietBiYTe\\QLBThietBiYTe\\wwwroot\\dist\\libs\\Jquery\\jquery.min.js",
+      "PackagePath": "staticwebassets\\dist\\libs\\Jquery\\jquery.min.js"
     },
     {
       "Id": "D:\\2024\\Nam4HK2\\ThucTapTotNghiep\\CodeTTTN_11-02-25\\QLBThietBiYTe\\QLBThietBiYTe\\wwwroot\\dist\\libs\\apexcharts\\dist\\apexcharts.min.js",

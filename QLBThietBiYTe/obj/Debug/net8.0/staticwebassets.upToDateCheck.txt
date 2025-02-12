@@ -12,8 +12,15 @@ wwwroot\dist\img\flags\pl.svg
 wwwroot\dist\img\flags\us.svg
 wwwroot\dist\js\demo.min.js
 wwwroot\dist\js\demo-theme.min.js
+wwwroot\dist\js\QuanLyJS\QL_HoaDon.js
+wwwroot\dist\js\QuanLyJS\QL_Kho.js
+wwwroot\dist\js\QuanLyJS\QL_LoaiThietBi.js
+wwwroot\dist\js\QuanLyJS\QL_NhaCungCap.js
+wwwroot\dist\js\QuanLyJS\QL_TaiKhoan.js
+wwwroot\dist\js\QuanLyJS\QL_ThietBi.js
 wwwroot\dist\js\tabler.min.js
 wwwroot\dist\libs\apexcharts\dist\apexcharts.min.js
+wwwroot\dist\libs\Jquery\jquery.min.js
 wwwroot\dist\libs\jsvectormap\dist\jsvectormap.min.js
 wwwroot\dist\libs\jsvectormap\dist\maps\world.js
 wwwroot\dist\libs\jsvectormap\dist\maps\world-merc.js
