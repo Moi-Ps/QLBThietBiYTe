@@ -25,7 +25,7 @@
             type: 'POST',
             data: loaiThietBiForm,
             success: function () {
-                ShowToast('success', isUpdate ? 'Cập nhật thành công!' : 'Thêm thành công!');
+                //ShowToast('success', isUpdate ? 'Cập nhật thành công!' : 'Thêm thành công!');
                 $('#loaiThietBiForm')[0].reset();
 
                 $('#loaiThietBiModal').modal('hide');

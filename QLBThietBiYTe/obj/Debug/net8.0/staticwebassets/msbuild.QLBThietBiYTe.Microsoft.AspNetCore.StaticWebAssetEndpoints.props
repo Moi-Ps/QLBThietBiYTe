@@ -204,17 +204,17 @@
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-IAG4wv6NRBhUiiDGqlErxEP94/xVJianTeEXQH/l1G4="}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"5189"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022IAG4wv6NRBhUiiDGqlErxEP94/xVJianTeEXQH/l1G4=\u0022"},{"Name":"Last-Modified","Value":"Wed, 12 Feb 2025 12:17:14 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/QLBThietBiYTe/dist/js/QuanLyJS/QL_LoaiThietBi.7fh2m1qgrq.js">
+    <StaticWebAssetEndpoint Include="_content/QLBThietBiYTe/dist/js/QuanLyJS/QL_LoaiThietBi.e263o5scb3.js">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\dist\js\QuanLyJS\QL_LoaiThietBi.js'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"7fh2m1qgrq"},{"Name":"integrity","Value":"sha256-s95\u002Bf3BA2vBFlz/btTg3mo9n6wmSuYYu2Mv0D1GLNe0="},{"Name":"label","Value":"_content/QLBThietBiYTe/dist/js/QuanLyJS/QL_LoaiThietBi.js"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"3798"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022s95\u002Bf3BA2vBFlz/btTg3mo9n6wmSuYYu2Mv0D1GLNe0=\u0022"},{"Name":"Last-Modified","Value":"Wed, 12 Feb 2025 14:31:36 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"e263o5scb3"},{"Name":"integrity","Value":"sha256-dk32c3AeBE9h4NxQiBYf/om1mPiMKF1AJspl5poQzAM="},{"Name":"label","Value":"_content/QLBThietBiYTe/dist/js/QuanLyJS/QL_LoaiThietBi.js"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"5227"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022dk32c3AeBE9h4NxQiBYf/om1mPiMKF1AJspl5poQzAM=\u0022"},{"Name":"Last-Modified","Value":"Wed, 12 Feb 2025 14:40:13 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/QLBThietBiYTe/dist/js/QuanLyJS/QL_LoaiThietBi.js">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\dist\js\QuanLyJS\QL_LoaiThietBi.js'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-s95\u002Bf3BA2vBFlz/btTg3mo9n6wmSuYYu2Mv0D1GLNe0="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"3798"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022s95\u002Bf3BA2vBFlz/btTg3mo9n6wmSuYYu2Mv0D1GLNe0=\u0022"},{"Name":"Last-Modified","Value":"Wed, 12 Feb 2025 14:31:36 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-dk32c3AeBE9h4NxQiBYf/om1mPiMKF1AJspl5poQzAM="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"5227"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022dk32c3AeBE9h4NxQiBYf/om1mPiMKF1AJspl5poQzAM=\u0022"},{"Name":"Last-Modified","Value":"Wed, 12 Feb 2025 14:40:13 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/QLBThietBiYTe/dist/js/QuanLyJS/QL_NhaCungCap.3r8b2a0bt1.js">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\dist\js\QuanLyJS\QL_NhaCungCap.js'))</AssetFile>

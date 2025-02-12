@@ -1233,7 +1233,7 @@
       ]
     },
     {
-      "Route": "dist/js/QuanLyJS/QL_LoaiThietBi.7fh2m1qgrq.js",
+      "Route": "dist/js/QuanLyJS/QL_LoaiThietBi.e263o5scb3.js",
       "AssetFile": "dist/js/QuanLyJS/QL_LoaiThietBi.js",
       "Selectors": [],
       "ResponseHeaders": [
@@ -1247,7 +1247,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "3798"
+          "Value": "5227"
         },
         {
           "Name": "Content-Type",
@@ -1255,21 +1255,21 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"s95+f3BA2vBFlz/btTg3mo9n6wmSuYYu2Mv0D1GLNe0=\""
+          "Value": "\"dk32c3AeBE9h4NxQiBYf/om1mPiMKF1AJspl5poQzAM=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 12 Feb 2025 14:31:36 GMT"
+          "Value": "Wed, 12 Feb 2025 14:40:13 GMT"
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "7fh2m1qgrq"
+          "Value": "e263o5scb3"
         },
         {
           "Name": "integrity",
-          "Value": "sha256-s95+f3BA2vBFlz/btTg3mo9n6wmSuYYu2Mv0D1GLNe0="
+          "Value": "sha256-dk32c3AeBE9h4NxQiBYf/om1mPiMKF1AJspl5poQzAM="
         },
         {
           "Name": "label",
@@ -1292,7 +1292,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "3798"
+          "Value": "5227"
         },
         {
           "Name": "Content-Type",
@@ -1300,17 +1300,17 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"s95+f3BA2vBFlz/btTg3mo9n6wmSuYYu2Mv0D1GLNe0=\""
+          "Value": "\"dk32c3AeBE9h4NxQiBYf/om1mPiMKF1AJspl5poQzAM=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 12 Feb 2025 14:31:36 GMT"
+          "Value": "Wed, 12 Feb 2025 14:40:13 GMT"
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-s95+f3BA2vBFlz/btTg3mo9n6wmSuYYu2Mv0D1GLNe0="
+          "Value": "sha256-dk32c3AeBE9h4NxQiBYf/om1mPiMKF1AJspl5poQzAM="
         }
       ]
     },
