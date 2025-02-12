@@ -1,5 +1,95 @@
-﻿@*
-    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
-*@
-@{
+﻿@{
+	Layout = "~/Views/Shared/_Layout.cshtml";
+	ViewData["Title"] = "Quản lý loại thiết bị";
 }
+<div class="row row-cards">
+	<div class="card">
+		<div class="card-body">
+			<div class="tab-content">
+				<div class="btn-list mb-3">
+					<a href="#" id="addLTB" class="btn btn-2 btn-primary" data-bs-toggle="modal" data-bs-target="#loaiThietBiModal">
+						Thêm mới
+					</a>
+					<!-- Modal -->
+					<div class="modal modal-blur fade" id="loaiThietBiModal" aria-labelledby="loaiThietBiModalLabel" tabindex="-1" style="display: none;" aria-hidden="true">
+						<div class="modal-dialog modal-lg mt-3" role="document">
+							<div class="modal-content">
+								<div class="modal-header">
+									<h5 class="modal-title" id="loaiThietBiModalLabel"></h5>
+									<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+								</div>
+								<form id="loaiThietBiForm">
+									<div class="modal-body">
+										<div class="row">
+											<div class="col-md-6 mb-3">
+												<label class="form-label">Mã loại thiết bị</label>
+												<input type="text" class="form-control" id="maLoai" name="maLoai" placeholder="Mã loại thiết bị">
+											</div>
+											<div class="col-md-6 mb-3">
+												<label class="form-label">Tên loại thiết bị</label>
+												<input type="text" class="form-control" id="tenLoaiThietBi" name="tenLoaiThietBi" placeholder="Tên loại thiết bị">
+											</div>
+										</div>
+									</div>
+									<div class="modal-footer">
+										<a href="#" class="btn btn-link link-secondary btn-3" data-bs-dismiss="modal">
+											Cancel
+										</a>
+										<button class="btn btn-success btn-5 ms-auto" type="submit">
+											<!-- Download SVG icon from http://tabler.io/icons/icon/plus -->
+											<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-2"><path d="M12 5l0 14"></path><path d="M5 12l14 0"></path></svg>
+											Lưu
+										</button>
+									</div>
+								</form>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="row row-cards">
+					<div class="col-12">
+						<div class="card">
+							<div class="table-responsive">
+								<table class="table table-vcenter card-table table-striped">
+									<thead>
+										<tr>
+											<th>STT</th>
+											<th>Mã loại</th>
+											<th>Tên loại thiết bị</th>
+											<th class="w-20"></th>
+										</tr>
+									</thead>
+									<tbody id="loaiThietBiTable">
+									</tbody>
+								</table>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<ul class="pagination justify-content-end">
+			<li class="page-item disabled">
+				<a class="page-link" href="#" tabindex="-1" aria-disabled="true">
+					<!-- Download SVG icon from http://tabler.io/icons/icon/chevron-left -->
+					<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-1"><path d="M15 6l-6 6l6 6"></path></svg>
+					prev
+				</a>
+			</li>
+			<li class="page-item active"><a class="page-link" href="#">1</a></li>
+			<li class="page-item"><a class="page-link" href="#">2</a></li>
+			<li class="page-item"><a class="page-link" href="#">3</a></li>
+			<li class="page-item"><a class="page-link" href="#">4</a></li>
+			<li class="page-item"><a class="page-link" href="#">5</a></li>
+			<li class="page-item">
+				<a class="page-link" href="#">
+					next
+					<!-- Download SVG icon from http://tabler.io/icons/icon/chevron-right -->
+					<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-1"><path d="M9 6l6 6l-6 6"></path></svg>
+				</a>
+			</li>
+		</ul>
+	</div>
+</div>
+
+<script src="~/dist/js/quanlyjs/QL_LoaiThietBi.js"></script>

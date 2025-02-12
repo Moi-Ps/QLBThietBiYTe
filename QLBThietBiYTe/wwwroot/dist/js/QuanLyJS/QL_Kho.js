@@ -46,7 +46,7 @@ function loadKho() {
         success: function (response) {
             const data = response;
             let rows = "";
-            data.forEach((kho) => {
+            data.forEach(kho => {
                 rows += `
                             <tr>
                                 <td class="text-secondary">${kho.tenThietBi}</td>

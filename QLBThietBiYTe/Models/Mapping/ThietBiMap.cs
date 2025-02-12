@@ -2,17 +2,19 @@
 {
     public class ThietBiMap
     {
-        public int Mathietbi { get; set; }
+        public int Id { get; set; }
+
+        public string Mathietbi { get; set; } = null!;
 
         public string? Tenthietbi { get; set; }
 
-        public int Maloai { get; set; }
+        public string Maloai { get; set; } = null!;
 
         public string? Giamua { get; set; }
 
         public string? Giaban { get; set; }
 
-        public int Mancc { get; set; }
+        public string Mancc { get; set; } = null!;
 
         public string? Namsanxuat { get; set; }
     }

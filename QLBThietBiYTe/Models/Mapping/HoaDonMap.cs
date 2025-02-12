@@ -2,12 +2,14 @@
 {
     public class HoaDonMap
     {
-        public int Mahoadon { get; set; }
+        public int Id { get; set; }
+        public string Mahoadon { get; set; } = null!;
 
         public string? Tenkhachhang { get; set; }
 
         public string? Ngaylap { get; set; }
 
         public string? Tongtien { get; set; }
+        
     }
 }

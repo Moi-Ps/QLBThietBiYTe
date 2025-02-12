@@ -16,7 +16,7 @@ builder.Services.AddAutoMapper(typeof(AutoMapperProfile));
 //builder.Services.AddScoped<INhaCungCapServices, NhaCungCapServices>();
 //builder.Services.AddScoped<IHoaDonCTServices, ChiTietHoaDonServices>();
 builder.Services.AddScoped<IQlKhoServices, QLKhoServices>();
-//builder.Services.AddScoped<ILoaiThietBiServices, LoaiThietBiServices>();
+builder.Services.AddScoped<IQlLoaiThietBiServices, QLLoaiThietBiServices>();
 //builder.Services.AddScoped<ITaiKhoanServices, TaiKhoanServices>();
 //builder.Services.AddScoped<IThietBiServices, ThietBiServices>();
 //builder.Services.AddScoped<IHoaDonServices, HoaDonServices>();

@@ -2,11 +2,13 @@
 {
     public class ChiTietHoaDonMap
     {
-        public int Machitiet { get; set; }
+        public int Id { get; set; }
 
-        public int Mahoadon { get; set; }
+        public string Machitiet { get; set; } = null!;
 
-        public int Mathietbi { get; set; }
+        public string Mahoadon { get; set; } = null!;
+
+        public string Mathietbi { get; set; } = null!;
 
         public int? Soluong { get; set; }
 

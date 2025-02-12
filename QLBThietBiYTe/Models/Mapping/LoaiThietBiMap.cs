@@ -2,7 +2,9 @@
 {
     public class LoaiThietBiMap
     {
-        public int Maloai { get; set; }
+        public int Id { get; set; }
+
+        public string Maloai { get; set; } = null!;
 
         public string Tenloaithietbi { get; set; } = null!;
     }

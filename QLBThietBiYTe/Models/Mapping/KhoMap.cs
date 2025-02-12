@@ -2,9 +2,11 @@
 {
     public class KhoMap
     {
-        public int Makho { get; set; }
+        public int Id { get; set; }
 
-        public int Mathietbi { get; set; }
+        public string Makho { get; set; } = null!;
+
+        public string Mathietbi { get; set; } = null!;
 
         public int? Soluong { get; set; }
     }

@@ -2,7 +2,9 @@
 {
     public class TaiKhoanMap
     {
-        public int Mataikhoan { get; set; }
+        public int Id { get; set; }
+
+        public string Mataikhoan { get; set; } = null!;
 
         public string Username { get; set; } = null!;
 

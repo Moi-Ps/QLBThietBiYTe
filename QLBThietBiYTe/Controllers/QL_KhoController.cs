@@ -26,6 +26,7 @@ namespace QLBThietBiYTe.Controllers
             _viewEngine = viewEngine;
             _hostingEnvironment = webHostEnvironment;
         }
+        [HttpGet]
         public IActionResult Index()
         {
             return View();

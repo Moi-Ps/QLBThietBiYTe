@@ -2,7 +2,9 @@
 {
     public partial class NhaCungCapMap
     {
-        public int Mancc { get; set; }
+        public int Id { get; set; }
+
+        public string Mancc { get; set; } = null!;
 
         public string Tennhacungcap { get; set; } = null!;
     }
