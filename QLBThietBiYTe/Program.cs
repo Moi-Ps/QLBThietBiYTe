@@ -13,7 +13,7 @@ builder.Services.AddDbContext<ThietBiYTeContext>(c =>
 builder.Services.AddSingleton(typeof(IConverter), new SynchronizedConverter(new PdfTools()));
 builder.Services.AddAutoMapper(typeof(AutoMapperProfile));
 
-//builder.Services.AddScoped<INhaCungCapServices, NhaCungCapServices>();
+builder.Services.AddScoped<IQlNhaCungCapServices, QLNhaCungCapServices>();
 //builder.Services.AddScoped<IHoaDonCTServices, ChiTietHoaDonServices>();
 builder.Services.AddScoped<IQlKhoServices, QLKhoServices>();
 builder.Services.AddScoped<IQlLoaiThietBiServices, QLLoaiThietBiServices>();

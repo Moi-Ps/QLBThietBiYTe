@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "Be5U8eniup8ISwTlcOe3YDbVDO8yfYZ/uojZiWZh+9U=",
+  "Hash": "SNtKDC7VJyQ45eS8fM4EqJiqx9Wo/NukQHeY+fKzUgc=",
   "Source": "QLBThietBiYTe",
   "BasePath": "_content/QLBThietBiYTe",
   "Mode": "Default",
@@ -451,8 +451,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "3r8b2a0bt1",
-      "Integrity": "8ZRc1sGeVrPBx4lD717BgRaQekyh78QKV9SKsdt638U=",
+      "Fingerprint": "73nwg5uegl",
+      "Integrity": "4+Bl5GLDUHtLOvjtk2Mk4E6WI0YDHpzp4XclBkQRHbw=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\dist\\js\\QuanLyJS\\QL_NhaCungCap.js"
@@ -472,8 +472,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "3r8b2a0bt1",
-      "Integrity": "8ZRc1sGeVrPBx4lD717BgRaQekyh78QKV9SKsdt638U=",
+      "Fingerprint": "hoj51v1ed1",
+      "Integrity": "HwARj9bbh0vdnfI1NOkU3DND7QGka5wqtJRUySe/5hA=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\dist\\js\\QuanLyJS\\QL_TaiKhoan.js"
@@ -493,8 +493,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "3r8b2a0bt1",
-      "Integrity": "8ZRc1sGeVrPBx4lD717BgRaQekyh78QKV9SKsdt638U=",
+      "Fingerprint": "l92vxkg1py",
+      "Integrity": "xxE3Zj/KMfzoZ7EFCe6H778JcdOe+LsQzdaxhtY8Hqo=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\dist\\js\\QuanLyJS\\QL_ThietBi.js"
@@ -2272,7 +2272,7 @@
       ]
     },
     {
-      "Route": "dist/js/QuanLyJS/QL_NhaCungCap.3r8b2a0bt1.js",
+      "Route": "dist/js/QuanLyJS/QL_NhaCungCap.73nwg5uegl.js",
       "AssetFile": "D:\\2024\\Nam4HK2\\ThucTapTotNghiep\\CodeTTTN_11-02-25\\QLBThietBiYTe\\QLBThietBiYTe\\wwwroot\\dist\\js\\QuanLyJS\\QL_NhaCungCap.js",
       "Selectors": [],
       "ResponseHeaders": [
@@ -2282,7 +2282,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "3"
+          "Value": "5217"
         },
         {
           "Name": "Content-Type",
@@ -2290,11 +2290,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"8ZRc1sGeVrPBx4lD717BgRaQekyh78QKV9SKsdt638U=\""
+          "Value": "\"4+Bl5GLDUHtLOvjtk2Mk4E6WI0YDHpzp4XclBkQRHbw=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 12 Feb 2025 01:21:09 GMT"
+          "Value": "Thu, 13 Feb 2025 05:45:02 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2304,7 +2304,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "3r8b2a0bt1"
+          "Value": "73nwg5uegl"
         },
         {
           "Name": "label",
@@ -2312,7 +2312,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-8ZRc1sGeVrPBx4lD717BgRaQekyh78QKV9SKsdt638U="
+          "Value": "sha256-4+Bl5GLDUHtLOvjtk2Mk4E6WI0YDHpzp4XclBkQRHbw="
         }
       ]
     },
@@ -2327,7 +2327,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "3"
+          "Value": "5217"
         },
         {
           "Name": "Content-Type",
@@ -2335,11 +2335,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"8ZRc1sGeVrPBx4lD717BgRaQekyh78QKV9SKsdt638U=\""
+          "Value": "\"4+Bl5GLDUHtLOvjtk2Mk4E6WI0YDHpzp4XclBkQRHbw=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 12 Feb 2025 01:21:09 GMT"
+          "Value": "Thu, 13 Feb 2025 05:45:02 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2349,12 +2349,12 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-8ZRc1sGeVrPBx4lD717BgRaQekyh78QKV9SKsdt638U="
+          "Value": "sha256-4+Bl5GLDUHtLOvjtk2Mk4E6WI0YDHpzp4XclBkQRHbw="
         }
       ]
     },
     {
-      "Route": "dist/js/QuanLyJS/QL_TaiKhoan.3r8b2a0bt1.js",
+      "Route": "dist/js/QuanLyJS/QL_TaiKhoan.hoj51v1ed1.js",
       "AssetFile": "D:\\2024\\Nam4HK2\\ThucTapTotNghiep\\CodeTTTN_11-02-25\\QLBThietBiYTe\\QLBThietBiYTe\\wwwroot\\dist\\js\\QuanLyJS\\QL_TaiKhoan.js",
       "Selectors": [],
       "ResponseHeaders": [
@@ -2364,7 +2364,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "3"
+          "Value": "5278"
         },
         {
           "Name": "Content-Type",
@@ -2372,11 +2372,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"8ZRc1sGeVrPBx4lD717BgRaQekyh78QKV9SKsdt638U=\""
+          "Value": "\"HwARj9bbh0vdnfI1NOkU3DND7QGka5wqtJRUySe/5hA=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 12 Feb 2025 01:21:55 GMT"
+          "Value": "Thu, 13 Feb 2025 05:02:00 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2386,7 +2386,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "3r8b2a0bt1"
+          "Value": "hoj51v1ed1"
         },
         {
           "Name": "label",
@@ -2394,7 +2394,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-8ZRc1sGeVrPBx4lD717BgRaQekyh78QKV9SKsdt638U="
+          "Value": "sha256-HwARj9bbh0vdnfI1NOkU3DND7QGka5wqtJRUySe/5hA="
         }
       ]
     },
@@ -2409,7 +2409,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "3"
+          "Value": "5278"
         },
         {
           "Name": "Content-Type",
@@ -2417,11 +2417,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"8ZRc1sGeVrPBx4lD717BgRaQekyh78QKV9SKsdt638U=\""
+          "Value": "\"HwARj9bbh0vdnfI1NOkU3DND7QGka5wqtJRUySe/5hA=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 12 Feb 2025 01:21:55 GMT"
+          "Value": "Thu, 13 Feb 2025 05:02:00 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2431,52 +2431,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-8ZRc1sGeVrPBx4lD717BgRaQekyh78QKV9SKsdt638U="
-        }
-      ]
-    },
-    {
-      "Route": "dist/js/QuanLyJS/QL_ThietBi.3r8b2a0bt1.js",
-      "AssetFile": "D:\\2024\\Nam4HK2\\ThucTapTotNghiep\\CodeTTTN_11-02-25\\QLBThietBiYTe\\QLBThietBiYTe\\wwwroot\\dist\\js\\QuanLyJS\\QL_ThietBi.js",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "3"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/javascript"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"8ZRc1sGeVrPBx4lD717BgRaQekyh78QKV9SKsdt638U=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 12 Feb 2025 01:20:33 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "3r8b2a0bt1"
-        },
-        {
-          "Name": "label",
-          "Value": "dist/js/QuanLyJS/QL_ThietBi.js"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-8ZRc1sGeVrPBx4lD717BgRaQekyh78QKV9SKsdt638U="
+          "Value": "sha256-HwARj9bbh0vdnfI1NOkU3DND7QGka5wqtJRUySe/5hA="
         }
       ]
     },
@@ -2491,7 +2446,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "3"
+          "Value": "5693"
         },
         {
           "Name": "Content-Type",
@@ -2499,11 +2454,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"8ZRc1sGeVrPBx4lD717BgRaQekyh78QKV9SKsdt638U=\""
+          "Value": "\"xxE3Zj/KMfzoZ7EFCe6H778JcdOe+LsQzdaxhtY8Hqo=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 12 Feb 2025 01:20:33 GMT"
+          "Value": "Thu, 13 Feb 2025 06:27:17 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2513,7 +2468,52 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-8ZRc1sGeVrPBx4lD717BgRaQekyh78QKV9SKsdt638U="
+          "Value": "sha256-xxE3Zj/KMfzoZ7EFCe6H778JcdOe+LsQzdaxhtY8Hqo="
+        }
+      ]
+    },
+    {
+      "Route": "dist/js/QuanLyJS/QL_ThietBi.l92vxkg1py.js",
+      "AssetFile": "D:\\2024\\Nam4HK2\\ThucTapTotNghiep\\CodeTTTN_11-02-25\\QLBThietBiYTe\\QLBThietBiYTe\\wwwroot\\dist\\js\\QuanLyJS\\QL_ThietBi.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5693"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"xxE3Zj/KMfzoZ7EFCe6H778JcdOe+LsQzdaxhtY8Hqo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 13 Feb 2025 06:27:17 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "l92vxkg1py"
+        },
+        {
+          "Name": "label",
+          "Value": "dist/js/QuanLyJS/QL_ThietBi.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-xxE3Zj/KMfzoZ7EFCe6H778JcdOe+LsQzdaxhtY8Hqo="
         }
       ]
     },

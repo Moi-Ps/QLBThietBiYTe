@@ -1,5 +1,144 @@
-﻿@*
-    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
-*@
-@{
+﻿@{
+	Layout = "~/Views/Shared/_Layout.cshtml";
+	ViewData["Title"] = "Quản lý thiết bị";
 }
+<div class="row row-cards">
+	<div class="card">
+		<div class="card-body">
+			<div class="tab-content">
+				<div class="btn-list mb-3">
+					<a href="#" id="addTB" class="btn btn-2 btn-primary" data-bs-toggle="modal" data-bs-target="#thietBiModal">
+						Thêm mới
+					</a>
+					<!-- Modal -->
+					<div class="modal modal-blur fade" id="thietBiModal" aria-labelledby="thietBiModalLabel" tabindex="-1" style="display: none;" aria-hidden="true">
+						<div class="modal-dialog modal-lg mt-3" role="document">
+							<div class="modal-content">
+								<div class="modal-header">
+									<h5 class="modal-title" id="thietBiModalLabel"></h5>
+									<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+								</div>
+								<form id="thietBiForm">
+									<div class="modal-body">
+										<div class="row">
+											<div class="col-md-6 mb-3">
+												<label class="form-label">Mã thiết bị</label>
+												<input type="text" class="form-control" id="maThietBi" name="maThietBi" placeholder="Mã thiết bị">
+											</div>
+											<div class="col-md-6 mb-3">
+												<label class="form-label">Tên thiết bị</label>
+												<input type="text" class="form-control" id="tenThietBi" name="tenThietBi" placeholder="Tên thiết bị">
+											</div>
+										</div>
+										<div class="row">
+											<div class="col-md-12 mb-3">
+												<label class="form-label">Năm sản xuất</label>
+												<div class="input-icon">
+													<span class="input-icon-addon">
+														<!-- Download SVG icon from http://tabler.io/icons/icon/calendar -->
+														<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+															 stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-1">
+															<path d="M4 7a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v12a2 2 0 0 1 -2 2h-12a2 2 0 0 1 -2 -2v-12z" />
+															<path d="M16 3v4" />
+															<path d="M8 3v4" />
+															<path d="M4 11h16" />
+															<path d="M11 15h1" />
+															<path d="M12 15v3" />
+														</svg>
+													</span>
+													<input class="form-control" id="namSanXuat" name="namSanXuat" />
+												</div>
+											</div>
+										</div>
+										<div class="row">
+											<div class="col-md-6 mb-3">
+												<label class="form-label">Tên loại</label>
+												<select class="form-control form-select" id="maLoai" name="maLoai">
+													<option value="" disabled selected>Chọn loại thiết bị</option>
+												</select>
+											</div>
+											<div class="col-md-6 mb-3">
+												<label class="form-label">Tên nhà cung cấp</label>
+												<select class="form-control form-select" id="maNCC" name="maNCC">
+													<option value="" disabled selected>Chọn nhà cung cấp</option>
+												</select>
+											</div>
+										</div>
+										<div class="row">
+											<div class="col-md-6 mb-3">
+												<label class="form-label">Giá mua</label>
+												<input type="text" class="form-control" id="giaMua" name="giaMua">
+											</div>
+											<div class="col-md-6 mb-3">
+												<label class="form-label">Giá bán</label>
+												<input type="text" class="form-control" id="giaBan" name="giaBan">
+											</div>
+										</div>
+										
+									</div>
+									<div class="modal-footer">
+										<a href="#" class="btn btn-link link-secondary btn-3" data-bs-dismiss="modal">
+											Cancel
+										</a>
+										<button class="btn btn-success btn-5 ms-auto" type="submit">
+											<!-- Download SVG icon from http://tabler.io/icons/icon/plus -->
+											<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-2"><path d="M12 5l0 14"></path><path d="M5 12l14 0"></path></svg>
+											Lưu
+										</button>
+									</div>
+								</form>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="row row-cards">
+					<div class="col-12">
+						<div class="card">
+							<div class="table-responsive">
+								<table class="table table-vcenter card-table table-striped">
+									<thead>
+										<tr>
+											<th>STT</th>
+											<th>Mã nhà cung cấp</th>
+											<th>Tên nhà cung cấp</th>
+											<th>Năm sản xuất</th>
+											<th>Loại thiết bị</th>
+											<th>Nhà cung cấp</th>
+											<th>Giá mua</th>
+											<th>Giá bán</th>
+											<th class="w-20"></th>
+										</tr>
+									</thead>
+									<tbody id="thietBiTable">
+									</tbody>
+								</table>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<ul class="pagination justify-content-end">
+			<li class="page-item disabled">
+				<a class="page-link" href="#" tabindex="-1" aria-disabled="true">
+					<!-- Download SVG icon from http://tabler.io/icons/icon/chevron-left -->
+					<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-1"><path d="M15 6l-6 6l6 6"></path></svg>
+					prev
+				</a>
+			</li>
+			<li class="page-item active"><a class="page-link" href="#">1</a></li>
+			<li class="page-item"><a class="page-link" href="#">2</a></li>
+			<li class="page-item"><a class="page-link" href="#">3</a></li>
+			<li class="page-item"><a class="page-link" href="#">4</a></li>
+			<li class="page-item"><a class="page-link" href="#">5</a></li>
+			<li class="page-item">
+				<a class="page-link" href="#">
+					next
+					<!-- Download SVG icon from http://tabler.io/icons/icon/chevron-right -->
+					<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-1"><path d="M9 6l6 6l-6 6"></path></svg>
+				</a>
+			</li>
+		</ul>
+	</div>
+</div>
+<script src="~/dist/js/quanlyjs/QL_NhaCungCap.js"></script>

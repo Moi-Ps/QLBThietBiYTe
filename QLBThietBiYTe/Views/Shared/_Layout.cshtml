@@ -444,16 +444,16 @@
                                 <div class="dropdown-menu">
                                     <div class="dropdown-menu-columns">
                                         <div class="dropdown-menu-column">
-                                            <a class="dropdown-item" href="">
+                                            <a class="dropdown-item" href="~/QuanLy/QL_ThietBi">
                                                 Quản lý thiết bị
                                             </a>
-                                            <a class="dropdown-item" href="">
+                                            <a class="dropdown-item" href="~/QuanLy/QL_LoaiThietBi">
                                                 Quản lý loại thiết bị
                                             </a>
-                                            <a class="dropdown-item" href="">
+                                            <a class="dropdown-item" href="~/QuanLy/QL_NhaCungCap">
                                                 Quản lý nhà cung cấp
                                             </a>
-                                            <a class="dropdown-item" href="">
+                                            <a class="dropdown-item" href="~/QuanLy/QL_HoaDon">
                                                 Quản lý hóa đơn
                                             </a>
                                         </div>
@@ -461,7 +461,7 @@
                                             <a class="dropdown-item" href="~/QuanLy/QL_Kho">
                                                 Quản lý kho
                                             </a>
-                                            <a class="dropdown-item" href="">
+                                            <a class="dropdown-item" href="~/QuanLy/QL_TaiKhoan">
                                                 Quản lý tài khoản
                                             </a>                                          
                                         </div>
@@ -791,6 +791,10 @@
     <script src="~/dist/libs/jsvectormap/dist/maps/world.js" defer></script>
     <script src="~/dist/libs/jsvectormap/dist/maps/world-merc.js" defer></script>
     <script src="~/dist/js/popper.min.js" defer></script>
+    
+    <script src="~/dist/libs/nouislider/dist/nouislider.min.js" defer></script>
+    <script src="~/dist/libs/litepicker/dist/litepicker.js" defer></script>
+    <script src="~/dist/libs/tom-select/dist/js/tom-select.base.min.js" defer></script>
     <!-- Tabler Core -->
     <script src="~/dist/js/tabler.min.js" defer></script>
     <script src="~/dist/js/demo.min.js" defer></script>
@@ -817,6 +821,19 @@
                 });
             });
         });
+    </script>
+    <script>
+            document.addEventListener("DOMContentLoaded", function () {
+                window.Litepicker && (new Litepicker({
+                    element: document.getElementById('namSanXuat'),
+                    buttonText: {
+                        previousMonth: `<!-- Download SVG icon from http://tabler.io/icons/icon/chevron-left -->
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-1"><path d="M15 6l-6 6l6 6" /></svg>`,
+                        nextMonth: `<!-- Download SVG icon from http://tabler.io/icons/icon/chevron-right -->
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-1"><path d="M9 6l6 6l-6 6" /></svg>`,
+                    },
+                }));
+            });
     </script>
 </body>
 
