@@ -16,6 +16,6 @@
 
         public string Mancc { get; set; } = null!;
 
-        public string? Namsanxuat { get; set; }
+        public DateOnly? Namsanxuat { get; set; }
     }
 }

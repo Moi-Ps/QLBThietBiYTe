@@ -22,7 +22,7 @@ namespace QLBThietBiYTe.Models.Mapping
             CreateMap<TaiKhoanMap, Taikhoan>().ReverseMap();
 
             CreateMap<ThietBiMap, Thietbi>()
-            .ForMember(dest => dest.Namsanxuat, opt => opt.MapFrom(src => src.Namsanxuat != "" ? DateTime.ParseExact(src.Namsanxuat, "dd-MM-yyyy", CultureInfo.InvariantCulture) : (DateTime?)null))
+            //.ForMember(dest => dest.Namsanxuat, opt => opt.MapFrom(src => src.Namsanxuat != "" ? DateTime.ParseExact(src.Namsanxuat, "dd-MM-yyyy", CultureInfo.InvariantCulture) : (DateTime?)null))        
             .ForMember(dest => dest.Giaban, opt => opt.MapFrom(src => src.Giaban != null ? int.Parse(src.Giaban) : (int?)null))
             .ForMember(dest => dest.Giamua, opt => opt.MapFrom(src => src.Giamua != null ? int.Parse(src.Giamua) : (int?)null))
             .ReverseMap();

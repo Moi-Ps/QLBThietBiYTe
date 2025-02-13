@@ -18,7 +18,7 @@ builder.Services.AddScoped<IQlNhaCungCapServices, QLNhaCungCapServices>();
 builder.Services.AddScoped<IQlKhoServices, QLKhoServices>();
 builder.Services.AddScoped<IQlLoaiThietBiServices, QLLoaiThietBiServices>();
 //builder.Services.AddScoped<ITaiKhoanServices, TaiKhoanServices>();
-//builder.Services.AddScoped<IThietBiServices, ThietBiServices>();
+builder.Services.AddScoped<IQlThietBiServices, QLThietBiServices>();
 //builder.Services.AddScoped<IHoaDonServices, HoaDonServices>();
 
 // Add services to the container.
