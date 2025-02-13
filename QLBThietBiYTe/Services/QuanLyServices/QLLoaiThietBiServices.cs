@@ -108,15 +108,6 @@ namespace QLBThietBiYTe.Services.QuanLyServices
             try
             {
                 var dlt = await _context.Loaithietbis.FindAsync(maLTB);
-
-                if (dlt == null)
-                {
-                    return new
-                    {
-                        statusCode = 404,
-                        message = "Không tìm thấy loại thiết bị!"
-                    };
-                }
                 _context.Loaithietbis.Remove(dlt);
 
                 await _context.SaveChangesAsync();

@@ -1233,51 +1233,6 @@
       ]
     },
     {
-      "Route": "dist/js/QuanLyJS/QL_LoaiThietBi.0edadest6u.js",
-      "AssetFile": "dist/js/QuanLyJS/QL_LoaiThietBi.js",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "6206"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/javascript"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"uHgVEha94sWAgQPGO1FHb06ptjJBTZHkfrKVi1ObpNs=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Thu, 13 Feb 2025 04:42:33 GMT"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "0edadest6u"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-uHgVEha94sWAgQPGO1FHb06ptjJBTZHkfrKVi1ObpNs="
-        },
-        {
-          "Name": "label",
-          "Value": "dist/js/QuanLyJS/QL_LoaiThietBi.js"
-        }
-      ]
-    },
-    {
       "Route": "dist/js/QuanLyJS/QL_LoaiThietBi.js",
       "AssetFile": "dist/js/QuanLyJS/QL_LoaiThietBi.js",
       "Selectors": [],
@@ -1292,7 +1247,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "6206"
+          "Value": "5354"
         },
         {
           "Name": "Content-Type",
@@ -1300,17 +1255,62 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"uHgVEha94sWAgQPGO1FHb06ptjJBTZHkfrKVi1ObpNs=\""
+          "Value": "\"n+7wdFxS6/plaLUt30Acf4BkChitehBi+gGzxmtpatU=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 13 Feb 2025 04:42:33 GMT"
+          "Value": "Thu, 13 Feb 2025 04:46:17 GMT"
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-uHgVEha94sWAgQPGO1FHb06ptjJBTZHkfrKVi1ObpNs="
+          "Value": "sha256-n+7wdFxS6/plaLUt30Acf4BkChitehBi+gGzxmtpatU="
+        }
+      ]
+    },
+    {
+      "Route": "dist/js/QuanLyJS/QL_LoaiThietBi.voae9yte2m.js",
+      "AssetFile": "dist/js/QuanLyJS/QL_LoaiThietBi.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5354"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"n+7wdFxS6/plaLUt30Acf4BkChitehBi+gGzxmtpatU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 13 Feb 2025 04:46:17 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "voae9yte2m"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-n+7wdFxS6/plaLUt30Acf4BkChitehBi+gGzxmtpatU="
+        },
+        {
+          "Name": "label",
+          "Value": "dist/js/QuanLyJS/QL_LoaiThietBi.js"
         }
       ]
     },
