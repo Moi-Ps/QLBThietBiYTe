@@ -318,8 +318,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>voae9yte2m</Fingerprint>
-      <Integrity>n+7wdFxS6/plaLUt30Acf4BkChitehBi+gGzxmtpatU=</Integrity>
+      <Fingerprint>5lnv34h3lj</Fingerprint>
+      <Integrity>1zNWNPubK0vKbY/nY8HBqm2jZmdrZisfmFiujqxA5rs=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\dist\js\QuanLyJS\QL_LoaiThietBi.js'))</OriginalItemSpec>

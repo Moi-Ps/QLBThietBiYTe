@@ -57,30 +57,25 @@ function updateLoaiThietBi(maloai) {
         }
     });
 }
-
-//Delete
-let maLTBToDelete;
-function deleteLoaiThietBi(maLTB) {
-    maLTBToDelete = maLTB;
+function deleteLoaiThietBi(maloai) {
     $('#modal-danger').modal('show');
-}
-$('#btnDanger').click(function () {
-    if (maLTBToDelete) {
+
+    $('#btnDanger').off('click').on('click', function () {
         $.ajax({
-            url: '/QuanLy/QL_LoaiThietBi/DeleteLoaiThietBi',
+            url: '/QuanLy/QL_LoaiThietBi/DeleteLTB',
             type: 'POST',
-            data: { maLoai: maLTBToDelete },
+            data: { maLTB: maloai },
             success: function () {
+                $('#modal-danger').modal('hide');
                 loadLoaiThietBi();
+                ShowToast('success', 'Xóa thành công!');
             },
             error: function () {
                 ShowToast('error', 'Thất bại!');
             }
         });
-        maLTBToDelete = null;
-    }
-});
-
+    });
+}
 // Hàm tải danh sách loại thiết bị
 function loadLoaiThietBi() {
     $.ajax({

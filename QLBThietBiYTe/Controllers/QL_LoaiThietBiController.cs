@@ -54,7 +54,7 @@ namespace QLBThietBiYTe.Controllers
             var rs = await _services.UpdateLoaiThietBi(modelMap);
             return Ok(rs);
         }
-        [HttpPost("DeleteLoaiThietBi")]
+        [HttpPost("DeleteLTB")]
         public async Task<IActionResult> DeleteLoaiThietBi(string maLTB)
         {
             var rs = await _services.DeleteLoaiThietBi(maLTB);
