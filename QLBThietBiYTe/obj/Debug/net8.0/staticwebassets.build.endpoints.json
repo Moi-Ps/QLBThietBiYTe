@@ -1233,7 +1233,7 @@
       ]
     },
     {
-      "Route": "dist/js/QuanLyJS/QL_LoaiThietBi.e263o5scb3.js",
+      "Route": "dist/js/QuanLyJS/QL_LoaiThietBi.0edadest6u.js",
       "AssetFile": "dist/js/QuanLyJS/QL_LoaiThietBi.js",
       "Selectors": [],
       "ResponseHeaders": [
@@ -1247,7 +1247,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "5227"
+          "Value": "6206"
         },
         {
           "Name": "Content-Type",
@@ -1255,21 +1255,21 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"dk32c3AeBE9h4NxQiBYf/om1mPiMKF1AJspl5poQzAM=\""
+          "Value": "\"uHgVEha94sWAgQPGO1FHb06ptjJBTZHkfrKVi1ObpNs=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 12 Feb 2025 14:40:13 GMT"
+          "Value": "Thu, 13 Feb 2025 04:42:33 GMT"
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "e263o5scb3"
+          "Value": "0edadest6u"
         },
         {
           "Name": "integrity",
-          "Value": "sha256-dk32c3AeBE9h4NxQiBYf/om1mPiMKF1AJspl5poQzAM="
+          "Value": "sha256-uHgVEha94sWAgQPGO1FHb06ptjJBTZHkfrKVi1ObpNs="
         },
         {
           "Name": "label",
@@ -1292,7 +1292,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "5227"
+          "Value": "6206"
         },
         {
           "Name": "Content-Type",
@@ -1300,17 +1300,17 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"dk32c3AeBE9h4NxQiBYf/om1mPiMKF1AJspl5poQzAM=\""
+          "Value": "\"uHgVEha94sWAgQPGO1FHb06ptjJBTZHkfrKVi1ObpNs=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 12 Feb 2025 14:40:13 GMT"
+          "Value": "Thu, 13 Feb 2025 04:42:33 GMT"
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-dk32c3AeBE9h4NxQiBYf/om1mPiMKF1AJspl5poQzAM="
+          "Value": "sha256-uHgVEha94sWAgQPGO1FHb06ptjJBTZHkfrKVi1ObpNs="
         }
       ]
     },

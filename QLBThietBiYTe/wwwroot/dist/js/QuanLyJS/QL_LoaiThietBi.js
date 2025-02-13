@@ -61,6 +61,7 @@ function updateLoaiThietBi(maloai) {
 //Delete
 let maLTBToDelete;
 function deleteLoaiThietBi(maLTB) {
+    console.log("Clicked delete button for:", maLTB);
     maLTBToDelete = maLTB;
     $('#modal-danger').modal('show');
 }
@@ -71,7 +72,6 @@ $('#btnDanger').click(function () {
             type: 'POST',
             data: { maLoai: maLTBToDelete },
             success: function () {
-                ShowToast('success', 'Xóa thành công!');
                 loadLoaiThietBi();
             },
             error: function () {
@@ -81,6 +81,7 @@ $('#btnDanger').click(function () {
         maLTBToDelete = null;
     }
 });
+
 // Hàm tải danh sách loại thiết bị
 function loadLoaiThietBi() {
     $.ajax({
