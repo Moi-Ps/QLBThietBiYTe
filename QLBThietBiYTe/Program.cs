@@ -1,4 +1,4 @@
-using Microsoft.EntityFrameworkCore;
+﻿using Microsoft.EntityFrameworkCore;
 using QLBThietBiYTe.Models.Entities;
 using QLBThietBiYTe.Models.Mapping;
 using QLBThietBiYTe.Services.QuanLyServices;
@@ -21,6 +21,13 @@ builder.Services.AddScoped<IQlLoaiThietBiServices, QLLoaiThietBiServices>();
 builder.Services.AddScoped<IQlThietBiServices, QLThietBiServices>();
 //builder.Services.AddScoped<IHoaDonServices, HoaDonServices>();
 
+builder.Services.AddDistributedMemoryCache();
+builder.Services.AddSession(options =>
+{
+    options.IdleTimeout = TimeSpan.FromMinutes(30); 
+    options.Cookie.HttpOnly = true; 
+    options.Cookie.IsEssential = true; 
+});
 // Add services to the container.
 builder.Services.AddControllersWithViews();
 
@@ -37,6 +44,8 @@ if (!app.Environment.IsDevelopment())
 app.UseHttpsRedirection();
 app.UseStaticFiles();
 
+app.UseSession();
+
 app.UseRouting();
 
 app.UseAuthorization();
@@ -44,5 +53,7 @@ app.UseAuthorization();
 app.MapControllerRoute(
     name: "default",
     pattern: "{controller=Home}/{action=Index}/{id?}");
-
+//app.MapControllerRoute(
+//    name: "default",
+//    pattern: "{controller=DangNhap}/{action=Index}/{id?}");
 app.Run();
