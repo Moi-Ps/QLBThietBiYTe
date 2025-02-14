@@ -372,8 +372,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>35rt00k6s2</Fingerprint>
-      <Integrity>p+77LPfy6Ep9CgsOdY1fTjzGcXx367Idw+DfPEtTWz0=</Integrity>
+      <Fingerprint>975z96tuie</Fingerprint>
+      <Integrity>FdbpYeKA3zdLsN9XcznZp1xd1geSrM1D0/ssCQiPCW8=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\dist\js\QuanLyJS\QL_ThietBi.js'))</OriginalItemSpec>
@@ -498,8 +498,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>m8ojzob2hj</Fingerprint>
-      <Integrity>dpR95cII/ZsQcwmLBLhcTnFS2eySu+kg11oFgjedur0=</Integrity>
+      <Fingerprint>reqappulwr</Fingerprint>
+      <Integrity>zX5CEJWdbkvJpz5y+DArGfH8cCDivMyDqvpFC/2MfUI=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\dist\libs\litepicker\dist\litepicker.js'))</OriginalItemSpec>

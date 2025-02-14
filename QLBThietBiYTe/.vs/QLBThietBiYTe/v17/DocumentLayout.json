@@ -3,12 +3,16 @@
   "WorkspaceRootPath": "D:\\2024\\Nam4HK2\\ThucTapTotNghiep\\CodeTTTN_11-02-25\\QLBThietBiYTe\\QLBThietBiYTe\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{DB14E39E-2058-4F76-A6F2-12E213D57144}|QLBThietBiYTe.csproj|d:\\2024\\nam4hk2\\thuctaptotnghiep\\codetttn_11-02-25\\qlbthietbiyte\\qlbthietbiyte\\wwwroot\\dist\\js\\quanlyjs\\ql_thietbi.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{DB14E39E-2058-4F76-A6F2-12E213D57144}|QLBThietBiYTe.csproj|solutionrelative:wwwroot\\dist\\js\\quanlyjs\\ql_thietbi.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+      "AbsoluteMoniker": "D:0:0:{DB14E39E-2058-4F76-A6F2-12E213D57144}|QLBThietBiYTe.csproj|d:\\2024\\nam4hk2\\thuctaptotnghiep\\codetttn_11-02-25\\qlbthietbiyte\\qlbthietbiyte\\wwwroot\\dist\\libs\\litepicker\\dist\\litepicker.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{DB14E39E-2058-4F76-A6F2-12E213D57144}|QLBThietBiYTe.csproj|solutionrelative:wwwroot\\dist\\libs\\litepicker\\dist\\litepicker.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{DB14E39E-2058-4F76-A6F2-12E213D57144}|QLBThietBiYTe.csproj|d:\\2024\\nam4hk2\\thuctaptotnghiep\\codetttn_11-02-25\\qlbthietbiyte\\qlbthietbiyte\\views\\ql_thietbi\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{DB14E39E-2058-4F76-A6F2-12E213D57144}|QLBThietBiYTe.csproj|solutionrelative:views\\ql_thietbi\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DB14E39E-2058-4F76-A6F2-12E213D57144}|QLBThietBiYTe.csproj|d:\\2024\\nam4hk2\\thuctaptotnghiep\\codetttn_11-02-25\\qlbthietbiyte\\qlbthietbiyte\\wwwroot\\dist\\js\\quanlyjs\\ql_thietbi.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{DB14E39E-2058-4F76-A6F2-12E213D57144}|QLBThietBiYTe.csproj|solutionrelative:wwwroot\\dist\\js\\quanlyjs\\ql_thietbi.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     }
   ],
   "DocumentGroupContainers": [
@@ -35,14 +39,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "QL_ThietBi.js",
-              "DocumentMoniker": "D:\\2024\\Nam4HK2\\ThucTapTotNghiep\\CodeTTTN_11-02-25\\QLBThietBiYTe\\QLBThietBiYTe\\wwwroot\\dist\\js\\QuanLyJS\\QL_ThietBi.js",
-              "RelativeDocumentMoniker": "wwwroot\\dist\\js\\QuanLyJS\\QL_ThietBi.js",
-              "ToolTip": "D:\\2024\\Nam4HK2\\ThucTapTotNghiep\\CodeTTTN_11-02-25\\QLBThietBiYTe\\QLBThietBiYTe\\wwwroot\\dist\\js\\QuanLyJS\\QL_ThietBi.js",
-              "RelativeToolTip": "wwwroot\\dist\\js\\QuanLyJS\\QL_ThietBi.js",
-              "ViewState": "AgIAAF0AAAAAAAAAAAAYwG0AAAA5AAAAAAAAAA==",
+              "Title": "litepicker.js",
+              "DocumentMoniker": "D:\\2024\\Nam4HK2\\ThucTapTotNghiep\\CodeTTTN_11-02-25\\QLBThietBiYTe\\QLBThietBiYTe\\wwwroot\\dist\\libs\\litepicker\\dist\\litepicker.js",
+              "RelativeDocumentMoniker": "wwwroot\\dist\\libs\\litepicker\\dist\\litepicker.js",
+              "ToolTip": "D:\\2024\\Nam4HK2\\ThucTapTotNghiep\\CodeTTTN_11-02-25\\QLBThietBiYTe\\QLBThietBiYTe\\wwwroot\\dist\\libs\\litepicker\\dist\\litepicker.js",
+              "RelativeToolTip": "wwwroot\\dist\\libs\\litepicker\\dist\\litepicker.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAD8AAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2025-02-14T03:14:44.968Z",
+              "WhenOpened": "2025-02-14T12:36:07.244Z",
               "EditorCaption": ""
             },
             {
@@ -51,11 +55,24 @@
               "Title": "Index.cshtml",
               "DocumentMoniker": "D:\\2024\\Nam4HK2\\ThucTapTotNghiep\\CodeTTTN_11-02-25\\QLBThietBiYTe\\QLBThietBiYTe\\Views\\QL_ThietBi\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\QL_ThietBi\\Index.cshtml",
-              "ToolTip": "D:\\2024\\Nam4HK2\\ThucTapTotNghiep\\CodeTTTN_11-02-25\\QLBThietBiYTe\\QLBThietBiYTe\\Views\\QL_ThietBi\\Index.cshtml*",
-              "RelativeToolTip": "Views\\QL_ThietBi\\Index.cshtml*",
-              "ViewState": "AgIAAHIAAAAAAAAAAAAAAIAAAAAPAAAAAAAAAA==",
+              "ToolTip": "D:\\2024\\Nam4HK2\\ThucTapTotNghiep\\CodeTTTN_11-02-25\\QLBThietBiYTe\\QLBThietBiYTe\\Views\\QL_ThietBi\\Index.cshtml",
+              "RelativeToolTip": "Views\\QL_ThietBi\\Index.cshtml",
+              "ViewState": "AgIAAJIAAAAAAAAAAAAAAKMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-02-14T03:08:49.758Z",
+              "WhenOpened": "2025-02-14T12:34:57.309Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "QL_ThietBi.js",
+              "DocumentMoniker": "D:\\2024\\Nam4HK2\\ThucTapTotNghiep\\CodeTTTN_11-02-25\\QLBThietBiYTe\\QLBThietBiYTe\\wwwroot\\dist\\js\\QuanLyJS\\QL_ThietBi.js",
+              "RelativeDocumentMoniker": "wwwroot\\dist\\js\\QuanLyJS\\QL_ThietBi.js",
+              "ToolTip": "D:\\2024\\Nam4HK2\\ThucTapTotNghiep\\CodeTTTN_11-02-25\\QLBThietBiYTe\\QLBThietBiYTe\\wwwroot\\dist\\js\\QuanLyJS\\QL_ThietBi.js",
+              "RelativeToolTip": "wwwroot\\dist\\js\\QuanLyJS\\QL_ThietBi.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAKoAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-02-14T12:32:53.662Z",
               "EditorCaption": ""
             }
           ]
