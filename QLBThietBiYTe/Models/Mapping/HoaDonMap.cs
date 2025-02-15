@@ -7,7 +7,7 @@
 
         public string? Tenkhachhang { get; set; }
 
-        public string? Ngaylap { get; set; }
+        public DateTime? Ngaylap { get; set; }
 
         public string? Tongtien { get; set; }
         

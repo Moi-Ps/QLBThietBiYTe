@@ -180,17 +180,17 @@
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-DtLawXQht0U/oyA8b4cFKiJwI6VwTVxAJ\u002Bw2NUgkWw4="}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"24671"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022DtLawXQht0U/oyA8b4cFKiJwI6VwTVxAJ\u002Bw2NUgkWw4=\u0022"},{"Name":"Last-Modified","Value":"Wed, 12 Feb 2025 13:19:36 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/QLBThietBiYTe/dist/js/QuanLyJS/QL_HoaDon.73nwg5uegl.js">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\dist\js\QuanLyJS\QL_HoaDon.js'))</AssetFile>
-      <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"73nwg5uegl"},{"Name":"integrity","Value":"sha256-4\u002BBl5GLDUHtLOvjtk2Mk4E6WI0YDHpzp4XclBkQRHbw="},{"Name":"label","Value":"_content/QLBThietBiYTe/dist/js/QuanLyJS/QL_HoaDon.js"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"5217"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u00224\u002BBl5GLDUHtLOvjtk2Mk4E6WI0YDHpzp4XclBkQRHbw=\u0022"},{"Name":"Last-Modified","Value":"Sat, 15 Feb 2025 05:01:50 GMT"}]]]></ResponseHeaders>
-    </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/QLBThietBiYTe/dist/js/QuanLyJS/QL_HoaDon.js">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\dist\js\QuanLyJS\QL_HoaDon.js'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-4\u002BBl5GLDUHtLOvjtk2Mk4E6WI0YDHpzp4XclBkQRHbw="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"5217"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u00224\u002BBl5GLDUHtLOvjtk2Mk4E6WI0YDHpzp4XclBkQRHbw=\u0022"},{"Name":"Last-Modified","Value":"Sat, 15 Feb 2025 05:01:50 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-poZ3mhN7PWiXjeaxt81C8J9h9rc3n7fzXaMQ6jRi/n4="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"5200"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022poZ3mhN7PWiXjeaxt81C8J9h9rc3n7fzXaMQ6jRi/n4=\u0022"},{"Name":"Last-Modified","Value":"Sat, 15 Feb 2025 10:51:39 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/QLBThietBiYTe/dist/js/QuanLyJS/QL_HoaDon.q0g16vh7sh.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\dist\js\QuanLyJS\QL_HoaDon.js'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"q0g16vh7sh"},{"Name":"integrity","Value":"sha256-poZ3mhN7PWiXjeaxt81C8J9h9rc3n7fzXaMQ6jRi/n4="},{"Name":"label","Value":"_content/QLBThietBiYTe/dist/js/QuanLyJS/QL_HoaDon.js"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"5200"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022poZ3mhN7PWiXjeaxt81C8J9h9rc3n7fzXaMQ6jRi/n4=\u0022"},{"Name":"Last-Modified","Value":"Sat, 15 Feb 2025 10:51:39 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/QLBThietBiYTe/dist/js/QuanLyJS/QL_Kho.g4gmu2ybl0.js">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\dist\js\QuanLyJS\QL_Kho.js'))</AssetFile>

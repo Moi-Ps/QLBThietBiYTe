@@ -1,6 +1,6 @@
 ﻿$(document).ready(function () {
 
-    loadNhaCungCap();
+    loadHoaDon();
 
     $('#addNCC').on('click', function (e) {
         e.preventDefault();
@@ -29,7 +29,7 @@
                 $('#nhaCungCapForm')[0].reset();
 
                 $('#nhaCungCapModal').modal('hide');
-                loadNhaCungCap();
+                loadHoaDon();
                 isUpdate = false;
             },
             error: function () {
@@ -76,8 +76,8 @@ function deleteNhaCungCap(mancc) {
         });
     });
 }
-// Hàm tải danh sách nhà cung cấp
-function loadNhaCungCap() {
+// Hàm tải danh sách hóa đơn
+function loadHoaDon() {
     $.ajax({
         url: '/QuanLy/QL_NhaCungCap/getDSNCC',
         type: 'POST',

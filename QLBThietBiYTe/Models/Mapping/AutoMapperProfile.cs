@@ -14,10 +14,10 @@ namespace QLBThietBiYTe.Models.Mapping
             CreateMap<ChiTietHoaDonMap, Chitiethoadon>().ReverseMap();
 
             CreateMap<HoaDonMap, Hoadon>()
-            .ForMember(dest => dest.Ngaylap, opt => opt.MapFrom(src => src.Ngaylap != "" ? DateTime.ParseExact(src.Ngaylap, "dd-MM-yyyy", CultureInfo.InvariantCulture) : (DateTime?)null))
+            /*.ForMember(dest => dest.Ngaylap, opt => opt.MapFrom(src => src.Ngaylap != "" ? DateTime.ParseExact(src.Ngaylap, "dd-MM-yyyy", CultureInfo.InvariantCulture) : (DateTime?)null))*/
             .ForMember(dest => dest.Tongtien, opt => opt.MapFrom(src => src.Tongtien != null ? decimal.Parse(src.Tongtien) : (decimal?)null))
             .ReverseMap();
-
+            
             CreateMap<KhoMap, Kho>().ReverseMap();
             CreateMap<TaiKhoanMap, Taikhoan>().ReverseMap();
 
