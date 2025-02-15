@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "yJP8eTODLCjS5He7rd1uD9kY2Bbl33n9GDjtjVoPl30=",
+  "Hash": "+u8CY/uyTYMnwHtqM9Ro88hDmZd0EzvqIw66BUgtvzA=",
   "Source": "QLBThietBiYTe",
   "BasePath": "_content/QLBThietBiYTe",
   "Mode": "Default",
@@ -388,8 +388,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "3r8b2a0bt1",
-      "Integrity": "8ZRc1sGeVrPBx4lD717BgRaQekyh78QKV9SKsdt638U=",
+      "Fingerprint": "73nwg5uegl",
+      "Integrity": "4+Bl5GLDUHtLOvjtk2Mk4E6WI0YDHpzp4XclBkQRHbw=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\dist\\js\\QuanLyJS\\QL_HoaDon.js"
@@ -640,8 +640,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "reqappulwr",
-      "Integrity": "zX5CEJWdbkvJpz5y+DArGfH8cCDivMyDqvpFC/2MfUI=",
+      "Fingerprint": "m8ojzob2hj",
+      "Integrity": "dpR95cII/ZsQcwmLBLhcTnFS2eySu+kg11oFgjedur0=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\dist\\libs\\litepicker\\dist\\litepicker.js"
@@ -2026,7 +2026,7 @@
       ]
     },
     {
-      "Route": "dist/js/QuanLyJS/QL_HoaDon.3r8b2a0bt1.js",
+      "Route": "dist/js/QuanLyJS/QL_HoaDon.73nwg5uegl.js",
       "AssetFile": "D:\\2024\\Nam4HK2\\ThucTapTotNghiep\\CodeTTTN_11-02-25\\QLBThietBiYTe\\QLBThietBiYTe\\wwwroot\\dist\\js\\QuanLyJS\\QL_HoaDon.js",
       "Selectors": [],
       "ResponseHeaders": [
@@ -2036,7 +2036,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "3"
+          "Value": "5217"
         },
         {
           "Name": "Content-Type",
@@ -2044,11 +2044,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"8ZRc1sGeVrPBx4lD717BgRaQekyh78QKV9SKsdt638U=\""
+          "Value": "\"4+Bl5GLDUHtLOvjtk2Mk4E6WI0YDHpzp4XclBkQRHbw=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 12 Feb 2025 01:21:29 GMT"
+          "Value": "Sat, 15 Feb 2025 05:01:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2058,7 +2058,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "3r8b2a0bt1"
+          "Value": "73nwg5uegl"
         },
         {
           "Name": "label",
@@ -2066,7 +2066,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-8ZRc1sGeVrPBx4lD717BgRaQekyh78QKV9SKsdt638U="
+          "Value": "sha256-4+Bl5GLDUHtLOvjtk2Mk4E6WI0YDHpzp4XclBkQRHbw="
         }
       ]
     },
@@ -2081,7 +2081,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "3"
+          "Value": "5217"
         },
         {
           "Name": "Content-Type",
@@ -2089,11 +2089,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"8ZRc1sGeVrPBx4lD717BgRaQekyh78QKV9SKsdt638U=\""
+          "Value": "\"4+Bl5GLDUHtLOvjtk2Mk4E6WI0YDHpzp4XclBkQRHbw=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 12 Feb 2025 01:21:29 GMT"
+          "Value": "Sat, 15 Feb 2025 05:01:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2103,7 +2103,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-8ZRc1sGeVrPBx4lD717BgRaQekyh78QKV9SKsdt638U="
+          "Value": "sha256-4+Bl5GLDUHtLOvjtk2Mk4E6WI0YDHpzp4XclBkQRHbw="
         }
       ]
     },
@@ -2294,7 +2294,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 13 Feb 2025 05:45:02 GMT"
+          "Value": "Sat, 15 Feb 2025 05:01:30 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2339,7 +2339,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 13 Feb 2025 05:45:02 GMT"
+          "Value": "Sat, 15 Feb 2025 05:01:30 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3020,7 +3020,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "103201"
+          "Value": "103199"
         },
         {
           "Name": "Content-Type",
@@ -3028,11 +3028,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"zX5CEJWdbkvJpz5y+DArGfH8cCDivMyDqvpFC/2MfUI=\""
+          "Value": "\"dpR95cII/ZsQcwmLBLhcTnFS2eySu+kg11oFgjedur0=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 14 Feb 2025 12:39:58 GMT"
+          "Value": "Fri, 14 Feb 2025 12:41:11 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3042,12 +3042,12 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-zX5CEJWdbkvJpz5y+DArGfH8cCDivMyDqvpFC/2MfUI="
+          "Value": "sha256-dpR95cII/ZsQcwmLBLhcTnFS2eySu+kg11oFgjedur0="
         }
       ]
     },
     {
-      "Route": "dist/libs/litepicker/dist/litepicker.reqappulwr.js",
+      "Route": "dist/libs/litepicker/dist/litepicker.m8ojzob2hj.js",
       "AssetFile": "D:\\2024\\Nam4HK2\\ThucTapTotNghiep\\CodeTTTN_11-02-25\\QLBThietBiYTe\\QLBThietBiYTe\\wwwroot\\dist\\libs\\litepicker\\dist\\litepicker.js",
       "Selectors": [],
       "ResponseHeaders": [
@@ -3057,7 +3057,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "103201"
+          "Value": "103199"
         },
         {
           "Name": "Content-Type",
@@ -3065,11 +3065,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"zX5CEJWdbkvJpz5y+DArGfH8cCDivMyDqvpFC/2MfUI=\""
+          "Value": "\"dpR95cII/ZsQcwmLBLhcTnFS2eySu+kg11oFgjedur0=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 14 Feb 2025 12:39:58 GMT"
+          "Value": "Fri, 14 Feb 2025 12:41:11 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3079,7 +3079,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "reqappulwr"
+          "Value": "m8ojzob2hj"
         },
         {
           "Name": "label",
@@ -3087,7 +3087,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-zX5CEJWdbkvJpz5y+DArGfH8cCDivMyDqvpFC/2MfUI="
+          "Value": "sha256-dpR95cII/ZsQcwmLBLhcTnFS2eySu+kg11oFgjedur0="
         }
       ]
     },

@@ -3,16 +3,20 @@
   "WorkspaceRootPath": "D:\\2024\\Nam4HK2\\ThucTapTotNghiep\\CodeTTTN_11-02-25\\QLBThietBiYTe\\QLBThietBiYTe\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{DB14E39E-2058-4F76-A6F2-12E213D57144}|QLBThietBiYTe.csproj|d:\\2024\\nam4hk2\\thuctaptotnghiep\\codetttn_11-02-25\\qlbthietbiyte\\qlbthietbiyte\\wwwroot\\dist\\libs\\litepicker\\dist\\litepicker.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{DB14E39E-2058-4F76-A6F2-12E213D57144}|QLBThietBiYTe.csproj|solutionrelative:wwwroot\\dist\\libs\\litepicker\\dist\\litepicker.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+      "AbsoluteMoniker": "D:0:0:{DB14E39E-2058-4F76-A6F2-12E213D57144}|QLBThietBiYTe.csproj|d:\\2024\\nam4hk2\\thuctaptotnghiep\\codetttn_11-02-25\\qlbthietbiyte\\qlbthietbiyte\\views\\ql_hoadon\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DB14E39E-2058-4F76-A6F2-12E213D57144}|QLBThietBiYTe.csproj|solutionrelative:views\\ql_hoadon\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DB14E39E-2058-4F76-A6F2-12E213D57144}|QLBThietBiYTe.csproj|d:\\2024\\nam4hk2\\thuctaptotnghiep\\codetttn_11-02-25\\qlbthietbiyte\\qlbthietbiyte\\models\\entities\\chitiethoadon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DB14E39E-2058-4F76-A6F2-12E213D57144}|QLBThietBiYTe.csproj|solutionrelative:models\\entities\\chitiethoadon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DB14E39E-2058-4F76-A6F2-12E213D57144}|QLBThietBiYTe.csproj|d:\\2024\\nam4hk2\\thuctaptotnghiep\\codetttn_11-02-25\\qlbthietbiyte\\qlbthietbiyte\\models\\entities\\hoadon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DB14E39E-2058-4F76-A6F2-12E213D57144}|QLBThietBiYTe.csproj|solutionrelative:models\\entities\\hoadon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{DB14E39E-2058-4F76-A6F2-12E213D57144}|QLBThietBiYTe.csproj|d:\\2024\\nam4hk2\\thuctaptotnghiep\\codetttn_11-02-25\\qlbthietbiyte\\qlbthietbiyte\\views\\ql_thietbi\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{DB14E39E-2058-4F76-A6F2-12E213D57144}|QLBThietBiYTe.csproj|solutionrelative:views\\ql_thietbi\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DB14E39E-2058-4F76-A6F2-12E213D57144}|QLBThietBiYTe.csproj|d:\\2024\\nam4hk2\\thuctaptotnghiep\\codetttn_11-02-25\\qlbthietbiyte\\qlbthietbiyte\\wwwroot\\dist\\js\\quanlyjs\\ql_thietbi.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{DB14E39E-2058-4F76-A6F2-12E213D57144}|QLBThietBiYTe.csproj|solutionrelative:wwwroot\\dist\\js\\quanlyjs\\ql_thietbi.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,7 +26,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
@@ -38,41 +42,54 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "litepicker.js",
-              "DocumentMoniker": "D:\\2024\\Nam4HK2\\ThucTapTotNghiep\\CodeTTTN_11-02-25\\QLBThietBiYTe\\QLBThietBiYTe\\wwwroot\\dist\\libs\\litepicker\\dist\\litepicker.js",
-              "RelativeDocumentMoniker": "wwwroot\\dist\\libs\\litepicker\\dist\\litepicker.js",
-              "ToolTip": "D:\\2024\\Nam4HK2\\ThucTapTotNghiep\\CodeTTTN_11-02-25\\QLBThietBiYTe\\QLBThietBiYTe\\wwwroot\\dist\\libs\\litepicker\\dist\\litepicker.js",
-              "RelativeToolTip": "wwwroot\\dist\\libs\\litepicker\\dist\\litepicker.js",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAD8AAAAnAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2025-02-14T12:36:07.244Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "Index.cshtml",
               "DocumentMoniker": "D:\\2024\\Nam4HK2\\ThucTapTotNghiep\\CodeTTTN_11-02-25\\QLBThietBiYTe\\QLBThietBiYTe\\Views\\QL_ThietBi\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\QL_ThietBi\\Index.cshtml",
               "ToolTip": "D:\\2024\\Nam4HK2\\ThucTapTotNghiep\\CodeTTTN_11-02-25\\QLBThietBiYTe\\QLBThietBiYTe\\Views\\QL_ThietBi\\Index.cshtml",
               "RelativeToolTip": "Views\\QL_ThietBi\\Index.cshtml",
-              "ViewState": "AgIAAJIAAAAAAAAAAAAAAKMAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAAADQAAAALAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-02-14T12:34:57.309Z",
+              "WhenOpened": "2025-02-15T05:24:28.689Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Chitiethoadon.cs",
+              "DocumentMoniker": "D:\\2024\\Nam4HK2\\ThucTapTotNghiep\\CodeTTTN_11-02-25\\QLBThietBiYTe\\QLBThietBiYTe\\Models\\Entities\\Chitiethoadon.cs",
+              "RelativeDocumentMoniker": "Models\\Entities\\Chitiethoadon.cs",
+              "ToolTip": "D:\\2024\\Nam4HK2\\ThucTapTotNghiep\\CodeTTTN_11-02-25\\QLBThietBiYTe\\QLBThietBiYTe\\Models\\Entities\\Chitiethoadon.cs",
+              "RelativeToolTip": "Models\\Entities\\Chitiethoadon.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-15T05:24:07.343Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "QL_ThietBi.js",
-              "DocumentMoniker": "D:\\2024\\Nam4HK2\\ThucTapTotNghiep\\CodeTTTN_11-02-25\\QLBThietBiYTe\\QLBThietBiYTe\\wwwroot\\dist\\js\\QuanLyJS\\QL_ThietBi.js",
-              "RelativeDocumentMoniker": "wwwroot\\dist\\js\\QuanLyJS\\QL_ThietBi.js",
-              "ToolTip": "D:\\2024\\Nam4HK2\\ThucTapTotNghiep\\CodeTTTN_11-02-25\\QLBThietBiYTe\\QLBThietBiYTe\\wwwroot\\dist\\js\\QuanLyJS\\QL_ThietBi.js",
-              "RelativeToolTip": "wwwroot\\dist\\js\\QuanLyJS\\QL_ThietBi.js",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAKoAAAAcAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2025-02-14T12:32:53.662Z",
+              "Title": "Hoadon.cs",
+              "DocumentMoniker": "D:\\2024\\Nam4HK2\\ThucTapTotNghiep\\CodeTTTN_11-02-25\\QLBThietBiYTe\\QLBThietBiYTe\\Models\\Entities\\Hoadon.cs",
+              "RelativeDocumentMoniker": "Models\\Entities\\Hoadon.cs",
+              "ToolTip": "D:\\2024\\Nam4HK2\\ThucTapTotNghiep\\CodeTTTN_11-02-25\\QLBThietBiYTe\\QLBThietBiYTe\\Models\\Entities\\Hoadon.cs",
+              "RelativeToolTip": "Models\\Entities\\Hoadon.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-15T05:14:15.184Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\2024\\Nam4HK2\\ThucTapTotNghiep\\CodeTTTN_11-02-25\\QLBThietBiYTe\\QLBThietBiYTe\\Views\\QL_HoaDon\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\QL_HoaDon\\Index.cshtml",
+              "ToolTip": "D:\\2024\\Nam4HK2\\ThucTapTotNghiep\\CodeTTTN_11-02-25\\QLBThietBiYTe\\QLBThietBiYTe\\Views\\QL_HoaDon\\Index.cshtml",
+              "RelativeToolTip": "Views\\QL_HoaDon\\Index.cshtml",
+              "ViewState": "AgIAAIIAAAAAAAAAAAAAAIQAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-15T05:02:16.027Z",
               "EditorCaption": ""
             }
           ]
