@@ -1069,7 +1069,7 @@
       ]
     },
     {
-      "Route": "dist/js/QuanLyJS/QL_HoaDon.b03atccy5j.js",
+      "Route": "dist/js/QuanLyJS/QL_HoaDon.foyflkzqji.js",
       "AssetFile": "dist/js/QuanLyJS/QL_HoaDon.js",
       "Selectors": [],
       "ResponseHeaders": [
@@ -1083,7 +1083,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "8561"
+          "Value": "11419"
         },
         {
           "Name": "Content-Type",
@@ -1091,21 +1091,21 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"RaW3Ymap1f6uS5TAWD/dOpUnd0kIBbsTdlkGYIrLsaA=\""
+          "Value": "\"TxLXq8CJCupXTISF9LIgOX3RI037Qr9tLl+H90enkHY=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 17 Feb 2025 02:14:58 GMT"
+          "Value": "Mon, 17 Feb 2025 02:27:16 GMT"
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "b03atccy5j"
+          "Value": "foyflkzqji"
         },
         {
           "Name": "integrity",
-          "Value": "sha256-RaW3Ymap1f6uS5TAWD/dOpUnd0kIBbsTdlkGYIrLsaA="
+          "Value": "sha256-TxLXq8CJCupXTISF9LIgOX3RI037Qr9tLl+H90enkHY="
         },
         {
           "Name": "label",
@@ -1128,7 +1128,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "8561"
+          "Value": "11419"
         },
         {
           "Name": "Content-Type",
@@ -1136,17 +1136,17 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"RaW3Ymap1f6uS5TAWD/dOpUnd0kIBbsTdlkGYIrLsaA=\""
+          "Value": "\"TxLXq8CJCupXTISF9LIgOX3RI037Qr9tLl+H90enkHY=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 17 Feb 2025 02:14:58 GMT"
+          "Value": "Mon, 17 Feb 2025 02:27:16 GMT"
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-RaW3Ymap1f6uS5TAWD/dOpUnd0kIBbsTdlkGYIrLsaA="
+          "Value": "sha256-TxLXq8CJCupXTISF9LIgOX3RI037Qr9tLl+H90enkHY="
         }
       ]
     },

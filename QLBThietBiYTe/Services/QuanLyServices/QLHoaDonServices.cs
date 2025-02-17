@@ -13,7 +13,7 @@ namespace QLBThietBiYTe.Services.QuanLyServices
         /*Task<dynamic> createHoaDon(HoaDonMap request);*/
         Task<dynamic> createHoaDon(HoaDonMap hoaDonMap, List<ChiTietHoaDonMap> chiTietHoaDonMaps);
         Task<dynamic> read();
-        Task<dynamic> getHoaDon(string maHD);
+        Task<dynamic> getHoaDon(string maHoaDon);
         Task<dynamic> DeleteChiTietHoaDon(string maChiTiet);
         Task<dynamic> DeleteHoaDon(string maHoaDon);
     }
@@ -39,10 +39,10 @@ namespace QLBThietBiYTe.Services.QuanLyServices
             }).ToListAsync();
             return data;
         }
-        public async Task<dynamic> getHoaDon(string maHD)
+        public async Task<dynamic> getHoaDon(string maHoaDon)
         {
             var data = await _context.Hoadons
-                .Where(x => x.Mahoadon == maHD)
+                .Where(x => x.Mahoadon == maHoaDon)
                 .Select(x => new
                 {
                     MaHoaDon = x.Mahoadon,
