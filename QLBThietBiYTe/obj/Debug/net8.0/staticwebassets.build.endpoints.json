@@ -1083,7 +1083,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "7335"
+          "Value": "5590"
         },
         {
           "Name": "Content-Type",
@@ -1091,22 +1091,22 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"j6F8r4K7lBRDW0jF6NzrPASQPANPY+pbciyc2SoROP4=\""
+          "Value": "\"9kUDY+p1Xk2BpDOGeKEGYy62a/GQrtQpssoC5HrQgnA=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 17 Feb 2025 06:17:33 GMT"
+          "Value": "Mon, 17 Feb 2025 08:57:24 GMT"
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-j6F8r4K7lBRDW0jF6NzrPASQPANPY+pbciyc2SoROP4="
+          "Value": "sha256-9kUDY+p1Xk2BpDOGeKEGYy62a/GQrtQpssoC5HrQgnA="
         }
       ]
     },
     {
-      "Route": "dist/js/QuanLyJS/QL_HoaDon.rh5r526eaq.js",
+      "Route": "dist/js/QuanLyJS/QL_HoaDon.yiylsnc0qn.js",
       "AssetFile": "dist/js/QuanLyJS/QL_HoaDon.js",
       "Selectors": [],
       "ResponseHeaders": [
@@ -1120,7 +1120,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "7335"
+          "Value": "5590"
         },
         {
           "Name": "Content-Type",
@@ -1128,21 +1128,21 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"j6F8r4K7lBRDW0jF6NzrPASQPANPY+pbciyc2SoROP4=\""
+          "Value": "\"9kUDY+p1Xk2BpDOGeKEGYy62a/GQrtQpssoC5HrQgnA=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 17 Feb 2025 06:17:33 GMT"
+          "Value": "Mon, 17 Feb 2025 08:57:24 GMT"
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "rh5r526eaq"
+          "Value": "yiylsnc0qn"
         },
         {
           "Name": "integrity",
-          "Value": "sha256-j6F8r4K7lBRDW0jF6NzrPASQPANPY+pbciyc2SoROP4="
+          "Value": "sha256-9kUDY+p1Xk2BpDOGeKEGYy62a/GQrtQpssoC5HrQgnA="
         },
         {
           "Name": "label",

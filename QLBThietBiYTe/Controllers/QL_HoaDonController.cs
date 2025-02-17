@@ -1,6 +1,7 @@
 ﻿using AutoMapper;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.ViewEngines;
+using Microsoft.EntityFrameworkCore;
 using Newtonsoft.Json;
 using QLBThietBiYTe.Models.Entities;
 using QLBThietBiYTe.Models.Mapping;
@@ -65,7 +66,9 @@ namespace QLBThietBiYTe.Controllers
     }
     public class HoaDonRequest
     {
-        public HoaDonMap hoDon { get; set; } 
+        public HoaDonMap hoDon { get; set; }
         public List<ChiTietHoaDonMap> chiTietHoaDon { get; set; }
     }
+
+
 }

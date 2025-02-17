@@ -10,7 +10,6 @@ namespace QLBThietBiYTe.Services.QuanLyServices
 {
     public interface IQlHoaDonServices
     {
-        /*Task<dynamic> createHoaDon(HoaDonMap request);*/
         Task<dynamic> createHoaDon(HoaDonMap hoaDonMap, List<ChiTietHoaDonMap> chiTietHoaDonMaps);
         Task<dynamic> read();
         Task<dynamic> getHoaDon(string maHoaDon);
@@ -63,76 +62,6 @@ namespace QLBThietBiYTe.Services.QuanLyServices
 
             return data;
         }
-        /*public async Task<dynamic> createHoaDon(HoaDonMap request)
-        {
-            using var transaction = await _context.Database.BeginTransactionAsync();
-
-            try
-            {
-                var hoaDon = await _context.Hoadons
-                    .Include(h => h.Chitiethoadons)
-                    .FirstOrDefaultAsync(h => h.Mahoadon == request.Mahoadon);
-
-                if (hoaDon == null)
-                {
-                    hoaDon = _mapper.Map<Hoadon>(request);
-                    hoaDon.Chitiethoadons = new List<Chitiethoadon>();
-                    _context.Hoadons.Add(hoaDon);
-                }
-                else
-                {
-                    hoaDon.Tenkhachhang = request.Tenkhachhang;
-                    hoaDon.Ngaylap = request.Ngaylap;
-                    hoaDon.Tongtien = request.Tongtien;
-                    _context.Entry(hoaDon).CurrentValues.SetValues(request);
-                }
-
-                // Danh sách chi tiết hóa đơn mới gửi lên
-                var chiTietMoi = _mapper.Map<List<Chitiethoadon>>(request.Chitiethoadons);
-
-                foreach (var ct in chiTietMoi)
-                {
-                    ct.Mahoadon = hoaDon.Mahoadon;
-                    ct.Thanhtien = (ct.Soluong ?? 0) * (ct.Giatien ?? 0);
-
-                    // Tìm chi tiết hóa đơn cũ theo `Machitiethoadon`
-                    var chiTietCu = hoaDon.Chitiethoadons.FirstOrDefault(x => x.Machitiet == ct.Machitiet);
-
-                    if (chiTietCu != null)
-                    {
-                        // Nếu chi tiết hóa đơn đã tồn tại, cập nhật số lượng & thành tiền
-                        chiTietCu.Soluong = ct.Soluong;
-                        chiTietCu.Giatien = ct.Giatien;
-                        chiTietCu.Thanhtien = ct.Thanhtien;
-                    }
-                    else
-                    {
-                        // Nếu chi tiết hóa đơn không tồn tại, thêm mới
-                        hoaDon.Chitiethoadons.Add(ct);
-                    }
-                }
-
-                // Tính tổng tiền hóa đơn
-                hoaDon.Tongtien = hoaDon.Chitiethoadons.Sum(ct => ct.Thanhtien ?? 0);
-                await _context.SaveChangesAsync();
-                await transaction.CommitAsync();
-
-                return new
-                {
-                    message = "Thành công",
-                    hoaDon
-                };
-            }
-            catch (Exception ex)
-            {
-                await transaction.RollbackAsync();
-                return new
-                {
-                    error = "Lỗi khi xử lý hóa đơn",
-                    details = ex.InnerException?.Message ?? ex.Message
-                };
-            }
-        }*/
         
         public async Task<dynamic> createHoaDon(HoaDonMap hoaDonMap, List<ChiTietHoaDonMap> chiTietHoaDonMaps)
         {
@@ -250,17 +179,15 @@ namespace QLBThietBiYTe.Services.QuanLyServices
                     return new { error = "Chi tiết hóa đơn không tồn tại" };
                 }
 
-                string maHoaDon = chiTiet.Mahoadon; // Lưu mã hóa đơn để kiểm tra sau khi xóa
+                string maHoaDon = chiTiet.Mahoadon; 
                 _context.Chitiethoadons.Remove(chiTiet);
                 await _context.SaveChangesAsync();
 
                 var hoaDon = await _context.Hoadons.FirstOrDefaultAsync(h => h.Mahoadon == maHoaDon);
                 if (hoaDon != null)
                 {
-                    // Kiểm tra xem hóa đơn còn chi tiết nào không
                     bool conChiTiet = await _context.Chitiethoadons.AnyAsync(ct => ct.Mahoadon == maHoaDon);
 
-                    // Nếu còn chi tiết, cập nhật tổng tiền, nếu không thì set tổng tiền về 0
                     hoaDon.Tongtien = conChiTiet
                         ? await _context.Chitiethoadons
                             .Where(ct => ct.Mahoadon == maHoaDon)
