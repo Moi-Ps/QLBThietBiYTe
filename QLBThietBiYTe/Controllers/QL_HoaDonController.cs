@@ -38,12 +38,6 @@ namespace QLBThietBiYTe.Controllers
             var rs = await _services.read();
             return Ok(rs);
         }
-        /*[HttpPost("CreateHoaDon")]
-        public async Task<IActionResult> CreateHoaDon([FromBody] HoaDonMap request)
-        {
-            var rs = await _services.createHoaDon(request);
-            return Ok(rs);
-        }*/
         [HttpPost("CreateHoaDon")]
         public async Task<IActionResult> CreateHoaDon([FromBody] HoaDonRequest request)
         {

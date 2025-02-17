@@ -52,6 +52,7 @@ namespace QLBThietBiYTe.Services.QuanLyServices
                     ChiTietHoaDon = x.Chitiethoadons.Select(ct => new
                     {
                         MaChiTiet = ct.Machitiet,
+                        MaHoaDon = ct.MahoadonNavigation.Mahoadon,
                         TenThietBi = ct.MathietbiNavigation.Tenthietbi,
                         SoLuong = ct.Soluong,
                         GiaTien = ct.Giatien,

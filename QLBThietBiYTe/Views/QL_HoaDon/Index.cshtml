@@ -11,9 +11,6 @@
 					<a href="#" id="addHD" class="btn btn-2 btn-primary" data-bs-toggle="modal" data-bs-target="#hoaDonModal">
 						Lập hóa đơn
 					</a>
-					<a href="#" id="addHD" class="btn btn-2 btn-primary" data-bs-toggle="modal" data-bs-target="#ctHoaDonModal">
-						Lập CT hóa đơn
-					</a>
 					<!-- Modal lập hóa đơn -->
 					<div class="modal modal-blur fade" id="hoaDonModal" aria-labelledby="hoaDonModalLabel" tabindex="-1" style="display: none;" aria-hidden="true">
 						<div class="modal-dialog modal-lg mt-3" role="document">
@@ -32,6 +29,13 @@
 											<div class="col-md-6 mb-3">
 												<label class="form-label">Tên khách hàng</label>
 												<input type="text" class="form-control" id="tenKhachHang" name="tenKhachHang" placeholder="Tên khách hàng">
+											</div>
+											<div class="col-md-4 mb-3">
+												<label class="form-label">Tên thiết bị</label>
+												@* <select class="form-control form-select" id="tenThietBi" name="tenThietBi">
+													<option value="" disabled selected>Chọn thiết bị</option>
+												</select> *@
+												<input type="text" class="form-control" id="tenThietBi" name="tenThietBi" placeholder="Tên thiết bị">
 											</div>
 										</div>
 										<div class="row">
@@ -57,7 +61,7 @@
 												<label class="form-label">Tổng tiền</label>
 												<input type="text" class="form-control" id="tongTien" name="tongTien" placeholder="Tổng tiền">
 											</div>
-										</div>
+										</div>										
 									</div>
 									<div class="modal-footer">
 										<a href="#" class="btn btn-link link-secondary btn-3" data-bs-dismiss="modal">
@@ -134,7 +138,7 @@
 					<div class="row">
 						<div class="col-md-4 mb-3">
 							<label class="form-label">Mã hóa đơn</label>
-							<input type="text" class="form-control" id="maHoaDon" name="maHoaDon" disabled placeholder="Mã hóa đơn" required readonly>
+							<input type="text" class="form-control" id="maHoaDon" name="maHoaDon" placeholder="Mã hóa đơn">
 						</div>
 						<div class="col-md-4 mb-3">
 							<label class="form-label">Mã chi tiết hóa đơn</label>
@@ -142,15 +146,13 @@
 						</div>		
 						<div class="col-md-4 mb-3">
 							<label class="form-label">Tên thiết bị</label>
-							<select class="form-control form-select" id="maThietBi" name="maThietBi">
-								<option value="" disabled selected>Chọn thiết bị</option>
-							</select>
+							<input type="text" class="form-control" id="maThietBi" name="maThietBi" placeholder="Tên thiết bị">
 						</div>
 					</div>
 					<div class="row">
 						<div class="col-md-4 mb-3">
 							<label class="form-label">Số lượng</label>
-							<input type="text" class="form-control" id="maChiTiet" name="maChiTiet" placeholder="Số lượng">
+							<input type="text" class="form-control" id="soLuong" name="soLuong" placeholder="Số lượng">
 						</div>
 						<div class="col-md-4 mb-3">
 							<label class="form-label">Giá tiền</label>
@@ -163,26 +165,9 @@
 					</div>
 					<div class="row">
 						<div class="col-12">
-							<div class="card">
-								<div class="table-responsive">
-									<table class="table table-vcenter card-table table-striped">
-										<thead>
-											<tr>
-												<th>STT</th>
-												<th>Mã chi tiết hóa đơn</th>
-												<th>Tên thiết bị</th>
-												<th>Số lượng</th>
-												<th>Giá tiền</th>
-												<th>Thành tiền</th>
-												<th class="w-20"></th>
-											</tr>
-										</thead>
-										<tbody id="ctHoaDonTable">
-
-										</tbody>
-									</table>
-								</div>
-							</div>
+							<ul class="list-group" id="loadCTHoaDonList">
+							<!-- Các chi tiết hóa đơn sẽ được liệt kê ở đây -->
+							</ul>
 						</div>
 					</div>
 				</div>
@@ -200,4 +185,18 @@
 		</div>
 	</div>
 </div>
+
 <script src="~/dist/js/quanlyjs/QL_HoaDon.js"></script>
+<script>
+		document.addEventListener("DOMContentLoaded", function () {
+			window.Litepicker && (new Litepicker({
+				element: document.getElementById('ngayLap'),
+				buttonText: {
+					previousMonth: `<!-- Download SVG icon from http://tabler.io/icons/icon/chevron-left -->
+	<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-1"><path d="M15 6l-6 6l6 6" /></svg>`,
+					nextMonth: `<!-- Download SVG icon from http://tabler.io/icons/icon/chevron-right -->
+	<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-1"><path d="M9 6l6 6l-6 6" /></svg>`,
+				},
+			}));
+		});
+</script>
