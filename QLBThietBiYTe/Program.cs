@@ -1,4 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Options;
 using QLBThietBiYTe.Models.Entities;
 using QLBThietBiYTe.Models.Mapping;
 using QLBThietBiYTe.Services.QuanLyServices;
@@ -7,8 +8,22 @@ using WkHtmlToPdfDotNet.Contracts;
 
 var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddAutoMapper(typeof(Program));
+
+builder.Services.AddControllersWithViews()
+    .AddNewtonsoftJson(options =>
+    options.SerializerSettings.ReferenceLoopHandling = Newtonsoft.Json.ReferenceLoopHandling.Ignore
+
+);
+
+
 builder.Services.AddDbContext<ThietBiYTeContext>(c =>
         c.UseSqlServer(builder.Configuration.GetConnectionString("Connection")));
+
+builder.Services.AddControllers().AddJsonOptions(options =>
+{
+    options.JsonSerializerOptions.ReferenceHandler = System.Text.Json.Serialization.ReferenceHandler.Preserve;
+
+});
 
 builder.Services.AddSingleton(typeof(IConverter), new SynchronizedConverter(new PdfTools()));
 builder.Services.AddAutoMapper(typeof(AutoMapperProfile));

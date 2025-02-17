@@ -161,3 +161,6 @@ D:\2024\Nam4HK2\ThucTapTotNghiep\CodeTTTN_11-02-25\QLBThietBiYTe\QLBThietBiYTe\o
 D:\2024\Nam4HK2\ThucTapTotNghiep\CodeTTTN_11-02-25\QLBThietBiYTe\QLBThietBiYTe\obj\Debug\net8.0\QLBThietBiYTe.pdb
 D:\2024\Nam4HK2\ThucTapTotNghiep\CodeTTTN_11-02-25\QLBThietBiYTe\QLBThietBiYTe\obj\Debug\net8.0\QLBThietBiYTe.genruntimeconfig.cache
 D:\2024\Nam4HK2\ThucTapTotNghiep\CodeTTTN_11-02-25\QLBThietBiYTe\QLBThietBiYTe\obj\Debug\net8.0\ref\QLBThietBiYTe.dll
+D:\2024\Nam4HK2\ThucTapTotNghiep\CodeTTTN_11-02-25\QLBThietBiYTe\QLBThietBiYTe\bin\Debug\net8.0\Microsoft.AspNetCore.JsonPatch.dll
+D:\2024\Nam4HK2\ThucTapTotNghiep\CodeTTTN_11-02-25\QLBThietBiYTe\QLBThietBiYTe\bin\Debug\net8.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+D:\2024\Nam4HK2\ThucTapTotNghiep\CodeTTTN_11-02-25\QLBThietBiYTe\QLBThietBiYTe\bin\Debug\net8.0\Newtonsoft.Json.Bson.dll

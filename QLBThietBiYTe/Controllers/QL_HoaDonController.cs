@@ -1,8 +1,11 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using AutoMapper;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.ViewEngines;
+using Newtonsoft.Json;
 using QLBThietBiYTe.Models.Entities;
 using QLBThietBiYTe.Models.Mapping;
 using QLBThietBiYTe.Services.QuanLyServices;
+using System.Collections.Generic;
 using WkHtmlToPdfDotNet.Contracts;
 
 namespace QLBThietBiYTe.Controllers
@@ -29,12 +32,46 @@ namespace QLBThietBiYTe.Controllers
         {
             return View();
         }
-        [HttpPost("updateCTHoaDon")]
-        public async Task<IActionResult> Update(List<ChiTietHoaDonMap> chiTietHoaDonMap)
+        [HttpPost("read")]
+        public async Task<IActionResult> Read()
         {
-            var rs = await _services.updateCTHoaDon(chiTietHoaDonMap);
+            var rs = await _services.read();
+            return Ok(rs);
+        }
+        /*[HttpPost("CreateHoaDon")]
+        public async Task<IActionResult> CreateHoaDon([FromBody] HoaDonMap request)
+        {
+            var rs = await _services.createHoaDon(request);
+            return Ok(rs);
+        }*/
+        [HttpPost("CreateHoaDon")]
+        public async Task<IActionResult> CreateHoaDon([FromBody] HoaDonRequest request)
+        {
+            var rs = await _services.createHoaDon(request.hoDon, request.chiTietHoaDon);
+            return Ok(rs);
+        }
+        [HttpPost("getHoaDon")]
+        public async Task<IActionResult> GetHoaDon(string maHoaDon)
+        {
+            var rs = await _services.getHoaDon(maHoaDon);
+            return Ok(rs);
+        }
+        [HttpPost("deleteHoaDon")]
+        public async Task<IActionResult> DeleteHoaDon(string maHoaDon)
+        {
+            var rs = await _services.DeleteHoaDon(maHoaDon);
+            return Ok(rs);
+        }
+        [HttpPost("deleteChiTietHoaDon")]
+        public async Task<IActionResult> DeleteChiTietHoaDon(string maChiTiet)
+        {
+            var rs = await _services.DeleteChiTietHoaDon(maChiTiet);
             return Ok(rs);
         }
     }
-   
+    public class HoaDonRequest
+    {
+        public HoaDonMap hoDon { get; set; } 
+        public List<ChiTietHoaDonMap> chiTietHoaDon { get; set; }
+    }
 }

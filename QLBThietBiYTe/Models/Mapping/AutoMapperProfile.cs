@@ -12,10 +12,18 @@ namespace QLBThietBiYTe.Models.Mapping
             CreateMap<NhaCungCapMap, Nhacungcap>().ReverseMap();
             CreateMap<LoaiThietBiMap, Loaithietbi>().ReverseMap();
             CreateMap<ChiTietHoaDonMap, Chitiethoadon>().ReverseMap();
+            CreateMap<HoaDonMap, Hoadon>()
+            .ForMember(dest => dest.Mahoadon, opt => opt.MapFrom(src => src.Mahoadon))
+            .ReverseMap();
+
+                    CreateMap<ChiTietHoaDonMap, Chitiethoadon>()
+                        .ForMember(dest => dest.Machitiet, opt => opt.MapFrom(src => src.Machitiet))
+                        .ReverseMap();
+
 
             CreateMap<HoaDonMap, Hoadon>()
             /*.ForMember(dest => dest.Ngaylap, opt => opt.MapFrom(src => src.Ngaylap != "" ? DateTime.ParseExact(src.Ngaylap, "dd-MM-yyyy", CultureInfo.InvariantCulture) : (DateTime?)null))*/
-            .ForMember(dest => dest.Tongtien, opt => opt.MapFrom(src => src.Tongtien != null ? decimal.Parse(src.Tongtien) : (decimal?)null))
+            /*.ForMember(dest => dest.Tongtien, opt => opt.MapFrom(src => src.Tongtien != null ? decimal.Parse(src.Tongtien) : (decimal?)null))*/
             .ReverseMap();
             
             CreateMap<KhoMap, Kho>().ReverseMap();
