@@ -25,6 +25,7 @@ namespace QLBThietBiYTe.Controllers
             _viewEngine = viewEngine;
             _hostingEnvironment = webHostEnvironment;
         }
+        [HttpGet]
         public IActionResult Index()
         {
             return View();
@@ -59,5 +60,6 @@ namespace QLBThietBiYTe.Controllers
             var rs = await _services.DeleteThietBi(matb);
             return Ok(rs);
         }
+        
     }
 }

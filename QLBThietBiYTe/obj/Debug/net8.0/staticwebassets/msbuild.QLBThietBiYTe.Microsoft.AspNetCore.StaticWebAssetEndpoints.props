@@ -183,14 +183,14 @@
     <StaticWebAssetEndpoint Include="_content/QLBThietBiYTe/dist/js/QuanLyJS/QL_HoaDon.js">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\dist\js\QuanLyJS\QL_HoaDon.js'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-9kUDY\u002Bp1Xk2BpDOGeKEGYy62a/GQrtQpssoC5HrQgnA="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"5590"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u00229kUDY\u002Bp1Xk2BpDOGeKEGYy62a/GQrtQpssoC5HrQgnA=\u0022"},{"Name":"Last-Modified","Value":"Mon, 17 Feb 2025 08:57:24 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-Ew8YLVyVqmn1cMpEj7WryTu3b4vS\u002BqSPR9M1a5Wt78Y="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"15333"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022Ew8YLVyVqmn1cMpEj7WryTu3b4vS\u002BqSPR9M1a5Wt78Y=\u0022"},{"Name":"Last-Modified","Value":"Tue, 18 Feb 2025 10:14:56 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/QLBThietBiYTe/dist/js/QuanLyJS/QL_HoaDon.yiylsnc0qn.js">
+    <StaticWebAssetEndpoint Include="_content/QLBThietBiYTe/dist/js/QuanLyJS/QL_HoaDon.p99kxtfh7r.js">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\dist\js\QuanLyJS\QL_HoaDon.js'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"yiylsnc0qn"},{"Name":"integrity","Value":"sha256-9kUDY\u002Bp1Xk2BpDOGeKEGYy62a/GQrtQpssoC5HrQgnA="},{"Name":"label","Value":"_content/QLBThietBiYTe/dist/js/QuanLyJS/QL_HoaDon.js"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"5590"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u00229kUDY\u002Bp1Xk2BpDOGeKEGYy62a/GQrtQpssoC5HrQgnA=\u0022"},{"Name":"Last-Modified","Value":"Mon, 17 Feb 2025 08:57:24 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"p99kxtfh7r"},{"Name":"integrity","Value":"sha256-Ew8YLVyVqmn1cMpEj7WryTu3b4vS\u002BqSPR9M1a5Wt78Y="},{"Name":"label","Value":"_content/QLBThietBiYTe/dist/js/QuanLyJS/QL_HoaDon.js"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"15333"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022Ew8YLVyVqmn1cMpEj7WryTu3b4vS\u002BqSPR9M1a5Wt78Y=\u0022"},{"Name":"Last-Modified","Value":"Tue, 18 Feb 2025 10:14:56 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/QLBThietBiYTe/dist/js/QuanLyJS/QL_Kho.g4gmu2ybl0.js">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\dist\js\QuanLyJS\QL_Kho.js'))</AssetFile>
