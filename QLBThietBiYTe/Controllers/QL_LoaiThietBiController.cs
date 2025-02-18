@@ -2,11 +2,13 @@
 using Microsoft.AspNetCore.Mvc.ViewEngines;
 using QLBThietBiYTe.Models.Entities;
 using QLBThietBiYTe.Models.Mapping;
+using QLBThietBiYTe.Services;
 using QLBThietBiYTe.Services.QuanLyServices;
 using WkHtmlToPdfDotNet.Contracts;
 
 namespace QLBThietBiYTe.Controllers
 {
+    [SessionAuthorize]
     [Route("QuanLy/[controller]")]
     public class QL_LoaiThietBiController : Controller
     {

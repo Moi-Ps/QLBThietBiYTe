@@ -1,6 +1,9 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using Microsoft.EntityFrameworkCore;
+using QLBThietBiYTe.Models;
 using QLBThietBiYTe.Models.Entities;
+using System;
+using System.Linq;
+using System.Net;
 
 namespace QLBThietBiYTe.Controllers
 {
@@ -11,35 +14,60 @@ namespace QLBThietBiYTe.Controllers
         {
             _context = context;
         }
+
+        [HttpGet]
         public IActionResult Index()
         {
-            return View();
-        }
-        [HttpPost]
-        public IActionResult Index(string userName, string passWord)
-        {
-            // Kiểm tra thông tin tài khoản
-            var user = _context.Taikhoans.FirstOrDefault(u => u.Username == userName && u.PassWord == passWord);
-
-            if (user != null)
+            
+            var user = HttpContext.Session.GetString("User");
+            var loginTimeStr = HttpContext.Session.GetString("LoginTime");
+            if (!string.IsNullOrEmpty(user) &&
+                DateTime.TryParse(loginTimeStr, out DateTime loginTime) &&
+                (DateTime.Now - loginTime).TotalMinutes <= 10)
             {
-                // Lưu trạng thái đăng nhập vào Session
-                HttpContext.Session.SetString("UserName", user.Username);
-                HttpContext.Session.SetString("Role", user.Role ?? "");
-
-                // Chuyển hướng về trang chính
                 return RedirectToAction("Index", "Home");
             }
-
-            // Nếu đăng nhập thất bại
-            ViewBag.ErrorMessage = "Tên đăng nhập hoặc mật khẩu không đúng.";
             return View();
+        }
+
+        [HttpPost]
+        public IActionResult Index(string Username, string Password, bool rememberMe)
+        {
+            var account = _context.Taikhoans
+                .FirstOrDefault(a => a.Username == Username && a.PassWord == Password);
+
+            if (account != null)
+            {
+                
+                HttpContext.Session.SetString("User", account.Username);
+                HttpContext.Session.SetString("Role", account.Role);
+                HttpContext.Session.SetString("LoginTime", DateTime.Now.ToString());
+
+                if (rememberMe)
+                {
+                    // Tạo cookie để lưu đăng nhập trong 10 phút
+                    CookieOptions options = new CookieOptions
+                    {
+                        Expires = DateTime.Now.AddMinutes(10),
+                        HttpOnly = true,
+                        IsEssential = true
+                    };
+                    Response.Cookies.Append("User", account.Username, options);
+                }
+                return RedirectToAction("Index", "Home");
+
+            }
+            else
+            {
+                ModelState.AddModelError("", "Username hoặc Password không đúng.");
+                return View();
+            }
         }
 
         public IActionResult Logout()
         {
-            // Xóa thông tin đăng nhập khỏi Session
             HttpContext.Session.Clear();
+            Response.Cookies.Delete("User");
             return RedirectToAction("Index");
         }
     }

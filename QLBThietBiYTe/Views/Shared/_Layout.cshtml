@@ -1,4 +1,17 @@
-﻿<html lang="en">
+﻿@inject Microsoft.AspNetCore.Http.IHttpContextAccessor HttpContextAccessor
+@{
+    var username = HttpContextAccessor.HttpContext?.Session.GetString("User") ?? "Khách";
+    var role = HttpContextAccessor.HttpContext?.Session.GetString("Role");
+    if (string.IsNullOrEmpty(username))
+    {
+        username = HttpContextAccessor.HttpContext?.Request.Cookies["User"];
+        if (!string.IsNullOrEmpty(username))
+        {
+            HttpContextAccessor.HttpContext?.Session.SetString("User", username);
+        }
+    }
+}
+<html lang="en">
 
 <head>
     <meta charset="utf-8" />
@@ -181,8 +194,8 @@
                            aria-label="Open user menu">
                             <img class="avatar avatar-sm" src="/static/avatars/admin.png" alt="">
                             <div class="d-none d-xl-block ps-2">
-                                <div class="text-bold">Admin</div>
-                                <div class="mt-1 small text-secondary">UI Designer</div>
+                                <div class="text-bold">@username</div>
+                                <div class="mt-1 small text-secondary">@role</div>
                             </div>
                         </a>
                         <div class="dropdown-menu dropdown-menu-end dropdown-menu-arrow">
@@ -191,14 +204,14 @@
                             <a href="#" class="dropdown-item">Feedback</a>
                             <div class="dropdown-divider"></div>
                             <a href="/settings.html" class="dropdown-item text-danger">Settings</a>
-                            <a href="/sign-in.html" class="dropdown-item">Logout</a>
+                            <a href="@Url.Action("Logout", "DangNhap")" class="dropdown-item">Logout</a>
                         </div>
                     </div>
                 </div>
                 <div class="collapse navbar-collapse" id="navbar-menu">
                     <div class="d-flex flex-column flex-md-row flex-fill align-items-stretch align-items-md-center">
                         <ul class="navbar-nav">
-                            <li class="nav-item active">
+                            <li class="nav-item">
                                 <a class="nav-link" href="/">
                                     <span class="nav-link-icon d-md-none d-lg-inline-block">
                                         <!-- Download SVG icon from http://tabler.io/icons/icon/home -->
