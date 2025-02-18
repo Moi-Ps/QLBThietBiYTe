@@ -45,7 +45,7 @@ namespace QLBThietBiYTe.Controllers
 
                 if (rememberMe)
                 {
-                    // Tạo cookie để lưu đăng nhập trong 10 phút
+                    
                     CookieOptions options = new CookieOptions
                     {
                         Expires = DateTime.Now.AddMinutes(10),
@@ -59,7 +59,7 @@ namespace QLBThietBiYTe.Controllers
             }
             else
             {
-                ModelState.AddModelError("", "Username hoặc Password không đúng.");
+                ViewBag.ErrorMessage = "Tên tài khoản hoặc mật khẩu không đúng!";
                 return View();
             }
         }
