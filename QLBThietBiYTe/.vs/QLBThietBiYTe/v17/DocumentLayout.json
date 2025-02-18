@@ -5,10 +5,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{DB14E39E-2058-4F76-A6F2-12E213D57144}|QLBThietBiYTe.csproj|d:\\2024\\nam4hk2\\thuctaptotnghiep\\codetttn_11-02-25\\qlbthietbiyte\\qlbthietbiyte\\wwwroot\\dist\\js\\quanlyjs\\ql_hoadon.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
       "RelativeMoniker": "D:0:0:{DB14E39E-2058-4F76-A6F2-12E213D57144}|QLBThietBiYTe.csproj|solutionrelative:wwwroot\\dist\\js\\quanlyjs\\ql_hoadon.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DB14E39E-2058-4F76-A6F2-12E213D57144}|QLBThietBiYTe.csproj|d:\\2024\\nam4hk2\\thuctaptotnghiep\\codetttn_11-02-25\\qlbthietbiyte\\qlbthietbiyte\\views\\ql_hoadon\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{DB14E39E-2058-4F76-A6F2-12E213D57144}|QLBThietBiYTe.csproj|solutionrelative:views\\ql_hoadon\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,24 +34,11 @@
               "Title": "QL_HoaDon.js",
               "DocumentMoniker": "D:\\2024\\Nam4HK2\\ThucTapTotNghiep\\CodeTTTN_11-02-25\\QLBThietBiYTe\\QLBThietBiYTe\\wwwroot\\dist\\js\\QuanLyJS\\QL_HoaDon.js",
               "RelativeDocumentMoniker": "wwwroot\\dist\\js\\QuanLyJS\\QL_HoaDon.js",
-              "ToolTip": "D:\\2024\\Nam4HK2\\ThucTapTotNghiep\\CodeTTTN_11-02-25\\QLBThietBiYTe\\QLBThietBiYTe\\wwwroot\\dist\\js\\QuanLyJS\\QL_HoaDon.js*",
-              "RelativeToolTip": "wwwroot\\dist\\js\\QuanLyJS\\QL_HoaDon.js*",
-              "ViewState": "AgIAAMkAAAAAAAAAAAAYwGsAAAA2AAAAAAAAAA==",
+              "ToolTip": "D:\\2024\\Nam4HK2\\ThucTapTotNghiep\\CodeTTTN_11-02-25\\QLBThietBiYTe\\QLBThietBiYTe\\wwwroot\\dist\\js\\QuanLyJS\\QL_HoaDon.js",
+              "RelativeToolTip": "wwwroot\\dist\\js\\QuanLyJS\\QL_HoaDon.js",
+              "ViewState": "AgIAAFgAAAAAAAAAAAAkwHEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2025-02-17T09:17:06.066Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "D:\\2024\\Nam4HK2\\ThucTapTotNghiep\\CodeTTTN_11-02-25\\QLBThietBiYTe\\QLBThietBiYTe\\Views\\QL_HoaDon\\Index.cshtml",
-              "RelativeDocumentMoniker": "Views\\QL_HoaDon\\Index.cshtml",
-              "ToolTip": "D:\\2024\\Nam4HK2\\ThucTapTotNghiep\\CodeTTTN_11-02-25\\QLBThietBiYTe\\QLBThietBiYTe\\Views\\QL_HoaDon\\Index.cshtml",
-              "RelativeToolTip": "Views\\QL_HoaDon\\Index.cshtml",
-              "ViewState": "AgIAAHsAAAAAAAAAAAAAAJEAAAAlAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-02-17T09:12:30.813Z",
+              "WhenOpened": "2025-02-18T10:17:23.837Z",
               "EditorCaption": ""
             }
           ]

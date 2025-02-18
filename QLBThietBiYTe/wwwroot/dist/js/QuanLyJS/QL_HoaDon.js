@@ -105,7 +105,13 @@ $(document).ready(function () {
                     data: JSON.stringify(invoiceRequest),
                     success: function (resp) {
                         alert(resp.message);
-                        $('#ctHoaDonForm')[0].reset();
+                        //$('#ctHoaDonForm')[0].reset();
+                        $ctModal.find('#maChiTiet').val('');
+                        $ctModal.find('#maThietBi').val('');
+                        $ctModal.find('#soLuong').val('');
+                        $ctModal.find('#giaTien').val('');
+                        $ctModal.find('#thanhTien').val('');
+
                         loadCTHoaDonList(invoice.maHoaDon);
                         loadHoaDon();
                     },
@@ -167,7 +173,7 @@ function loadHoaDon() {
                 <td class="text-secondary">${hoaDon.maHoaDon}</td>
                 <td class="text-secondary">${hoaDon.tenKhachHang}</td>
                 <td class="text-secondary">${formatDate(hoaDon.ngayLap)}</td>
-                <td class="text-secondary">${hoaDon.tongTien}</td>
+                <td class="text-secondary">${formatCurrency(hoaDon.tongTien)}</td>
                 <td>
                   <button class="bg-transparent border-0" onclick="addCTHoaDon('${hoaDon.maHoaDon}')">
                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-plus-square-dotted" viewBox="0 0 16 16">
@@ -241,10 +247,10 @@ function loadCTHoaDonList(maHoaDon) {
                       <strong>Số lượng:</strong> ${item.soLuong}
                     </div>
                     <div class="col-md-4">
-                      <strong>Giá tiền:</strong> ${item.giaTien}
+                      <strong>Giá tiền:</strong> ${formatCurrency(item.giaTien)}
                     </div>
                     <div class="col-md-4">
-                      <strong>Thành tiền:</strong> ${item.thanhTien}
+                      <strong>Thành tiền:</strong> ${formatCurrency(item.thanhTien)}
                     </div>
                   </div>
                 </li>
@@ -341,3 +347,7 @@ function updateHoaDon(maHoaDon) {
         }
     });
 }
+function formatCurrency(amount) {
+    return amount.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ".") + "VND";
+}
+

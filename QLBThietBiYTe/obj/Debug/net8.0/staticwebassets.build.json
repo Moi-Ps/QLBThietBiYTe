@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "lquoTFasLZqzgllCYpFWfO77gJhOBuENXieuJ9WV9Ec=",
+  "Hash": "D3OZsEIYjstqoPeQYzrni2f2FmVAeqGbAGycIkKGinQ=",
   "Source": "QLBThietBiYTe",
   "BasePath": "_content/QLBThietBiYTe",
   "Mode": "Default",
@@ -388,8 +388,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "p99kxtfh7r",
-      "Integrity": "Ew8YLVyVqmn1cMpEj7WryTu3b4vS+qSPR9M1a5Wt78Y=",
+      "Fingerprint": "albdczto1d",
+      "Integrity": "ErzuxmRqB1XC5gVlHeprM8GZtbRVHFo0CrcaukJ4yxg=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\dist\\js\\QuanLyJS\\QL_HoaDon.js"
@@ -2026,6 +2026,51 @@
       ]
     },
     {
+      "Route": "dist/js/QuanLyJS/QL_HoaDon.albdczto1d.js",
+      "AssetFile": "D:\\2024\\Nam4HK2\\ThucTapTotNghiep\\CodeTTTN_11-02-25\\QLBThietBiYTe\\QLBThietBiYTe\\wwwroot\\dist\\js\\QuanLyJS\\QL_HoaDon.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "15810"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ErzuxmRqB1XC5gVlHeprM8GZtbRVHFo0CrcaukJ4yxg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 18 Feb 2025 10:24:24 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "albdczto1d"
+        },
+        {
+          "Name": "label",
+          "Value": "dist/js/QuanLyJS/QL_HoaDon.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-ErzuxmRqB1XC5gVlHeprM8GZtbRVHFo0CrcaukJ4yxg="
+        }
+      ]
+    },
+    {
       "Route": "dist/js/QuanLyJS/QL_HoaDon.js",
       "AssetFile": "D:\\2024\\Nam4HK2\\ThucTapTotNghiep\\CodeTTTN_11-02-25\\QLBThietBiYTe\\QLBThietBiYTe\\wwwroot\\dist\\js\\QuanLyJS\\QL_HoaDon.js",
       "Selectors": [],
@@ -2036,7 +2081,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "15333"
+          "Value": "15810"
         },
         {
           "Name": "Content-Type",
@@ -2044,11 +2089,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"Ew8YLVyVqmn1cMpEj7WryTu3b4vS+qSPR9M1a5Wt78Y=\""
+          "Value": "\"ErzuxmRqB1XC5gVlHeprM8GZtbRVHFo0CrcaukJ4yxg=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 18 Feb 2025 10:14:56 GMT"
+          "Value": "Tue, 18 Feb 2025 10:24:24 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2058,52 +2103,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-Ew8YLVyVqmn1cMpEj7WryTu3b4vS+qSPR9M1a5Wt78Y="
-        }
-      ]
-    },
-    {
-      "Route": "dist/js/QuanLyJS/QL_HoaDon.p99kxtfh7r.js",
-      "AssetFile": "D:\\2024\\Nam4HK2\\ThucTapTotNghiep\\CodeTTTN_11-02-25\\QLBThietBiYTe\\QLBThietBiYTe\\wwwroot\\dist\\js\\QuanLyJS\\QL_HoaDon.js",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "15333"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/javascript"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"Ew8YLVyVqmn1cMpEj7WryTu3b4vS+qSPR9M1a5Wt78Y=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Tue, 18 Feb 2025 10:14:56 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "p99kxtfh7r"
-        },
-        {
-          "Name": "label",
-          "Value": "dist/js/QuanLyJS/QL_HoaDon.js"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-Ew8YLVyVqmn1cMpEj7WryTu3b4vS+qSPR9M1a5Wt78Y="
+          "Value": "sha256-ErzuxmRqB1XC5gVlHeprM8GZtbRVHFo0CrcaukJ4yxg="
         }
       ]
     },
