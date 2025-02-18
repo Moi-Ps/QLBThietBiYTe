@@ -136,7 +136,7 @@ public class QLHoaDonServices : IQlHoaDonServices
             };
         }
     }
-    public async Task<dynamic> DeleteHoaDon(string maHoaDon)
+    /*public async Task<dynamic> DeleteHoaDon(string maHoaDon)
     {
         await using var transaction = await _context.Database.BeginTransactionAsync();
         try
@@ -158,7 +158,7 @@ public class QLHoaDonServices : IQlHoaDonServices
             await transaction.RollbackAsync();
             return new { error = "Lỗi khi xóa hóa đơn", details = ex.InnerException?.Message ?? ex.Message };
         }
-    }
+    }*/
     public async Task<dynamic> DeleteChiTietHoaDon(string maChiTiet)
     {
         await using var transaction = await _context.Database.BeginTransactionAsync();
@@ -194,4 +194,44 @@ public class QLHoaDonServices : IQlHoaDonServices
             return new { error = "Lỗi khi xóa chi tiết hóa đơn", details = ex.InnerException?.Message ?? ex.Message };
         }
     }
+    public async Task<dynamic> DeleteHoaDon(string maHoaDon)
+    {
+        await using var transaction = await _context.Database.BeginTransactionAsync();
+        try
+        {
+            
+            var hoaDon = await _context.Hoadons
+                .Include(h => h.Chitiethoadons)
+                .FirstOrDefaultAsync(h => h.Mahoadon == maHoaDon);
+
+            if (hoaDon == null)
+            {
+                return new { error = "Hóa đơn không tồn tại" };
+            }
+
+            
+            if (hoaDon.Chitiethoadons != null && hoaDon.Chitiethoadons.Any())
+            {
+                _context.Chitiethoadons.RemoveRange(hoaDon.Chitiethoadons);
+            }
+
+            
+            _context.Hoadons.Remove(hoaDon);
+
+            await _context.SaveChangesAsync();
+            await transaction.CommitAsync();
+
+            return new { message = "Xóa hóa đơn và các chi tiết thành công" };
+        }
+        catch (Exception ex)
+        {
+            await transaction.RollbackAsync();
+            return new
+            {
+                error = "Lỗi khi xóa hóa đơn",
+                details = ex.InnerException?.Message ?? ex.Message
+            };
+        }
+    }
+
 }
