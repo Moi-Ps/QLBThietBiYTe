@@ -20,14 +20,19 @@ namespace QLBThietBiYTe.Services
         {
             using (StringWriter writer = new StringWriter())
             {
-                ViewEngineResult vResult = _viewEngine.FindView(controllerContext, pvr.ViewName, false);
-                ViewContext viewContext = new ViewContext(controllerContext, vResult.View, pvr.ViewData, pvr.TempData, writer, new HtmlHelperOptions());
+                var viewResult = _viewEngine.FindView(controllerContext, pvr.ViewName, false);
+                if (!viewResult.Success)
+                {
+                    throw new InvalidOperationException($"Không tìm thấy view '{pvr.ViewName}'.");
+                }
+                var viewContext = new ViewContext(controllerContext, viewResult.View, pvr.ViewData, pvr.TempData, writer, new HtmlHelperOptions());
 
-                vResult.View.RenderAsync(viewContext);
+                viewResult.View.RenderAsync(viewContext).GetAwaiter().GetResult();
 
                 return writer.GetStringBuilder().ToString();
             }
         }
+
         //Phân trang
         public static async Task<dynamic> getModelsWithNumberPageAndModels(int pageNumber, IQueryable<object> query, int pageSize = 12)
         {

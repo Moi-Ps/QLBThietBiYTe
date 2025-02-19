@@ -25,12 +25,13 @@ namespace QLBThietBiYTe.Controllers
                 !DateTime.TryParse(loginTimeStr, out DateTime loginTime) ||
                 (DateTime.Now - loginTime).TotalMinutes > 10)
             {
-                
+
                 HttpContext.Session.Clear();
                 return RedirectToAction("Index", "DangNhap");
             }
             return View();
         }
+
 
         public IActionResult Privacy()
         {

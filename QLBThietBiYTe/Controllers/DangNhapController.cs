@@ -18,7 +18,7 @@ namespace QLBThietBiYTe.Controllers
         [HttpGet]
         public IActionResult Index()
         {
-            
+
             var user = HttpContext.Session.GetString("User");
             var loginTimeStr = HttpContext.Session.GetString("LoginTime");
             if (!string.IsNullOrEmpty(user) &&
@@ -29,7 +29,7 @@ namespace QLBThietBiYTe.Controllers
             }
             return View();
         }
-
+        
         [HttpPost]
         public IActionResult Index(string Username, string Password, bool rememberMe)
         {

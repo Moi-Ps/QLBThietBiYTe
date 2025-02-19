@@ -1561,6 +1561,88 @@
       ]
     },
     {
+      "Route": "dist/js/QuanLyJS/QL_ThongKe.4m1mym92w3.js",
+      "AssetFile": "dist/js/QuanLyJS/QL_ThongKe.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2035"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"VMSe+nXZ91u55QvYdhQ9kZrqVPh0B2MNVVi7QQrZQms=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 19 Feb 2025 06:16:09 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "4m1mym92w3"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-VMSe+nXZ91u55QvYdhQ9kZrqVPh0B2MNVVi7QQrZQms="
+        },
+        {
+          "Name": "label",
+          "Value": "dist/js/QuanLyJS/QL_ThongKe.js"
+        }
+      ]
+    },
+    {
+      "Route": "dist/js/QuanLyJS/QL_ThongKe.js",
+      "AssetFile": "dist/js/QuanLyJS/QL_ThongKe.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2035"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"VMSe+nXZ91u55QvYdhQ9kZrqVPh0B2MNVVi7QQrZQms=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 19 Feb 2025 06:16:09 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-VMSe+nXZ91u55QvYdhQ9kZrqVPh0B2MNVVi7QQrZQms="
+        }
+      ]
+    },
+    {
       "Route": "dist/js/demo-theme.min.js",
       "AssetFile": "dist/js/demo-theme.min.js",
       "Selectors": [],

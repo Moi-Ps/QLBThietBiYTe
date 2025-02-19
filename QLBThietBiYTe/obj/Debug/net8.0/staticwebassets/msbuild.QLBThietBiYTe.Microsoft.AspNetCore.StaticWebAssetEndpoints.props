@@ -252,6 +252,18 @@
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-FdbpYeKA3zdLsN9XcznZp1xd1geSrM1D0/ssCQiPCW8="}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"7331"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022FdbpYeKA3zdLsN9XcznZp1xd1geSrM1D0/ssCQiPCW8=\u0022"},{"Name":"Last-Modified","Value":"Fri, 14 Feb 2025 03:16:02 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/QLBThietBiYTe/dist/js/QuanLyJS/QL_ThongKe.4m1mym92w3.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\dist\js\QuanLyJS\QL_ThongKe.js'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"4m1mym92w3"},{"Name":"integrity","Value":"sha256-VMSe\u002BnXZ91u55QvYdhQ9kZrqVPh0B2MNVVi7QQrZQms="},{"Name":"label","Value":"_content/QLBThietBiYTe/dist/js/QuanLyJS/QL_ThongKe.js"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"2035"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022VMSe\u002BnXZ91u55QvYdhQ9kZrqVPh0B2MNVVi7QQrZQms=\u0022"},{"Name":"Last-Modified","Value":"Wed, 19 Feb 2025 06:16:09 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/QLBThietBiYTe/dist/js/QuanLyJS/QL_ThongKe.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\dist\js\QuanLyJS\QL_ThongKe.js'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-VMSe\u002BnXZ91u55QvYdhQ9kZrqVPh0B2MNVVi7QQrZQms="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"2035"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022VMSe\u002BnXZ91u55QvYdhQ9kZrqVPh0B2MNVVi7QQrZQms=\u0022"},{"Name":"Last-Modified","Value":"Wed, 19 Feb 2025 06:16:09 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/QLBThietBiYTe/dist/js/tabler.min.f3k8gidbzu.js">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\dist\js\tabler.min.js'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>

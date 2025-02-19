@@ -29,12 +29,12 @@ builder.Services.AddSingleton(typeof(IConverter), new SynchronizedConverter(new 
 builder.Services.AddAutoMapper(typeof(AutoMapperProfile));
 
 builder.Services.AddScoped<IQlNhaCungCapServices, QLNhaCungCapServices>();
-//builder.Services.AddScoped<IHoaDonCTServices, ChiTietHoaDonServices>();
 builder.Services.AddScoped<IQlKhoServices, QLKhoServices>();
 builder.Services.AddScoped<IQlLoaiThietBiServices, QLLoaiThietBiServices>();
 //builder.Services.AddScoped<ITaiKhoanServices, TaiKhoanServices>();
 builder.Services.AddScoped<IQlThietBiServices, QLThietBiServices>();
 builder.Services.AddScoped<IQlHoaDonServices, QLHoaDonServices>();
+builder.Services.AddScoped<IQlThongKeServices, QLThongKeServices>();
 
 builder.Services.AddDistributedMemoryCache();
 builder.Services.AddSession(options =>
@@ -67,12 +67,12 @@ app.UseRouting();
 
 app.UseAuthorization();
 
+/*app.MapControllerRoute(
+    name: "default",
+    pattern: "{controller=DangNhap}/{action=Index}/{id?}");*/
+
 app.MapControllerRoute(
     name: "default",
-    pattern: "{controller=DangNhap}/{action=Index}/{id?}");
-
-//app.MapControllerRoute(
-//    name: "default",
-//    pattern: "{controller=Home}/{action=Index}/{id?}");
+    pattern: "{controller=Home}/{action=Index}/{id?}");
 
 app.Run();

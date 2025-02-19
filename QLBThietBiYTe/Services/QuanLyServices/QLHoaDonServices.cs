@@ -186,12 +186,19 @@ public class QLHoaDonServices : IQlHoaDonServices
             }
 
             await transaction.CommitAsync();
-            return new { message = "Xóa chi tiết hóa đơn thành công" };
+            return new 
+            { 
+                message = "Thành công" 
+            };
         }
         catch (Exception ex)
         {
             await transaction.RollbackAsync();
-            return new { error = "Lỗi khi xóa chi tiết hóa đơn", details = ex.InnerException?.Message ?? ex.Message };
+            return new 
+            { 
+                error = "Thất bại", 
+                details = ex.InnerException?.Message ?? ex.Message 
+            };
         }
     }
     public async Task<dynamic> DeleteHoaDon(string maHoaDon)
@@ -221,14 +228,14 @@ public class QLHoaDonServices : IQlHoaDonServices
             await _context.SaveChangesAsync();
             await transaction.CommitAsync();
 
-            return new { message = "Xóa hóa đơn và các chi tiết thành công" };
+            return new { message = "Thành công" };
         }
         catch (Exception ex)
         {
             await transaction.RollbackAsync();
             return new
             {
-                error = "Lỗi khi xóa hóa đơn",
+                error = "Thất bại",
                 details = ex.InnerException?.Message ?? ex.Message
             };
         }

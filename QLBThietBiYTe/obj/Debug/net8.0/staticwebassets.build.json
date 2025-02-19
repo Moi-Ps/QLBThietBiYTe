@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "kolTile+uOMgdvgzNzOfwqASsH5XkTbTIN5SEaHyIW0=",
+  "Hash": "rOKleJIbBO9YAdoisbZ5D1x0rwV4kvieerX8XaTexZM=",
   "Source": "QLBThietBiYTe",
   "BasePath": "_content/QLBThietBiYTe",
   "Mode": "Default",
@@ -498,6 +498,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\dist\\js\\QuanLyJS\\QL_ThietBi.js"
+    },
+    {
+      "Identity": "D:\\2024\\Nam4HK2\\ThucTapTotNghiep\\CodeTTTN_11-02-25\\QLBThietBiYTe\\QLBThietBiYTe\\wwwroot\\dist\\js\\QuanLyJS\\QL_ThongKe.js",
+      "SourceId": "QLBThietBiYTe",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\2024\\Nam4HK2\\ThucTapTotNghiep\\CodeTTTN_11-02-25\\QLBThietBiYTe\\QLBThietBiYTe\\wwwroot\\",
+      "BasePath": "_content/QLBThietBiYTe",
+      "RelativePath": "dist/js/QuanLyJS/QL_ThongKe#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "4m1mym92w3",
+      "Integrity": "VMSe+nXZ91u55QvYdhQ9kZrqVPh0B2MNVVi7QQrZQms=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\dist\\js\\QuanLyJS\\QL_ThongKe.js"
     },
     {
       "Identity": "D:\\2024\\Nam4HK2\\ThucTapTotNghiep\\CodeTTTN_11-02-25\\QLBThietBiYTe\\QLBThietBiYTe\\wwwroot\\dist\\js\\tabler.min.js",
@@ -2514,6 +2535,88 @@
         {
           "Name": "integrity",
           "Value": "sha256-FdbpYeKA3zdLsN9XcznZp1xd1geSrM1D0/ssCQiPCW8="
+        }
+      ]
+    },
+    {
+      "Route": "dist/js/QuanLyJS/QL_ThongKe.4m1mym92w3.js",
+      "AssetFile": "D:\\2024\\Nam4HK2\\ThucTapTotNghiep\\CodeTTTN_11-02-25\\QLBThietBiYTe\\QLBThietBiYTe\\wwwroot\\dist\\js\\QuanLyJS\\QL_ThongKe.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2035"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"VMSe+nXZ91u55QvYdhQ9kZrqVPh0B2MNVVi7QQrZQms=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 19 Feb 2025 06:16:09 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "4m1mym92w3"
+        },
+        {
+          "Name": "label",
+          "Value": "dist/js/QuanLyJS/QL_ThongKe.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-VMSe+nXZ91u55QvYdhQ9kZrqVPh0B2MNVVi7QQrZQms="
+        }
+      ]
+    },
+    {
+      "Route": "dist/js/QuanLyJS/QL_ThongKe.js",
+      "AssetFile": "D:\\2024\\Nam4HK2\\ThucTapTotNghiep\\CodeTTTN_11-02-25\\QLBThietBiYTe\\QLBThietBiYTe\\wwwroot\\dist\\js\\QuanLyJS\\QL_ThongKe.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2035"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"VMSe+nXZ91u55QvYdhQ9kZrqVPh0B2MNVVi7QQrZQms=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 19 Feb 2025 06:16:09 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-VMSe+nXZ91u55QvYdhQ9kZrqVPh0B2MNVVi7QQrZQms="
         }
       ]
     },

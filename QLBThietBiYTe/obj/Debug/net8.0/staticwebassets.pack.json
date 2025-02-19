@@ -77,6 +77,10 @@
       "PackagePath": "staticwebassets\\dist\\js\\QuanLyJS\\QL_ThietBi.js"
     },
     {
+      "Id": "D:\\2024\\Nam4HK2\\ThucTapTotNghiep\\CodeTTTN_11-02-25\\QLBThietBiYTe\\QLBThietBiYTe\\wwwroot\\dist\\js\\QuanLyJS\\QL_ThongKe.js",
+      "PackagePath": "staticwebassets\\dist\\js\\QuanLyJS\\QL_ThongKe.js"
+    },
+    {
       "Id": "D:\\2024\\Nam4HK2\\ThucTapTotNghiep\\CodeTTTN_11-02-25\\QLBThietBiYTe\\QLBThietBiYTe\\wwwroot\\dist\\js\\demo-theme.min.js",
       "PackagePath": "staticwebassets\\dist\\js\\demo-theme.min.js"
     },
