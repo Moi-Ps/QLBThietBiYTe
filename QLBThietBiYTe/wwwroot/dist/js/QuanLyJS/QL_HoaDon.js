@@ -55,7 +55,6 @@ $(document).ready(function () {
         var giaTien = parseFloat($ctModal.find('#giaTien').val()) || 0;
         var thanhTien = parseFloat($ctModal.find('#thanhTien').val()) || 0;
 
-        // Lấy dữ liệu hóa đơn hiện tại từ server (bao gồm chi tiết)
         $.ajax({
             url: '/QuanLy/QL_HoaDon/getHoaDon',
             type: 'POST',
@@ -204,7 +203,7 @@ function loadHoaDon() {
     });
 }
 
-// Mở modal chi tiết hóa đơn và load danh sách chi tiết cho hóa đơn được chọn
+// Mở modal chi tiết hóa đơn và load danh sách chi tiết hóa đơn
 function addCTHoaDon(maHoaDon) {
     $.ajax({
         url: '/QuanLy/QL_HoaDon/getHoaDon',
@@ -347,6 +346,7 @@ function updateHoaDon(maHoaDon) {
         }
     });
 }
+// Hàm format số tiền VND
 function formatCurrency(amount) {
     return amount.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ".") + "VND";
 }
