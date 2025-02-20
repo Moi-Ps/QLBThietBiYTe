@@ -5,7 +5,7 @@ using QLBThietBiYTe.Services;
 
 namespace QLBThietBiYTe.Controllers
 {
-    [SessionAuthorize]
+    /*[SessionAuthorize]*/
     public class HomeController : Controller
     {
         private readonly ILogger<HomeController> _logger;
@@ -18,7 +18,7 @@ namespace QLBThietBiYTe.Controllers
         public IActionResult Index()
         {
             // Kiểm tra session
-            var user = HttpContext.Session.GetString("User");
+           /* var user = HttpContext.Session.GetString("User");
             var role = HttpContext.Session.GetString("Role");
             var loginTimeStr = HttpContext.Session.GetString("LoginTime");
             if (string.IsNullOrEmpty(user) ||
@@ -28,7 +28,7 @@ namespace QLBThietBiYTe.Controllers
 
                 HttpContext.Session.Clear();
                 return RedirectToAction("Index", "DangNhap");
-            }
+            }*/
             return View();
         }
 

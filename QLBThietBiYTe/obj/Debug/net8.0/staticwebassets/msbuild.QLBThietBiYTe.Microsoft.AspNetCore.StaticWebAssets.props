@@ -282,8 +282,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>albdczto1d</Fingerprint>
-      <Integrity>ErzuxmRqB1XC5gVlHeprM8GZtbRVHFo0CrcaukJ4yxg=</Integrity>
+      <Fingerprint>fnp7beinnz</Fingerprint>
+      <Integrity>m0CudmT0LBEy9s1K6dJn//cUC4FNi1eYnXKRBSouMyY=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\dist\js\QuanLyJS\QL_HoaDon.js'))</OriginalItemSpec>

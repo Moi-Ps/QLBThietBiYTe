@@ -8,7 +8,7 @@ using WkHtmlToPdfDotNet.Contracts;
 
 namespace QLBThietBiYTe.Controllers
 {
-    [SessionAuthorize]
+    /*[SessionAuthorize]*/
     [Route("QuanLy/[controller]")]
     public class QL_LoaiThietBiController : Controller
     {

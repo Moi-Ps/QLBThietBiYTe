@@ -2,7 +2,7 @@
 using QLBThietBiYTe.Models.Mapping;
 using QLBThietBiYTe.Services;
 
-[SessionAuthorize]
+/*[SessionAuthorize]*/
 [Route("QuanLy/[controller]")]
 public class QL_HoaDonController : Controller
 {

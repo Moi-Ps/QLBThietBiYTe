@@ -13,12 +13,15 @@ namespace QLBThietBiYTe.Models.Mapping
             CreateMap<LoaiThietBiMap, Loaithietbi>().ReverseMap();
             CreateMap<ChiTietHoaDonMap, Chitiethoadon>().ReverseMap();
             CreateMap<HoaDonMap, Hoadon>()
-            .ForMember(dest => dest.Mahoadon, opt => opt.MapFrom(src => src.Mahoadon))
-            .ReverseMap();
+                .ForMember(dest => dest.Id, opt => opt.Ignore())
+            .ForMember(dest => dest.Mahoadon, opt => opt.MapFrom(src => src.Mahoadon));
+
+
 
                     CreateMap<ChiTietHoaDonMap, Chitiethoadon>()
-                        .ForMember(dest => dest.Machitiet, opt => opt.MapFrom(src => src.Machitiet))
-                        .ReverseMap();
+                .ForMember(dest => dest.Id, opt => opt.Ignore())
+                        .ForMember(dest => dest.Machitiet, opt => opt.MapFrom(src => src.Machitiet));
+                        
 
 
             CreateMap<HoaDonMap, Hoadon>()

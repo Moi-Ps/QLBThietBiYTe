@@ -10,39 +10,87 @@ $(document).ready(function () {
         $('#thanhTien').val(thanhTien.toFixed(2));
     });
 
-    // Submit form hóa đơn
+    // Submit form Hóa đơn
     $('#hoaDonForm').on('submit', function (e) {
         e.preventDefault();
+
         var $modal = $('#hoaDonModal');
-        var maHoaDon = $modal.find('#maHoaDon').val();
-        var tenKhachHang = $modal.find('#tenKhachHang').val();
-        var ngayLap = $modal.find('#ngayLap').val();
+        var maHoaDon = $modal.find('#maHoaDon').val().trim();
+        var tenKhachHang = $modal.find('#tenKhachHang').val().trim();
+        var ngayLap = $modal.find('#ngayLap').val().trim();
+        var ngayLapISO = convertDateToISO(ngayLap);
 
-        var invoiceData = {
-            hoDon: {
-                maHoaDon: maHoaDon,
-                tenKhachHang: tenKhachHang,
-                ngayLap: ngayLap,
-                tongTien: 0
-            },
-            chiTietHoaDon: []
-        };
-
+       
         $.ajax({
-            url: '/QuanLy/QL_HoaDon/CreateHoaDon',
+            url: '/QuanLy/QL_HoaDon/getHoaDon',
             type: 'POST',
             contentType: 'application/json',
-            data: JSON.stringify(invoiceData),
-            success: function (response) {
-                alert(response.message);
-                $modal.modal('hide');
-                loadHoaDon();
+            data: JSON.stringify({ maHoaDon: maHoaDon }),
+            success: function (existingInvoice) {
+                
+                var invoice = existingInvoice || {};
+
+                invoice.maHoaDon = maHoaDon;
+                invoice.tenKhachHang = tenKhachHang;
+                invoice.ngayLap = ngayLapISO;
+
+                invoice.chiTietHoaDon = invoice.chiTietHoaDon || [];
+
+                var invoiceData = {
+                    hoDon: {
+                        maHoaDon: invoice.maHoaDon,
+                        tenKhachHang: invoice.tenKhachHang,
+                        ngayLap: invoice.ngayLap,
+                        tongTien: 0
+                    },
+                    chiTietHoaDon: invoice.chiTietHoaDon
+                };
+
+                $.ajax({
+                    url: '/QuanLy/QL_HoaDon/CreateHoaDon',
+                    type: 'POST',
+                    contentType: 'application/json',
+                    data: JSON.stringify(invoiceData),
+                    success: function (resp) {
+                        alert(resp.message || 'Cập nhật hóa đơn thành công!');
+                        $modal.modal('hide');
+                        loadHoaDon();
+                    },
+                    error: function (xhr) {
+                        alert('Error: ' + xhr.responseText);
+                    }
+                });
             },
             error: function (xhr) {
-                alert('Error: ' + xhr.responseText);
+                
+                var invoiceData = {
+                    hoDon: {
+                        maHoaDon: maHoaDon,
+                        tenKhachHang: tenKhachHang,
+                        ngayLap: ngayLapISO,
+                        tongTien: 0
+                    },
+                    chiTietHoaDon: []
+                };
+
+                $.ajax({
+                    url: '/QuanLy/QL_HoaDon/CreateHoaDon',
+                    type: 'POST',
+                    contentType: 'application/json',
+                    data: JSON.stringify(invoiceData),
+                    success: function (resp) {
+                        alert(resp.message || 'Thêm hóa đơn thành công!');
+                        $modal.modal('hide');
+                        loadHoaDon();
+                    },
+                    error: function (xhr2) {
+                        alert('Error: ' + xhr2.responseText);
+                    }
+                });
             }
         });
     });
+
 
     // Submit form chi tiết hóa đơn
     $('#ctHoaDonForm').on('submit', function (e) {
@@ -64,7 +112,6 @@ $(document).ready(function () {
                 var invoice = response;
                 var details = invoice.chiTietHoaDon || [];
 
-                // Kiểm tra xem chi tiết đã tồn tại (sửa) hay chưa (thêm mới)
                 var existingIndex = details.findIndex(function (item) {
                     return item.maChiTiet === maChiTiet;
                 });
@@ -82,7 +129,6 @@ $(document).ready(function () {
                     details.push(newDetail);
                 }
 
-                // Tính lại tổng tiền dựa trên các chi tiết
                 var tongTien = details.reduce(function (sum, item) {
                     return sum + (item.thanhTien || 0);
                 }, 0);
@@ -136,6 +182,18 @@ $(document).ready(function () {
         }
     });
 });
+// Hàm chuyển từ dd/MM/yyyy -> yyyy-MM-ddTHH:mm:ss
+function convertDateToISO(ddmmyyyy) {
+    if (!ddmmyyyy) return null;
+    var parts = ddmmyyyy.split('/');
+    if (parts.length === 3) {
+        var day = parts[0];
+        var month = parts[1];
+        var year = parts[2];
+        return `${year}-${month}-${day}T00:00:00`;
+    }
+    return ddmmyyyy;
+}
 function loadThietBi() {
     $.ajax({
         url: '/QuanLy/QL_ThietBi/getDSThietBi', 
@@ -346,6 +404,7 @@ function updateHoaDon(maHoaDon) {
         }
     });
 }
+
 // Hàm format số tiền VND
 function formatCurrency(amount) {
     return amount.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ".") + "VND";

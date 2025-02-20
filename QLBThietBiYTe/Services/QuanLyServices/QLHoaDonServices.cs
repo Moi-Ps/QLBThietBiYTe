@@ -64,11 +64,9 @@ public class QLHoaDonServices : IQlHoaDonServices
     public async Task<dynamic> createHoaDon(HoaDonMap hoaDonMap, List<ChiTietHoaDonMap> chiTietHoaDonMaps)
     {
         using var transaction = await _context.Database.BeginTransactionAsync();
-
         try
         {
-
-            Hoadon master = await _context.Hoadons
+            var master = await _context.Hoadons
                 .Include(h => h.Chitiethoadons)
                 .FirstOrDefaultAsync(h => h.Mahoadon == hoaDonMap.Mahoadon);
 
@@ -83,27 +81,32 @@ public class QLHoaDonServices : IQlHoaDonServices
                 master.Tenkhachhang = hoaDonMap.Tenkhachhang;
                 master.Ngaylap = hoaDonMap.Ngaylap;
                 master.Tongtien = hoaDonMap.Tongtien;
+                _context.Entry(master).State = EntityState.Modified;
+                _context.Entry(master).Property(x => x.Id).IsModified = false;
+
 
                 if (master.Chitiethoadons == null)
                 {
                     master.Chitiethoadons = new List<Chitiethoadon>();
                 }
             }
-            List<Chitiethoadon> ctHoaDon = _mapper.Map<List<Chitiethoadon>>(chiTietHoaDonMaps);
 
-            foreach (var ct in ctHoaDon)
+            var ctList = _mapper.Map<List<Chitiethoadon>>(chiTietHoaDonMaps);
+
+            foreach (var ct in ctList)
             {
                 ct.Mahoadon = master.Mahoadon;
                 ct.Thanhtien = (ct.Soluong ?? 0) * (ct.Giatien ?? 0);
-                if (ct.Machitiet != null)
+                if (!string.IsNullOrEmpty(ct.Machitiet))
                 {
-                    var chiTietCu = master.Chitiethoadons.FirstOrDefault(x => x.Machitiet == ct.Machitiet);
-
-                    if (chiTietCu != null)
+                    var existingDetail = master.Chitiethoadons.FirstOrDefault(x => x.Machitiet == ct.Machitiet);
+                    if (existingDetail != null)
                     {
-                        chiTietCu.Soluong = ct.Soluong;
-                        chiTietCu.Giatien = ct.Giatien;
-                        chiTietCu.Thanhtien = ct.Thanhtien;
+                        existingDetail.Soluong = ct.Soluong;
+                        existingDetail.Giatien = ct.Giatien;
+                        existingDetail.Thanhtien = ct.Thanhtien;
+                        _context.Entry(existingDetail).State = EntityState.Modified;
+                        _context.Entry(existingDetail).Property(x => x.Id).IsModified = false;
                     }
                     else
                     {
@@ -115,14 +118,16 @@ public class QLHoaDonServices : IQlHoaDonServices
                     master.Chitiethoadons.Add(ct);
                 }
             }
+
             master.Tongtien = master.Chitiethoadons.Sum(ct => ct.Thanhtien ?? 0);
+
             await _context.SaveChangesAsync();
             await transaction.CommitAsync();
 
             return new
             {
                 message = "Thành công",
-                master = master,
+                master,
                 ctHoaDon = master.Chitiethoadons
             };
         }
@@ -136,6 +141,9 @@ public class QLHoaDonServices : IQlHoaDonServices
             };
         }
     }
+
+
+
     /*public async Task<dynamic> DeleteHoaDon(string maHoaDon)
     {
         await using var transaction = await _context.Database.BeginTransactionAsync();
