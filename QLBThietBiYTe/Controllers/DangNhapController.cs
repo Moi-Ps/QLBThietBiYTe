@@ -19,14 +19,14 @@ namespace QLBThietBiYTe.Controllers
         public IActionResult Index()
         {
 
-           /* var user = HttpContext.Session.GetString("User");
+            var user = HttpContext.Session.GetString("User");
             var loginTimeStr = HttpContext.Session.GetString("LoginTime");
             if (!string.IsNullOrEmpty(user) &&
                 DateTime.TryParse(loginTimeStr, out DateTime loginTime) &&
                 (DateTime.Now - loginTime).TotalMinutes <= 10)
             {
                 return RedirectToAction("Index", "Home");
-            }*/
+            }
             return View();
         }
         
