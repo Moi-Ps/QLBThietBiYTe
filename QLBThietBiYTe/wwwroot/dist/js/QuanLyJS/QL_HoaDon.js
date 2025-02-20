@@ -116,7 +116,7 @@ $(document).ready(function () {
                     return item.maChiTiet === maChiTiet;
                 });
                 var newDetail = {
-                    maChiTiet: maChiTiet ? maChiTiet : generateUniqueId(),
+                    maChiTiet: maChiTiet,
                     maHoaDon: maHoaDon,
                     maThietBi: maThietBi,
                     soLuong: soLuong,
@@ -211,10 +211,6 @@ function loadThietBi() {
     });
 }
 
-// Hàm tạo ID mới cho chi tiết nếu chưa có
-function generateUniqueId() {
-    return 'CT' + new Date().getTime();
-}
 
 // Hàm load danh sách hóa đơn
 function loadHoaDon() {

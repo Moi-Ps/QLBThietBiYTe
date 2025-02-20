@@ -1069,6 +1069,51 @@
       ]
     },
     {
+      "Route": "dist/js/QuanLyJS/QL_HoaDon.3rq8ece6vg.js",
+      "AssetFile": "dist/js/QuanLyJS/QL_HoaDon.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "17721"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"bxfkNVzY1JZhaqvbg5oQEcEOTZDt/gomTgwC7mArUAE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 20 Feb 2025 12:10:50 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "3rq8ece6vg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-bxfkNVzY1JZhaqvbg5oQEcEOTZDt/gomTgwC7mArUAE="
+        },
+        {
+          "Name": "label",
+          "Value": "dist/js/QuanLyJS/QL_HoaDon.js"
+        }
+      ]
+    },
+    {
       "Route": "dist/js/QuanLyJS/QL_HoaDon.js",
       "AssetFile": "dist/js/QuanLyJS/QL_HoaDon.js",
       "Selectors": [],
@@ -1083,7 +1128,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "17884"
+          "Value": "17721"
         },
         {
           "Name": "Content-Type",
@@ -1091,62 +1136,17 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"AQ7T+Z7fH6sA3DjotP0FCa1AhzLH/xkg22kk69UMbwA=\""
+          "Value": "\"bxfkNVzY1JZhaqvbg5oQEcEOTZDt/gomTgwC7mArUAE=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 20 Feb 2025 07:37:00 GMT"
+          "Value": "Thu, 20 Feb 2025 12:10:50 GMT"
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-AQ7T+Z7fH6sA3DjotP0FCa1AhzLH/xkg22kk69UMbwA="
-        }
-      ]
-    },
-    {
-      "Route": "dist/js/QuanLyJS/QL_HoaDon.ttdkfz3y6m.js",
-      "AssetFile": "dist/js/QuanLyJS/QL_HoaDon.js",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "17884"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/javascript"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"AQ7T+Z7fH6sA3DjotP0FCa1AhzLH/xkg22kk69UMbwA=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Thu, 20 Feb 2025 07:37:00 GMT"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "ttdkfz3y6m"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-AQ7T+Z7fH6sA3DjotP0FCa1AhzLH/xkg22kk69UMbwA="
-        },
-        {
-          "Name": "label",
-          "Value": "dist/js/QuanLyJS/QL_HoaDon.js"
+          "Value": "sha256-bxfkNVzY1JZhaqvbg5oQEcEOTZDt/gomTgwC7mArUAE="
         }
       ]
     },
