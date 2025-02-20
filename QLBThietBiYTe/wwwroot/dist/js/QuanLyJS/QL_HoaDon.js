@@ -18,7 +18,7 @@ $(document).ready(function () {
         var maHoaDon = $modal.find('#maHoaDon').val().trim();
         var tenKhachHang = $modal.find('#tenKhachHang').val().trim();
         var ngayLap = $modal.find('#ngayLap').val().trim();
-        var ngayLapISO = convertDateToISO(ngayLap);
+        //var ngayLapISO = convertDateToISO(ngayLap);
 
        
         $.ajax({
@@ -32,7 +32,7 @@ $(document).ready(function () {
 
                 invoice.maHoaDon = maHoaDon;
                 invoice.tenKhachHang = tenKhachHang;
-                invoice.ngayLap = ngayLapISO;
+                invoice.ngayLap = ngayLap;
 
                 invoice.chiTietHoaDon = invoice.chiTietHoaDon || [];
 
@@ -67,7 +67,7 @@ $(document).ready(function () {
                     hoDon: {
                         maHoaDon: maHoaDon,
                         tenKhachHang: tenKhachHang,
-                        ngayLap: ngayLapISO,
+                        ngayLap: ngayLap,
                         tongTien: 0
                     },
                     chiTietHoaDon: []
