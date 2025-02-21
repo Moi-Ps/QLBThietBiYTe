@@ -10,6 +10,7 @@ wwwroot\dist\img\flags\de.svg
 wwwroot\dist\img\flags\gb.svg
 wwwroot\dist\img\flags\pl.svg
 wwwroot\dist\img\flags\us.svg
+wwwroot\dist\js\CommonJS.js
 wwwroot\dist\js\demo.min.js
 wwwroot\dist\js\demo-theme.min.js
 wwwroot\dist\js\popper.min.js

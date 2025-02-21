@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "6/n4qqxwu3GRAMaAIIVRTX3RCSGqp4EEDCT6njhBm8I=",
+  "Hash": "W0zTjWG4lg4uqiK+oWgJedVjrgonP3/PRFBNo9pLGRg=",
   "Source": "QLBThietBiYTe",
   "BasePath": "_content/QLBThietBiYTe",
   "Mode": "Default",
@@ -309,6 +309,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\dist\\img\\flags\\us.svg"
+    },
+    {
+      "Identity": "D:\\2024\\Nam4HK2\\ThucTapTotNghiep\\CodeTTTN_11-02-25\\QLBThietBiYTe\\QLBThietBiYTe\\wwwroot\\dist\\js\\CommonJS.js",
+      "SourceId": "QLBThietBiYTe",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\2024\\Nam4HK2\\ThucTapTotNghiep\\CodeTTTN_11-02-25\\QLBThietBiYTe\\QLBThietBiYTe\\wwwroot\\",
+      "BasePath": "_content/QLBThietBiYTe",
+      "RelativePath": "dist/js/CommonJS#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "7ckj00l9av",
+      "Integrity": "SYIvczsObjDonQnZA6wGXEqnmWJD+sBkjbfnlMC5YZ4=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\dist\\js\\CommonJS.js"
     },
     {
       "Identity": "D:\\2024\\Nam4HK2\\ThucTapTotNghiep\\CodeTTTN_11-02-25\\QLBThietBiYTe\\QLBThietBiYTe\\wwwroot\\dist\\js\\demo.min.js",
@@ -1801,6 +1822,88 @@
       ]
     },
     {
+      "Route": "dist/js/CommonJS.7ckj00l9av.js",
+      "AssetFile": "D:\\2024\\Nam4HK2\\ThucTapTotNghiep\\CodeTTTN_11-02-25\\QLBThietBiYTe\\QLBThietBiYTe\\wwwroot\\dist\\js\\CommonJS.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "920"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"SYIvczsObjDonQnZA6wGXEqnmWJD+sBkjbfnlMC5YZ4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 21 Feb 2025 10:01:06 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "7ckj00l9av"
+        },
+        {
+          "Name": "label",
+          "Value": "dist/js/CommonJS.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-SYIvczsObjDonQnZA6wGXEqnmWJD+sBkjbfnlMC5YZ4="
+        }
+      ]
+    },
+    {
+      "Route": "dist/js/CommonJS.js",
+      "AssetFile": "D:\\2024\\Nam4HK2\\ThucTapTotNghiep\\CodeTTTN_11-02-25\\QLBThietBiYTe\\QLBThietBiYTe\\wwwroot\\dist\\js\\CommonJS.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "920"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"SYIvczsObjDonQnZA6wGXEqnmWJD+sBkjbfnlMC5YZ4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 21 Feb 2025 10:01:06 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-SYIvczsObjDonQnZA6wGXEqnmWJD+sBkjbfnlMC5YZ4="
+        }
+      ]
+    },
+    {
       "Route": "dist/js/demo.min.5shq6o9dxm.js",
       "AssetFile": "D:\\2024\\Nam4HK2\\ThucTapTotNghiep\\CodeTTTN_11-02-25\\QLBThietBiYTe\\QLBThietBiYTe\\wwwroot\\dist\\js\\demo.min.js",
       "Selectors": [],
@@ -2069,7 +2172,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 20 Feb 2025 12:10:50 GMT"
+          "Value": "Fri, 21 Feb 2025 09:56:38 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2114,7 +2217,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 20 Feb 2025 12:10:50 GMT"
+          "Value": "Fri, 21 Feb 2025 09:56:38 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2479,7 +2582,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 14 Feb 2025 03:16:02 GMT"
+          "Value": "Fri, 21 Feb 2025 10:01:31 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2524,7 +2627,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 14 Feb 2025 03:16:02 GMT"
+          "Value": "Fri, 21 Feb 2025 10:01:31 GMT"
         },
         {
           "Name": "Cache-Control",

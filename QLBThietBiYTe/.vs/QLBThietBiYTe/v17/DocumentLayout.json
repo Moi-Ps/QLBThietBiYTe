@@ -3,12 +3,16 @@
   "WorkspaceRootPath": "D:\\2024\\Nam4HK2\\ThucTapTotNghiep\\CodeTTTN_11-02-25\\QLBThietBiYTe\\QLBThietBiYTe\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{DB14E39E-2058-4F76-A6F2-12E213D57144}|QLBThietBiYTe.csproj|d:\\2024\\nam4hk2\\thuctaptotnghiep\\codetttn_11-02-25\\qlbthietbiyte\\qlbthietbiyte\\services\\quanlyservices\\qlhoadonservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DB14E39E-2058-4F76-A6F2-12E213D57144}|QLBThietBiYTe.csproj|solutionrelative:services\\quanlyservices\\qlhoadonservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DB14E39E-2058-4F76-A6F2-12E213D57144}|QLBThietBiYTe.csproj|d:\\2024\\nam4hk2\\thuctaptotnghiep\\codetttn_11-02-25\\qlbthietbiyte\\qlbthietbiyte\\views\\ql_thongke\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DB14E39E-2058-4F76-A6F2-12E213D57144}|QLBThietBiYTe.csproj|solutionrelative:views\\ql_thongke\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DB14E39E-2058-4F76-A6F2-12E213D57144}|QLBThietBiYTe.csproj|d:\\2024\\nam4hk2\\thuctaptotnghiep\\codetttn_11-02-25\\qlbthietbiyte\\qlbthietbiyte\\views\\ql_hoadon\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{DB14E39E-2058-4F76-A6F2-12E213D57144}|QLBThietBiYTe.csproj|solutionrelative:views\\ql_hoadon\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{DB14E39E-2058-4F76-A6F2-12E213D57144}|QLBThietBiYTe.csproj|d:\\2024\\nam4hk2\\thuctaptotnghiep\\codetttn_11-02-25\\qlbthietbiyte\\qlbthietbiyte\\views\\ql_kho\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DB14E39E-2058-4F76-A6F2-12E213D57144}|QLBThietBiYTe.csproj|solutionrelative:views\\ql_kho\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DB14E39E-2058-4F76-A6F2-12E213D57144}|QLBThietBiYTe.csproj|d:\\2024\\nam4hk2\\thuctaptotnghiep\\codetttn_11-02-25\\qlbthietbiyte\\qlbthietbiyte\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DB14E39E-2058-4F76-A6F2-12E213D57144}|QLBThietBiYTe.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -34,28 +38,41 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\2024\\Nam4HK2\\ThucTapTotNghiep\\CodeTTTN_11-02-25\\QLBThietBiYTe\\QLBThietBiYTe\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\2024\\Nam4HK2\\ThucTapTotNghiep\\CodeTTTN_11-02-25\\QLBThietBiYTe\\QLBThietBiYTe\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAACcDAAAAAAAAAAAAADgDAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-21T14:31:42.695Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
               "Title": "Index.cshtml",
-              "DocumentMoniker": "D:\\2024\\Nam4HK2\\ThucTapTotNghiep\\CodeTTTN_11-02-25\\QLBThietBiYTe\\QLBThietBiYTe\\Views\\QL_HoaDon\\Index.cshtml",
-              "RelativeDocumentMoniker": "Views\\QL_HoaDon\\Index.cshtml",
-              "ToolTip": "D:\\2024\\Nam4HK2\\ThucTapTotNghiep\\CodeTTTN_11-02-25\\QLBThietBiYTe\\QLBThietBiYTe\\Views\\QL_HoaDon\\Index.cshtml",
-              "RelativeToolTip": "Views\\QL_HoaDon\\Index.cshtml",
-              "ViewState": "AgIAADAAAAAAAAAAAAAAACEAAAA5AAAAAAAAAA==",
+              "DocumentMoniker": "D:\\2024\\Nam4HK2\\ThucTapTotNghiep\\CodeTTTN_11-02-25\\QLBThietBiYTe\\QLBThietBiYTe\\Views\\QL_Kho\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\QL_Kho\\Index.cshtml",
+              "ToolTip": "D:\\2024\\Nam4HK2\\ThucTapTotNghiep\\CodeTTTN_11-02-25\\QLBThietBiYTe\\QLBThietBiYTe\\Views\\QL_Kho\\Index.cshtml",
+              "RelativeToolTip": "Views\\QL_Kho\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-02-20T10:21:55.057Z",
+              "WhenOpened": "2025-02-21T14:17:35.175Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "QLHoaDonServices.cs",
-              "DocumentMoniker": "D:\\2024\\Nam4HK2\\ThucTapTotNghiep\\CodeTTTN_11-02-25\\QLBThietBiYTe\\QLBThietBiYTe\\Services\\QuanLyServices\\QLHoaDonServices.cs",
-              "RelativeDocumentMoniker": "Services\\QuanLyServices\\QLHoaDonServices.cs",
-              "ToolTip": "D:\\2024\\Nam4HK2\\ThucTapTotNghiep\\CodeTTTN_11-02-25\\QLBThietBiYTe\\QLBThietBiYTe\\Services\\QuanLyServices\\QLHoaDonServices.cs",
-              "RelativeToolTip": "Services\\QuanLyServices\\QLHoaDonServices.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAtAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-20T10:07:22.829Z",
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\2024\\Nam4HK2\\ThucTapTotNghiep\\CodeTTTN_11-02-25\\QLBThietBiYTe\\QLBThietBiYTe\\Views\\QL_ThongKe\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\QL_ThongKe\\Index.cshtml",
+              "ToolTip": "D:\\2024\\Nam4HK2\\ThucTapTotNghiep\\CodeTTTN_11-02-25\\QLBThietBiYTe\\QLBThietBiYTe\\Views\\QL_ThongKe\\Index.cshtml",
+              "RelativeToolTip": "Views\\QL_ThongKe\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-21T14:16:58.578Z",
               "EditorCaption": ""
             }
           ]
