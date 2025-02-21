@@ -3,16 +3,24 @@
   "WorkspaceRootPath": "D:\\2024\\Nam4HK2\\ThucTapTotNghiep\\CodeTTTN_11-02-25\\QLBThietBiYTe\\QLBThietBiYTe\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{DB14E39E-2058-4F76-A6F2-12E213D57144}|QLBThietBiYTe.csproj|d:\\2024\\nam4hk2\\thuctaptotnghiep\\codetttn_11-02-25\\qlbthietbiyte\\qlbthietbiyte\\wwwroot\\dist\\js\\quanlyjs\\ql_hoadon.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{DB14E39E-2058-4F76-A6F2-12E213D57144}|QLBThietBiYTe.csproj|solutionrelative:wwwroot\\dist\\js\\quanlyjs\\ql_hoadon.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{DB14E39E-2058-4F76-A6F2-12E213D57144}|QLBThietBiYTe.csproj|d:\\2024\\nam4hk2\\thuctaptotnghiep\\codetttn_11-02-25\\qlbthietbiyte\\qlbthietbiyte\\services\\quanlyservices\\qlhoadonservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DB14E39E-2058-4F76-A6F2-12E213D57144}|QLBThietBiYTe.csproj|solutionrelative:services\\quanlyservices\\qlhoadonservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{DB14E39E-2058-4F76-A6F2-12E213D57144}|QLBThietBiYTe.csproj|d:\\2024\\nam4hk2\\thuctaptotnghiep\\codetttn_11-02-25\\qlbthietbiyte\\qlbthietbiyte\\views\\ql_hoadon\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{DB14E39E-2058-4F76-A6F2-12E213D57144}|QLBThietBiYTe.csproj|solutionrelative:views\\ql_hoadon\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DB14E39E-2058-4F76-A6F2-12E213D57144}|QLBThietBiYTe.csproj|d:\\2024\\nam4hk2\\thuctaptotnghiep\\codetttn_11-02-25\\qlbthietbiyte\\qlbthietbiyte\\services\\quanlyservices\\qlkhoservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DB14E39E-2058-4F76-A6F2-12E213D57144}|QLBThietBiYTe.csproj|solutionrelative:services\\quanlyservices\\qlkhoservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DB14E39E-2058-4F76-A6F2-12E213D57144}|QLBThietBiYTe.csproj|d:\\2024\\nam4hk2\\thuctaptotnghiep\\codetttn_11-02-25\\qlbthietbiyte\\qlbthietbiyte\\models\\entities\\kho.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DB14E39E-2058-4F76-A6F2-12E213D57144}|QLBThietBiYTe.csproj|solutionrelative:models\\entities\\kho.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DB14E39E-2058-4F76-A6F2-12E213D57144}|QLBThietBiYTe.csproj|d:\\2024\\nam4hk2\\thuctaptotnghiep\\codetttn_11-02-25\\qlbthietbiyte\\qlbthietbiyte\\models\\mapping\\khomap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DB14E39E-2058-4F76-A6F2-12E213D57144}|QLBThietBiYTe.csproj|solutionrelative:models\\mapping\\khomap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,7 +30,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Bookmark",
@@ -38,41 +46,67 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Kho.cs",
+              "DocumentMoniker": "D:\\2024\\Nam4HK2\\ThucTapTotNghiep\\CodeTTTN_11-02-25\\QLBThietBiYTe\\QLBThietBiYTe\\Models\\Entities\\Kho.cs",
+              "RelativeDocumentMoniker": "Models\\Entities\\Kho.cs",
+              "ToolTip": "D:\\2024\\Nam4HK2\\ThucTapTotNghiep\\CodeTTTN_11-02-25\\QLBThietBiYTe\\QLBThietBiYTe\\Models\\Entities\\Kho.cs",
+              "RelativeToolTip": "Models\\Entities\\Kho.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-21T03:32:09.392Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "KhoMap.cs",
+              "DocumentMoniker": "D:\\2024\\Nam4HK2\\ThucTapTotNghiep\\CodeTTTN_11-02-25\\QLBThietBiYTe\\QLBThietBiYTe\\Models\\Mapping\\KhoMap.cs",
+              "RelativeDocumentMoniker": "Models\\Mapping\\KhoMap.cs",
+              "ToolTip": "D:\\2024\\Nam4HK2\\ThucTapTotNghiep\\CodeTTTN_11-02-25\\QLBThietBiYTe\\QLBThietBiYTe\\Models\\Mapping\\KhoMap.cs",
+              "RelativeToolTip": "Models\\Mapping\\KhoMap.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-21T03:32:06.913Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "QLKhoServices.cs",
+              "DocumentMoniker": "D:\\2024\\Nam4HK2\\ThucTapTotNghiep\\CodeTTTN_11-02-25\\QLBThietBiYTe\\QLBThietBiYTe\\Services\\QuanLyServices\\QLKhoServices.cs",
+              "RelativeDocumentMoniker": "Services\\QuanLyServices\\QLKhoServices.cs",
+              "ToolTip": "D:\\2024\\Nam4HK2\\ThucTapTotNghiep\\CodeTTTN_11-02-25\\QLBThietBiYTe\\QLBThietBiYTe\\Services\\QuanLyServices\\QLKhoServices.cs",
+              "RelativeToolTip": "Services\\QuanLyServices\\QLKhoServices.cs",
+              "ViewState": "AgIAACkAAAAAAAAAAAAuwE0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-21T03:23:09.55Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "Index.cshtml",
               "DocumentMoniker": "D:\\2024\\Nam4HK2\\ThucTapTotNghiep\\CodeTTTN_11-02-25\\QLBThietBiYTe\\QLBThietBiYTe\\Views\\QL_HoaDon\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\QL_HoaDon\\Index.cshtml",
               "ToolTip": "D:\\2024\\Nam4HK2\\ThucTapTotNghiep\\CodeTTTN_11-02-25\\QLBThietBiYTe\\QLBThietBiYTe\\Views\\QL_HoaDon\\Index.cshtml",
               "RelativeToolTip": "Views\\QL_HoaDon\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAADAAAAAAAAAAAAAAACEAAAA5AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-02-20T10:21:55.057Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "QLHoaDonServices.cs",
               "DocumentMoniker": "D:\\2024\\Nam4HK2\\ThucTapTotNghiep\\CodeTTTN_11-02-25\\QLBThietBiYTe\\QLBThietBiYTe\\Services\\QuanLyServices\\QLHoaDonServices.cs",
               "RelativeDocumentMoniker": "Services\\QuanLyServices\\QLHoaDonServices.cs",
               "ToolTip": "D:\\2024\\Nam4HK2\\ThucTapTotNghiep\\CodeTTTN_11-02-25\\QLBThietBiYTe\\QLBThietBiYTe\\Services\\QuanLyServices\\QLHoaDonServices.cs",
               "RelativeToolTip": "Services\\QuanLyServices\\QLHoaDonServices.cs",
-              "ViewState": "AgIAADoAAAAAAAAAAAAnwEkAAAANAAAAAAAAAA==",
+              "ViewState": "AgIAALgAAAAAAAAAAAAowNEAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-20T10:07:22.829Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "QL_HoaDon.js",
-              "DocumentMoniker": "D:\\2024\\Nam4HK2\\ThucTapTotNghiep\\CodeTTTN_11-02-25\\QLBThietBiYTe\\QLBThietBiYTe\\wwwroot\\dist\\js\\QuanLyJS\\QL_HoaDon.js",
-              "RelativeDocumentMoniker": "wwwroot\\dist\\js\\QuanLyJS\\QL_HoaDon.js",
-              "ToolTip": "D:\\2024\\Nam4HK2\\ThucTapTotNghiep\\CodeTTTN_11-02-25\\QLBThietBiYTe\\QLBThietBiYTe\\wwwroot\\dist\\js\\QuanLyJS\\QL_HoaDon.js*",
-              "RelativeToolTip": "wwwroot\\dist\\js\\QuanLyJS\\QL_HoaDon.js*",
-              "ViewState": "AgIAAGwAAAAAAAAAAAAAAHYAAAAoAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2025-02-20T07:36:31.91Z",
               "EditorCaption": ""
             }
           ]

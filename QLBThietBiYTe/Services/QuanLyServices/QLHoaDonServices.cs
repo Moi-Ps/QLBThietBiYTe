@@ -61,7 +61,7 @@ public class QLHoaDonServices : IQlHoaDonServices
         return data;
     }
 
-    public async Task<dynamic> createHoaDon(HoaDonMap hoaDonMap, List<ChiTietHoaDonMap> chiTietHoaDonMaps)
+    /*public async Task<dynamic> createHoaDon(HoaDonMap hoaDonMap, List<ChiTietHoaDonMap> chiTietHoaDonMaps)
     {
         using var transaction = await _context.Database.BeginTransactionAsync();
         try
@@ -122,6 +122,111 @@ public class QLHoaDonServices : IQlHoaDonServices
             master.Tongtien = master.Chitiethoadons.Sum(ct => ct.Thanhtien ?? 0);
 
             await _context.SaveChangesAsync();
+
+            await transaction.CommitAsync();
+
+            return new
+            {
+                message = "Thành công",
+                master,
+                ctHoaDon = master.Chitiethoadons
+            };
+        }
+        catch (Exception ex)
+        {
+            await transaction.RollbackAsync();
+            return new
+            {
+                error = "Thất bại",
+                details = ex.InnerException?.Message ?? ex.Message
+            };
+        }
+    }*/
+    public async Task<dynamic> createHoaDon(HoaDonMap hoaDonMap, List<ChiTietHoaDonMap> chiTietHoaDonMaps)
+    {
+        using var transaction = await _context.Database.BeginTransactionAsync();
+        try
+        {
+            var master = await _context.Hoadons
+                .Include(h => h.Chitiethoadons)
+                .FirstOrDefaultAsync(h => h.Mahoadon == hoaDonMap.Mahoadon);
+
+            if (master == null)
+            {
+                master = _mapper.Map<Hoadon>(hoaDonMap);
+                master.Chitiethoadons = new List<Chitiethoadon>();
+                await _context.Hoadons.AddAsync(master);
+            }
+            else
+            {
+                master.Tenkhachhang = hoaDonMap.Tenkhachhang;
+                master.Ngaylap = hoaDonMap.Ngaylap;
+                master.Tongtien = hoaDonMap.Tongtien;
+                _context.Entry(master).State = EntityState.Modified;
+                _context.Entry(master).Property(x => x.Id).IsModified = false;
+
+                if (master.Chitiethoadons == null)
+                {
+                    master.Chitiethoadons = new List<Chitiethoadon>();
+                }
+            }
+
+            var ctList = _mapper.Map<List<Chitiethoadon>>(chiTietHoaDonMaps);
+
+            foreach (var ct in ctList)
+            {
+                ct.Mahoadon = master.Mahoadon;
+                ct.Thanhtien = (ct.Soluong ?? 0) * (ct.Giatien ?? 0);
+                if (!string.IsNullOrEmpty(ct.Machitiet))
+                {
+                    var existingDetail = master.Chitiethoadons.FirstOrDefault(x => x.Machitiet == ct.Machitiet);
+                    if (existingDetail != null)
+                    {
+                        existingDetail.Soluong = ct.Soluong;
+                        existingDetail.Giatien = ct.Giatien;
+                        existingDetail.Thanhtien = ct.Thanhtien;
+                        _context.Entry(existingDetail).State = EntityState.Modified;
+                        _context.Entry(existingDetail).Property(x => x.Id).IsModified = false;
+                    }
+                    else
+                    {
+                        master.Chitiethoadons.Add(ct);
+                    }
+                }
+                else
+                {
+                    master.Chitiethoadons.Add(ct);
+                }
+            }
+
+            master.Tongtien = master.Chitiethoadons.Sum(ct => ct.Thanhtien ?? 0);
+
+            await _context.SaveChangesAsync();
+
+            // Cập nhật lại kho: trừ số lượng tồn theo chi tiết hóa đơn
+            foreach (var ct in master.Chitiethoadons)
+            {
+                var khoItem = await _context.Khos.FirstOrDefaultAsync(k => k.Mathietbi == ct.Mathietbi);
+                if (khoItem != null)
+                {
+                    int soLuongKho = khoItem.Soluong ?? 0;
+                    int soLuongCanTru = ct.Soluong ?? 0;
+
+                    if (soLuongKho < soLuongCanTru)
+                    {
+                        return new { message = "Số lượng đã hết", };
+                    }
+
+                    khoItem.Soluong = soLuongKho - soLuongCanTru;
+                }
+                else
+                {
+                    return new { message = "Không tim thấy", };
+                }
+            }
+
+            await _context.SaveChangesAsync();
+
             await transaction.CommitAsync();
 
             return new
@@ -141,6 +246,7 @@ public class QLHoaDonServices : IQlHoaDonServices
             };
         }
     }
+
 
 
 
