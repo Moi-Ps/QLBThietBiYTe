@@ -31,7 +31,7 @@ builder.Services.AddSingleton(typeof(IConverter), new SynchronizedConverter(new 
 builder.Services.AddScoped<IQlNhaCungCapServices, QLNhaCungCapServices>();
 builder.Services.AddScoped<IQlKhoServices, QLKhoServices>();
 builder.Services.AddScoped<IQlLoaiThietBiServices, QLLoaiThietBiServices>();
-//builder.Services.AddScoped<ITaiKhoanServices, TaiKhoanServices>();
+builder.Services.AddScoped<IQlTaiKhoanServices, QLTaiKhoanServices>();
 builder.Services.AddScoped<IQlThietBiServices, QLThietBiServices>();
 builder.Services.AddScoped<IQlHoaDonServices, QLHoaDonServices>();
 builder.Services.AddScoped<IQlThongKeServices, QLThongKeServices>();

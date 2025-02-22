@@ -1,0 +1,110 @@
+﻿@{
+	Layout = "~/Views/Shared/_Layout.cshtml";
+	ViewData["Title"] = "Quản lý tài khoản";
+}
+<div class="row row-cards">
+	<div class="card">
+		<div class="card-body">
+			<div class="tab-content">
+				<div class="btn-list mb-3">
+					<a href="#" id="addTK" class="btn btn-2 btn-primary" data-bs-toggle="modal" data-bs-target="#taiKhoanModal">
+						Thêm mới
+					</a>
+					<!-- Modal -->
+					<div class="modal modal-blur fade" id="taiKhoanModal" aria-labelledby="taiKhoanModalLabel" tabindex="-1" style="display: none;" aria-hidden="true">
+						<div class="modal-dialog modal-lg mt-3" role="document">
+							<div class="modal-content">
+								<div class="modal-header">
+									<h5 class="modal-title" id="taiKhoanModalLabel"></h5>
+									<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+								</div>
+								<form id="taiKhoanForm">
+									<div class="modal-body">
+										<div class="row">
+											<div class="col-md-6 mb-3">
+												<label class="form-label">Mã tài khoản</label>
+												<input type="text" class="form-control" id="maTaiKhoan" name="maTaiKhoan" placeholder="Mã tài khoản">
+											</div>
+											<div class="col-md-6 mb-3">
+												<label class="form-label">Tên tài khoản</label>
+												<input type="text" class="form-control" id="userName" name="userName" placeholder="Tên tài khoản">
+											</div>
+										</div>
+										<div class="row">
+											<div class="col-md-6 mb-3">
+												<label class="form-label">Mật khẩu</label>
+												<input type="text" class="form-control" id="passWord" name="passWord" placeholder="Mật khẩu">
+											</div>
+											<div class="col-md-6 mb-3">
+												<label class="form-label">Quyền</label>
+												<select id="role" name="role" class="form-select" required>
+													<option value="" disabled selected>Chọn quyền</option>
+													<option value="Admin">Admin</option>
+													<option value="Nhân viên">Nhân viên</option>
+												</select>
+											</div>
+										</div>
+									</div>
+									<div class="modal-footer">
+										<a href="#" class="btn btn-link link-secondary btn-3" data-bs-dismiss="modal">
+											Cancel
+										</a>
+										<button class="btn btn-success btn-5 ms-auto" type="submit">
+											<!-- Download SVG icon from http://tabler.io/icons/icon/plus -->
+											<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-2"><path d="M12 5l0 14"></path><path d="M5 12l14 0"></path></svg>
+											Lưu
+										</button>
+									</div>
+								</form>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="row row-cards">
+					<div class="col-12">
+						<div class="card">
+							<div class="table-responsive">
+								<table class="table table-vcenter card-table table-striped">
+									<thead>
+										<tr>
+											<th>STT</th>
+											<th>Mã tài khoản</th>
+											<th>UserName</th>
+											<th>Password</th>
+											<th>Role</th>
+											<th class="w-20"></th>
+										</tr>
+									</thead>
+									<tbody id="taiKhoanTable">
+									</tbody>
+								</table>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<ul class="pagination justify-content-end">
+			<li class="page-item disabled">
+				<a class="page-link" href="#" tabindex="-1" aria-disabled="true">
+					<!-- Download SVG icon from http://tabler.io/icons/icon/chevron-left -->
+					<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-1"><path d="M15 6l-6 6l6 6"></path></svg>
+					prev
+				</a>
+			</li>
+			<li class="page-item active"><a class="page-link" href="#">1</a></li>
+			<li class="page-item"><a class="page-link" href="#">2</a></li>
+			<li class="page-item"><a class="page-link" href="#">3</a></li>
+			<li class="page-item"><a class="page-link" href="#">4</a></li>
+			<li class="page-item"><a class="page-link" href="#">5</a></li>
+			<li class="page-item">
+				<a class="page-link" href="#">
+					next
+					<!-- Download SVG icon from http://tabler.io/icons/icon/chevron-right -->
+					<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-1"><path d="M9 6l6 6l-6 6"></path></svg>
+				</a>
+			</li>
+		</ul>
+	</div>
+</div>
+<script src="~/dist/js/quanlyjs/QL_TaiKhoan.js"></script>

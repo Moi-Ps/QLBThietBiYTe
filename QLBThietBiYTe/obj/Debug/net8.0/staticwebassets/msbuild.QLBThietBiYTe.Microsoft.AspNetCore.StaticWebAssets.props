@@ -372,8 +372,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>hoj51v1ed1</Fingerprint>
-      <Integrity>HwARj9bbh0vdnfI1NOkU3DND7QGka5wqtJRUySe/5hA=</Integrity>
+      <Fingerprint>sa6m6q43tc</Fingerprint>
+      <Integrity>ZDcifeXDTssOMN8XdVJmSIQM5GeMZnVMvn2mIjhymzU=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\dist\js\QuanLyJS\QL_TaiKhoan.js'))</OriginalItemSpec>

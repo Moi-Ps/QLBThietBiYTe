@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "W0zTjWG4lg4uqiK+oWgJedVjrgonP3/PRFBNo9pLGRg=",
+  "Hash": "VdL9AAUBVtblQX/aQyqO1KwhTcsV/0RiltU31mYCEq4=",
   "Source": "QLBThietBiYTe",
   "BasePath": "_content/QLBThietBiYTe",
   "Mode": "Default",
@@ -493,8 +493,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "hoj51v1ed1",
-      "Integrity": "HwARj9bbh0vdnfI1NOkU3DND7QGka5wqtJRUySe/5hA=",
+      "Fingerprint": "sa6m6q43tc",
+      "Integrity": "ZDcifeXDTssOMN8XdVJmSIQM5GeMZnVMvn2mIjhymzU=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\dist\\js\\QuanLyJS\\QL_TaiKhoan.js"
@@ -2478,51 +2478,6 @@
       ]
     },
     {
-      "Route": "dist/js/QuanLyJS/QL_TaiKhoan.hoj51v1ed1.js",
-      "AssetFile": "D:\\2024\\Nam4HK2\\ThucTapTotNghiep\\CodeTTTN_11-02-25\\QLBThietBiYTe\\QLBThietBiYTe\\wwwroot\\dist\\js\\QuanLyJS\\QL_TaiKhoan.js",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "5278"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/javascript"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"HwARj9bbh0vdnfI1NOkU3DND7QGka5wqtJRUySe/5hA=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Thu, 13 Feb 2025 05:02:00 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "hoj51v1ed1"
-        },
-        {
-          "Name": "label",
-          "Value": "dist/js/QuanLyJS/QL_TaiKhoan.js"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-HwARj9bbh0vdnfI1NOkU3DND7QGka5wqtJRUySe/5hA="
-        }
-      ]
-    },
-    {
       "Route": "dist/js/QuanLyJS/QL_TaiKhoan.js",
       "AssetFile": "D:\\2024\\Nam4HK2\\ThucTapTotNghiep\\CodeTTTN_11-02-25\\QLBThietBiYTe\\QLBThietBiYTe\\wwwroot\\dist\\js\\QuanLyJS\\QL_TaiKhoan.js",
       "Selectors": [],
@@ -2533,7 +2488,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "5278"
+          "Value": "5199"
         },
         {
           "Name": "Content-Type",
@@ -2541,11 +2496,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"HwARj9bbh0vdnfI1NOkU3DND7QGka5wqtJRUySe/5hA=\""
+          "Value": "\"ZDcifeXDTssOMN8XdVJmSIQM5GeMZnVMvn2mIjhymzU=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 13 Feb 2025 05:02:00 GMT"
+          "Value": "Sat, 22 Feb 2025 02:02:15 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2555,7 +2510,52 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-HwARj9bbh0vdnfI1NOkU3DND7QGka5wqtJRUySe/5hA="
+          "Value": "sha256-ZDcifeXDTssOMN8XdVJmSIQM5GeMZnVMvn2mIjhymzU="
+        }
+      ]
+    },
+    {
+      "Route": "dist/js/QuanLyJS/QL_TaiKhoan.sa6m6q43tc.js",
+      "AssetFile": "D:\\2024\\Nam4HK2\\ThucTapTotNghiep\\CodeTTTN_11-02-25\\QLBThietBiYTe\\QLBThietBiYTe\\wwwroot\\dist\\js\\QuanLyJS\\QL_TaiKhoan.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5199"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ZDcifeXDTssOMN8XdVJmSIQM5GeMZnVMvn2mIjhymzU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 22 Feb 2025 02:02:15 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "sa6m6q43tc"
+        },
+        {
+          "Name": "label",
+          "Value": "dist/js/QuanLyJS/QL_TaiKhoan.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-ZDcifeXDTssOMN8XdVJmSIQM5GeMZnVMvn2mIjhymzU="
         }
       ]
     },
